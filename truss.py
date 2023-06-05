@@ -2367,6 +2367,7 @@ class MainPage(QWizardPage):
             story.append(PageBreak())
 
         # Page 8 stiffness matrix (constrained)
+        # Pagina 8 matrix de rigidez (restringida)
         story.append(Paragraph(f"""<font size='20' color='steelblue'>System or Global Stiffness Matrix (constrained)</font><br/><br/>
             We have boundary conditions at supports.  Our assumption is that these joints will not move in the constrained direction.  
             We remove these from our matrix.  The constrained displacements are dof <br/>{self.restrained_dofs}.<br/>
