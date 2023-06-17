@@ -2017,7 +2017,7 @@ class MainPage(QWizardPage):
                              s=200, edgecolors='k', zorder=9)
             for i, _ in enumerate(self.X):
                 self.ax4.annotate(
-                    i+1, (self.X[i], self.Y[i]), zorder=10, ha='center', va='center', size='8')
+                    i+1, (self.X[i], self.Y[i]), zorder=10, ha='center', va='center', size='20')
             # creating space to adjust with influence line
             self.ax4.scatter(self.max_X*1.05, 0, s=0)
             self.graph_widget4.canvas4.draw()
@@ -2158,25 +2158,8 @@ class MainPage(QWizardPage):
         date = datetime.datetime.now().strftime("%A, %B %d, %Y at %I:%M %p %Z")
         self.logger.debug('Date : %s', date)
 
-        banner_1 = """
-        ..########..########....##..........##....######......######..<br/>
-        ........##........##..........##..##..........##..##........##..##........##<br/>
-        ........##........##..........##..##..........##..##..............##............<br/>
-        ........##........########....##..........##....######......######..<br/>
-        ........##........##......##......##..........##.......
-        .......##..............##<br/>
-        ........##........##........##....##..........##..##........##..##........##<br/>
-        ........##........##..........##....#######......######......######..
-        """
-        banner_2 = """
-        ........##..........#####............##..........<br/>
-        ....####........##......##......####..........<br/>
-        ........##......##..........##........##..........<br/>
-        ........##......##..........##........##..........<br/>
-        ........##......##..........##........##..........<br/>
-        ........##........##......##..........##..........<br/>
-        ....######......#####........######......<br/>
-        """
+        banner_1 = " SEM IDEIA IRMAO PRIMEIRO"
+        banner_2 = " SEM IDEIA IRMAO"
 
         if self.ui.projectName.toPlainText():
             project = self.ui.projectName.toPlainText()
@@ -2185,7 +2168,7 @@ class MainPage(QWizardPage):
         if self.ui.userName.toPlainText():
             username = self.ui.userName.toPlainText()
         else:
-            username = 'Anonymous'
+            username = 'johnnyhall'
 
         self.pdfname = self.filename[0].replace('trs', 'pdf')
 
@@ -2366,9 +2349,8 @@ class MainPage(QWizardPage):
             story.append(t)
             story.append(PageBreak())
 
-        # Page 8 stiffness matrix (constrained)
-        # Pagina 8 matrix de rigidez (restringida)
-        story.append(Paragraph(f"""<font size='20' color='steelblue'>System or Global Stiffness Matrix (constrained)</font><br/><br/>
+        # Pagina 8 matriZ rigidez (restringida)
+        story.append(Parag raph(f"""<font size='20' color='steelblue'>System or Global Stiffness Matrix (constrained)</font><br/><br/>
             We have boundary conditions at supports.  Our assumption is that these joints will not move in the constrained direction.  
             We remove these from our matrix.  The constrained displacements are dof <br/>{self.restrained_dofs}.<br/>
             The resulting matrix is:
