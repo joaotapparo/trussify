@@ -589,7 +589,7 @@
                    </property>
                    <property name="styleSheet">
                     <string notr="true">QPushButton {
-	background-color: rgb(172, 208, 255);
+	background-color: rgb(222, 49, 92);
     border-style: outset;
     border-width: 2px;
     border-radius: 10px;
@@ -598,7 +598,7 @@
     min-width: 10em;
 }
 QPushButton:hover {
-	background-color: rgb(121, 181, 255);
+	background-color: rgb(218, 0, 55);
     border-style: inset;
 }
 </string>
@@ -715,7 +715,7 @@ QPushButton:hover {
                   </property>
                   <property name="styleSheet">
                    <string notr="true">QPushButton {
-	background-color: rgb(58, 192, 37);
+	background-color: rgb(0, 145, 136);
 	color: rgb(255, 255, 255);
     border-style: outset;
     border-width: 2px;
@@ -725,7 +725,7 @@ QPushButton:hover {
     min-width: 10em;
 }
 QPushButton:hover {
-	background-color: rgb(52, 165, 32);
+	background-color: rgb(0, 145, 136);
     border-style: inset;
 }
 </string>
@@ -860,7 +860,7 @@ debug window in the settings tab.</string>
                      <cursorShape>PointingHandCursor</cursorShape>
                     </property>
                     <property name="styleSheet">
-                     <string notr="true">color: rgb(255, 111, 28);</string>
+                     <string notr="true">color: rgb(191, 165, 167);</string>
                     </property>
                     <property name="text">
                      <string>Example 3</string>
@@ -881,7 +881,7 @@ debug window in the settings tab.</string>
                      <cursorShape>PointingHandCursor</cursorShape>
                     </property>
                     <property name="styleSheet">
-                     <string notr="true">color: rgb(255, 111, 28);</string>
+                     <string notr="true">color: rgb(191, 165, 167);</string>
                     </property>
                     <property name="text">
                      <string>Example 2</string>
@@ -1004,7 +1004,7 @@ debug window in the settings tab.</string>
                      <cursorShape>PointingHandCursor</cursorShape>
                     </property>
                     <property name="styleSheet">
-                     <string notr="true">color: rgb(255, 111, 28);</string>
+                     <string notr="true">color: rgb(191, 165, 167);</string>
                     </property>
                     <property name="text">
                      <string>Example 1</string>
@@ -1059,7 +1059,7 @@ debug window in the settings tab.</string>
                      <cursorShape>PointingHandCursor</cursorShape>
                     </property>
                     <property name="styleSheet">
-                     <string notr="true">color: rgb(255, 111, 28);</string>
+                     <string notr="true">color: rgb(191, 165, 167);</string>
                     </property>
                     <property name="text">
                      <string>Example 5</string>
@@ -1080,7 +1080,7 @@ debug window in the settings tab.</string>
                      <cursorShape>PointingHandCursor</cursorShape>
                     </property>
                     <property name="styleSheet">
-                     <string notr="true">color: rgb(255, 111, 28);</string>
+                     <string notr="true">color: rgb(191, 165, 167);</string>
                     </property>
                     <property name="text">
                      <string>Example 6</string>
@@ -1101,7 +1101,7 @@ debug window in the settings tab.</string>
                      <cursorShape>PointingHandCursor</cursorShape>
                     </property>
                     <property name="styleSheet">
-                     <string notr="true">color: rgb(255, 111, 28);</string>
+                     <string notr="true">color: rgb(191, 165, 167);</string>
                     </property>
                     <property name="text">
                      <string>Example 4</string>
@@ -1162,7 +1162,7 @@ debug window in the settings tab.</string>
                    <string/>
                   </property>
                   <property name="styleSheet">
-                   <string notr="true">color: rgb(85, 85, 255);</string>
+                   <string notr="true">color: rgb(218, 0, 55);</string>
                   </property>
                   <property name="text">
                    <string> trussify</string>

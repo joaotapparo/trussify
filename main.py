@@ -143,7 +143,7 @@ class MainWindow(QMainWindow):
         self.APP_UPDATE_TIME = 'April 2022'
         "++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
-        self.ui.statusbar.showMessage('Welcome to trussify')
+        self.ui.statusbar.showMessage('')
 
         logger.info('Sys arguements : %s', str(sys.argv))
         pathname = os.path.dirname(sys.argv[0])
@@ -153,26 +153,6 @@ class MainWindow(QMainWindow):
 
         self.ui.pushButton_new.clicked.connect(self.new_file)
         self.ui.pushButton_open.clicked.connect(self.open_file)
-
-        self.ui.photo_example.clicked.connect(self.example_1)
-        self.ui.pushButton_example.clicked.connect(self.example_1)
-
-        self.ui.photo_example_2.clicked.connect(self.example_2)
-        self.ui.pushButton_example_2.clicked.connect(self.example_2)
-
-        self.ui.photo_example_3.clicked.connect(self.example_3)
-        self.ui.pushButton_example_3.clicked.connect(self.example_3)
-
-        self.ui.photo_example_4.clicked.connect(self.example_4)
-        self.ui.pushButton_example_4.clicked.connect(self.example_4)
-
-        self.ui.photo_example_5.clicked.connect(self.example_5)
-        self.ui.pushButton_example_5.clicked.connect(self.example_5)
-
-        self.ui.photo_example_6.clicked.connect(self.example_6)
-        self.ui.pushButton_example_6.clicked.connect(self.example_6)
-
-
 
         self.ui.pushButton_sendNote.clicked.connect(self.say_thanks)
 
@@ -301,7 +281,7 @@ class MainWindow(QMainWindow):
             else:
                 if self.oninit:
                     logger.info('There are currently no updates available.')
-                    self.ui.statusbar.showMessage('Welcome to trussify')
+                    self.ui.statusbar.showMessage('Obrigado por utilizar Trussify')
                 else:
                     logger.info('There are currently no updates available.')
                     self.ui.statusbar.showMessage(
@@ -318,7 +298,7 @@ class MainWindow(QMainWindow):
         except Exception as e:
             logging.critical(str(e))
             if self.oninit:
-                self.ui.statusbar.showMessage('Welcome to trussify')
+                self.ui.statusbar.showMessage('Obrigado por utilizar Trussify')
             else:
                 self.ui.statusbar.showMessage(
                     'Check your internet connections and try again.')
@@ -691,7 +671,7 @@ class MainWindow(QMainWindow):
             self.current_metric_index = []
             self.current_imperial_index = [[0, 0, 0]]
         if index == 0:
-            self.ui.statusbar.showMessage('Welcome to trussify')
+            self.ui.statusbar.showMessage('Obrigado por utilizar Trussify')
 
     def unit_send_to_page(self):
         index = self.ui.tabWidget.currentIndex()

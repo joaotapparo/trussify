@@ -132,7 +132,7 @@ class Ui_WizardPage(object):
         self.pushbutton_supports.setFont(font)
         self.pushbutton_supports.setCursor(QCursor(Qt.PointingHandCursor))
         self.pushbutton_supports.setStyleSheet(u"QPushButton {\n"
-"	background-color: rgb(135, 177, 255);\n"
+"	background-color: rgb(222, 49, 92);\n"
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
@@ -141,7 +141,7 @@ class Ui_WizardPage(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(55, 162, 255);\n"
+"	background-color: rgb(218, 0, 55);\n"
 "    border-style: inset;\n"
 "}\n"
 "")
@@ -158,7 +158,7 @@ class Ui_WizardPage(object):
         self.pushbutton_properties.setFont(font)
         self.pushbutton_properties.setCursor(QCursor(Qt.PointingHandCursor))
         self.pushbutton_properties.setStyleSheet(u"QPushButton {\n"
-"	background-color: rgb(135, 177, 255);\n"
+"	background-color: rgb(222, 49, 92);\n"
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
@@ -167,7 +167,7 @@ class Ui_WizardPage(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(55, 162, 255);\n"
+"	background-color: rgb(218, 0, 55);\n"
 "    border-style: inset;\n"
 "}\n"
 "\n"
@@ -243,7 +243,7 @@ class Ui_WizardPage(object):
         self.pushbutton_nodes.setFont(font)
         self.pushbutton_nodes.setCursor(QCursor(Qt.PointingHandCursor))
         self.pushbutton_nodes.setStyleSheet(u"QPushButton {\n"
-"	background-color: rgb(135, 177, 255);\n"
+"	background-color: rgb(222, 49, 92);\n"
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
@@ -252,7 +252,7 @@ class Ui_WizardPage(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(55, 162, 255);\n"
+"	background-color: rgb(218, 0, 55);\n"
 "    border-style: inset;\n"
 "}\n"
 "")
@@ -271,7 +271,7 @@ class Ui_WizardPage(object):
         self.pushbutton_members.setFont(font)
         self.pushbutton_members.setCursor(QCursor(Qt.PointingHandCursor))
         self.pushbutton_members.setStyleSheet(u"QPushButton {\n"
-"	background-color: rgb(135, 177, 255);\n"
+"	background-color: rgb(222, 49, 92);\n"
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
@@ -280,7 +280,7 @@ class Ui_WizardPage(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(55, 162, 255);\n"
+"	background-color: rgb(218, 0, 55);\n"
 "    border-style: inset;\n"
 "}\n"
 "")
@@ -326,7 +326,7 @@ class Ui_WizardPage(object):
         self.pushbutton_loads.setFont(font)
         self.pushbutton_loads.setCursor(QCursor(Qt.PointingHandCursor))
         self.pushbutton_loads.setStyleSheet(u"QPushButton {\n"
-"	background-color: rgb(135, 177, 255);\n"
+"	background-color: rgb(222, 49, 92);\n"
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
@@ -335,7 +335,7 @@ class Ui_WizardPage(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(55, 162, 255);\n"
+"	background-color: rgb(218, 0, 55);\n"
 "    border-style: inset;\n"
 "}\n"
 "")

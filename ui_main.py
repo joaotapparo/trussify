@@ -166,7 +166,7 @@ class Ui_MainWindow(object):
         self.pushButton_new.setMaximumSize(QSize(150, 50))
         self.pushButton_new.setCursor(QCursor(Qt.PointingHandCursor))
         self.pushButton_new.setStyleSheet(u"QPushButton {\n"
-"	background-color: rgb(172, 208, 255);\n"
+"	background-color: rgb(222, 49, 92);\n"
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
@@ -175,7 +175,7 @@ class Ui_MainWindow(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(121, 181, 255);\n"
+"	background-color: rgb(218, 0, 55);\n"
 "    border-style: inset;\n"
 "}\n"
 "")
@@ -270,130 +270,7 @@ class Ui_MainWindow(object):
         self.gridLayout_4.addWidget(self.label_3, 2, 0, 1, 1)
 
         self.gridLayout = QGridLayout()
-        self.gridLayout.setObjectName(u"gridLayout")
-        self.photo_example = QPushButton(self.page_intro)
-        self.photo_example.setObjectName(u"photo_example")
-        sizePolicy = QSizePolicy(QSizePolicy.Minimum, QSizePolicy.Minimum)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.photo_example.sizePolicy().hasHeightForWidth())
-        self.photo_example.setSizePolicy(sizePolicy)
-        self.photo_example.setMinimumSize(QSize(282, 0))
-        self.photo_example.setMaximumSize(QSize(16777215, 16777215))
-        self.photo_example.setCursor(QCursor(Qt.PointingHandCursor))
-        self.photo_example.setStyleSheet(u"border-image: url(:/newPrefix/Example/Example 1.svg);")
-
-        self.gridLayout.addWidget(self.photo_example, 0, 0, 1, 1)
-
-        self.photo_example_3 = QPushButton(self.page_intro)
-        self.photo_example_3.setObjectName(u"photo_example_3")
-        sizePolicy.setHeightForWidth(self.photo_example_3.sizePolicy().hasHeightForWidth())
-        self.photo_example_3.setSizePolicy(sizePolicy)
-        self.photo_example_3.setMinimumSize(QSize(282, 0))
-        self.photo_example_3.setMaximumSize(QSize(16777215, 16777215))
-        self.photo_example_3.setCursor(QCursor(Qt.PointingHandCursor))
-        self.photo_example_3.setStyleSheet(u"border-image: url(:/newPrefix/Example/deflection.svg);")
-
-        self.gridLayout.addWidget(self.photo_example_3, 0, 2, 1, 1)
-
-        self.pushButton_example_3 = QPushButton(self.page_intro)
-        self.pushButton_example_3.setObjectName(u"pushButton_example_3")
-        font2 = QFont()
-        font2.setFamily(u"Segoe UI Semibold")
-        font2.setPointSize(10)
-        font2.setBold(True)
-        font2.setWeight(75)
-        self.pushButton_example_3.setFont(font2)
-        self.pushButton_example_3.setCursor(QCursor(Qt.PointingHandCursor))
-        self.pushButton_example_3.setStyleSheet(u"color: rgb(255, 111, 28);")
-
-        self.gridLayout.addWidget(self.pushButton_example_3, 1, 2, 1, 1)
-
-        self.pushButton_example_2 = QPushButton(self.page_intro)
-        self.pushButton_example_2.setObjectName(u"pushButton_example_2")
-        self.pushButton_example_2.setFont(font2)
-        self.pushButton_example_2.setCursor(QCursor(Qt.PointingHandCursor))
-        self.pushButton_example_2.setStyleSheet(u"color: rgb(255, 111, 28);")
-
-        self.gridLayout.addWidget(self.pushButton_example_2, 1, 1, 1, 1)
-
-        self.photo_example_4 = QPushButton(self.page_intro)
-        self.photo_example_4.setObjectName(u"photo_example_4")
-        sizePolicy.setHeightForWidth(self.photo_example_4.sizePolicy().hasHeightForWidth())
-        self.photo_example_4.setSizePolicy(sizePolicy)
-        self.photo_example_4.setMinimumSize(QSize(282, 0))
-        self.photo_example_4.setMaximumSize(QSize(16777215, 16777215))
-        self.photo_example_4.setCursor(QCursor(Qt.PointingHandCursor))
-        self.photo_example_4.setStyleSheet(u"border-image: url(:/newPrefix/Example/bigtruss.svg);")
-
-        self.gridLayout.addWidget(self.photo_example_4, 2, 0, 1, 1)
-
-        self.photo_example_2 = QPushButton(self.page_intro)
-        self.photo_example_2.setObjectName(u"photo_example_2")
-        sizePolicy.setHeightForWidth(self.photo_example_2.sizePolicy().hasHeightForWidth())
-        self.photo_example_2.setSizePolicy(sizePolicy)
-        self.photo_example_2.setMinimumSize(QSize(282, 0))
-        self.photo_example_2.setMaximumSize(QSize(16777215, 16777215))
-        self.photo_example_2.setCursor(QCursor(Qt.PointingHandCursor))
-        self.photo_example_2.setStyleSheet(u"border-image: url(:/newPrefix/Example/assignment_2.svg);")
-
-        self.gridLayout.addWidget(self.photo_example_2, 0, 1, 1, 1)
-
-        self.photo_example_5 = QPushButton(self.page_intro)
-        self.photo_example_5.setObjectName(u"photo_example_5")
-        sizePolicy.setHeightForWidth(self.photo_example_5.sizePolicy().hasHeightForWidth())
-        self.photo_example_5.setSizePolicy(sizePolicy)
-        self.photo_example_5.setMinimumSize(QSize(282, 0))
-        self.photo_example_5.setMaximumSize(QSize(16777215, 16777215))
-        self.photo_example_5.setCursor(QCursor(Qt.PointingHandCursor))
-        self.photo_example_5.setStyleSheet(u"border-image: url(:/newPrefix/Example/Petit_truss.svg);")
-
-        self.gridLayout.addWidget(self.photo_example_5, 2, 1, 1, 1)
-
-        self.pushButton_example = QPushButton(self.page_intro)
-        self.pushButton_example.setObjectName(u"pushButton_example")
-        self.pushButton_example.setFont(font2)
-        self.pushButton_example.setCursor(QCursor(Qt.PointingHandCursor))
-        self.pushButton_example.setStyleSheet(u"color: rgb(255, 111, 28);")
-
-        self.gridLayout.addWidget(self.pushButton_example, 1, 0, 1, 1)
-
-        self.photo_example_6 = QPushButton(self.page_intro)
-        self.photo_example_6.setObjectName(u"photo_example_6")
-        sizePolicy.setHeightForWidth(self.photo_example_6.sizePolicy().hasHeightForWidth())
-        self.photo_example_6.setSizePolicy(sizePolicy)
-        self.photo_example_6.setMinimumSize(QSize(282, 0))
-        self.photo_example_6.setMaximumSize(QSize(16777215, 16777215))
-        self.photo_example_6.setCursor(QCursor(Qt.PointingHandCursor))
-        self.photo_example_6.setStyleSheet(u"border-image: url(:/newPrefix/Example/cantilever.svg);")
-
-        self.gridLayout.addWidget(self.photo_example_6, 2, 2, 1, 1)
-
-        self.pushButton_example_5 = QPushButton(self.page_intro)
-        self.pushButton_example_5.setObjectName(u"pushButton_example_5")
-        self.pushButton_example_5.setFont(font2)
-        self.pushButton_example_5.setCursor(QCursor(Qt.PointingHandCursor))
-        self.pushButton_example_5.setStyleSheet(u"color: rgb(255, 111, 28);")
-
-        self.gridLayout.addWidget(self.pushButton_example_5, 3, 1, 1, 1)
-
-        self.pushButton_example_6 = QPushButton(self.page_intro)
-        self.pushButton_example_6.setObjectName(u"pushButton_example_6")
-        self.pushButton_example_6.setFont(font2)
-        self.pushButton_example_6.setCursor(QCursor(Qt.PointingHandCursor))
-        self.pushButton_example_6.setStyleSheet(u"color: rgb(255, 111, 28);")
-
-        self.gridLayout.addWidget(self.pushButton_example_6, 3, 2, 1, 1)
-
-        self.pushButton_example_4 = QPushButton(self.page_intro)
-        self.pushButton_example_4.setObjectName(u"pushButton_example_4")
-        self.pushButton_example_4.setFont(font2)
-        self.pushButton_example_4.setCursor(QCursor(Qt.PointingHandCursor))
-        self.pushButton_example_4.setStyleSheet(u"color: rgb(255, 111, 28);")
-
-        self.gridLayout.addWidget(self.pushButton_example_4, 3, 0, 1, 1)
-
-
+        
         self.gridLayout_4.addLayout(self.gridLayout, 0, 1, 9, 1)
 
         self.plainTextMessage = QPlainTextEdit(self.page_intro)
