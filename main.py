@@ -490,17 +490,17 @@ class MainWindow(QMainWindow):
                     Qt.Dialog | Qt.CustomizeWindowHint | Qt.WindowTitleHint | Qt.WindowCloseButtonHint)
                 self.msgBox.setIcon(QMessageBox.Warning)
                 self.msgBox.setText(
-                    f"""<font color='steelblue' size='5'>Do you want to save the changes you<br>made to {self.ui.tabWidget.tabText(index)}?</font>""")
+                    f"""<font color='steelblue' size='5'>Deseja salvar suas alterações <br>feitas em {self.ui.tabWidget.tabText(index)}?</font>""")
                 self.msgBox.setInformativeText(
-                    "Your changes will be lost if you don't save them.")
+                    "Você perdera sua alterações caso não as salve.")
                 self.msgBox.setWindowTitle("trussify")
                 self.msgBox.setStandardButtons(
                     QMessageBox.Yes | QMessageBox.No | QMessageBox.Cancel)
-                self.msgBox.button(QMessageBox.Yes).setText("Save")
+                self.msgBox.button(QMessageBox.Yes).setText("Salvar")
                 self.msgBox.button(QMessageBox.Yes).setIcon(
                     QApplication.style().standardIcon(QStyle.SP_DialogSaveButton))
 
-                self.msgBox.button(QMessageBox.No).setText("Don't Save")
+                self.msgBox.button(QMessageBox.No).setText("Não Salvar")
                 self.msgBox.button(QMessageBox.No).setIcon(
                     QApplication.style().standardIcon(QStyle.SP_DialogCloseButton))
                 self.msgBox.button(QMessageBox.Cancel).setIcon(
@@ -609,7 +609,7 @@ class MainWindow(QMainWindow):
         self.count += 1
         self.window = MainPage(logger=logger)
         index = self.ui.tabWidget.count()
-        name = f'Project Truss {self.count}'
+        name = f'Projeto Trussify {self.count}'
         self.ui.tabWidget.insertTab(index, self.window, name)
         self.ui.tabWidget.setCurrentIndex(index)
         self.ui.tabWidget.setTabToolTip(index, name)

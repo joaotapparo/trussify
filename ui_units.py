@@ -269,17 +269,18 @@ class Ui_MainWindow2(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Units", None))
-        self.label.setText(QCoreApplication.translate("MainWindow", u"Unit System :", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Unidades", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"Sistema de Unidades:", None))
         self.radioButton_2.setText(QCoreApplication.translate("MainWindow", u"Imperial", None))
-        self.metricButton.setText(QCoreApplication.translate("MainWindow", u"Metric", None))
-        self.label_2.setText(QCoreApplication.translate("MainWindow", u"Length :", None))
-        self.label_3.setText(QCoreApplication.translate("MainWindow", u"Applied Loads:", None))
-        self.label_4.setText(QCoreApplication.translate("MainWindow", u"Member Forces :", None))
-        self.label_5.setText(QCoreApplication.translate("MainWindow", u"Nodal Displacement : ", None))
-        self.label_6.setText(QCoreApplication.translate("MainWindow", u"Length :", None))
-        self.label_8.setText(QCoreApplication.translate("MainWindow", u"Applied Loads:", None))
-        self.label_9.setText(QCoreApplication.translate("MainWindow", u"Member Forces :", None))
-        self.label_7.setText(QCoreApplication.translate("MainWindow", u"Nodal Displacement : ", None))
+        self.metricButton.setText(QCoreApplication.translate("MainWindow", u"Métrico", None))
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u"Comprimento:", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"Cargas Aplicadas:", None))
+        self.label_4.setText(QCoreApplication.translate("MainWindow", u"Forças nos Elementos:", None))
+        self.label_5.setText(QCoreApplication.translate("MainWindow", u"Deslocamento Nodal:", None))
+        self.label_6.setText(QCoreApplication.translate("MainWindow", u"Comprimento:", None))
+        self.label_8.setText(QCoreApplication.translate("MainWindow", u"Cargas Aplicadas:", None))
+        self.label_9.setText(QCoreApplication.translate("MainWindow", u"Forças nos Elementos:", None))
+        self.label_7.setText(QCoreApplication.translate("MainWindow", u"Deslocamento Nodal:", None))
+
     # retranslateUi
 

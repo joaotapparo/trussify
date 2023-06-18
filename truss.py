@@ -358,7 +358,7 @@ class MainPage(QWizardPage):
 
         'Report generate'
         self.ui.pushbutton_generate.clicked.connect(self.generate_report)
-        self.ui.projectName.setPlaceholderText('Project Truss')
+        self.ui.projectName.setPlaceholderText('Projeto Trussify')
         self.ui.userName.setPlaceholderText('Anonymous')
 
         'Table no edit triggers and setColumnWidth'
@@ -2164,7 +2164,7 @@ class MainPage(QWizardPage):
         if self.ui.projectName.toPlainText():
             project = self.ui.projectName.toPlainText()
         else:
-            project = 'Project Truss'
+            project = 'Projeto Trussify'
         if self.ui.userName.toPlainText():
             username = self.ui.userName.toPlainText()
         else:
@@ -2350,7 +2350,7 @@ class MainPage(QWizardPage):
             story.append(PageBreak())
 
         # Pagina 8 matriZ rigidez (restringida)
-        story.append(Parag raph(f"""<font size='20' color='steelblue'>System or Global Stiffness Matrix (constrained)</font><br/><br/>
+        story.append(Paragraph(f"""<font size='20' color='steelblue'>System or Global Stiffness Matrix (constrained)</font><br/><br/>
             We have boundary conditions at supports.  Our assumption is that these joints will not move in the constrained direction.  
             We remove these from our matrix.  The constrained displacements are dof <br/>{self.restrained_dofs}.<br/>
             The resulting matrix is:
