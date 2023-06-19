@@ -772,7 +772,7 @@ debug window in the settings tab.</string>
                    </size>
                   </property>
                   <property name="text">
-                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Send a &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#3ac025;&quot;&gt;Thank You&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; note to&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Monirul Shawon!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Send a &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#3ac025;&quot;&gt;Thank You&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; note to&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Joao Tapparo!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                   </property>
                  </widget>
                 </item>
@@ -1134,7 +1134,7 @@ debug window in the settings tab.</string>
                    <string/>
                   </property>
                   <property name="placeholderText">
-                   <string>Dear Monirul Shawon,                                     Thank you for ...</string>
+                   <string>Dear Joao Tapparo,                                     Thank you for ...</string>
                   </property>
                  </widget>
                 </item>
@@ -1221,7 +1221,6 @@ debug window in the settings tab.</string>
     <property name="title">
      <string>Help</string>
     </property>
-    <addaction name="actionHelp"/>
     <addaction name="separator"/>
     <addaction name="actionCheck_for_updates"/>
     <addaction name="separator"/>
@@ -1349,14 +1348,6 @@ debug window in the settings tab.</string>
   <action name="actionCheck_for_updates">
    <property name="text">
     <string>Check for updates...</string>
-   </property>
-  </action>
-  <action name="actionHelp">
-   <property name="text">
-    <string>Online Help</string>
-   </property>
-   <property name="shortcut">
-    <string>F1</string>
    </property>
   </action>
   <action name="actionDebig">

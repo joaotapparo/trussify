@@ -139,8 +139,8 @@ class MainWindow(QMainWindow):
 
         "++++++++++++++++++++++++++++++++++++++++++++++++++++++"
         self.APP_NAME = 'trussify'
-        self.APP_VERSION = '1.1.4'
-        self.APP_UPDATE_TIME = 'April 2022'
+        self.APP_VERSION = '1.8.0'
+        self.APP_UPDATE_TIME = 'Junho 2023'
         "++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
         self.ui.statusbar.showMessage('')
@@ -164,7 +164,6 @@ class MainWindow(QMainWindow):
         self.ui.actionOpen.triggered.connect(self.open_file)
         self.ui.actionSave.triggered.connect(self.save_file)
         self.ui.actionSave_as.triggered.connect(self.save_as_file)
-        self.ui.actionHelp.triggered.connect(self.open_help)
         self.ui.actionCheck_for_updates.triggered.connect(self.update_app)
         self.ui.actionAbout.triggered.connect(self.about)
         self.ui.actionAbout_Author.triggered.connect(self.about_author)
@@ -178,7 +177,7 @@ class MainWindow(QMainWindow):
 
         self.ui.plainTextMessage.setPlainText('')
         self.ui.plainTextMessage.setPlaceholderText(
-            'Dear Monirul Shawon,\nThank you for ...')
+            'Dear Joao Tapparo,\nThank you for ...')
         self.ui.plainTextName.setPlaceholderText(user)
         self.name = user
 
@@ -231,86 +230,20 @@ class MainWindow(QMainWindow):
         logger.info('Checking for updates...')
         self.ui.statusbar.showMessage('Checking for updates...')
 
-        try:
-            username = 'johnnyhall'
-            repository = 'trussify'
-            github_link = f'https://api.github.com/repos/{username}/{repository}/releases/latest'
-
-            logger.info('GitHub api to parse latest version: %s', github_link)
-
-            if self.oninit:
-                timeout = 5
-            else:
-                timeout = 20
-
-            x = requests.get(github_link, timeout=timeout)
-            tag = x.json()['tag_name']
-            body = x.json()['body']
-            logger.info('Latest version : %s , Current Version : %s',
-                        tag, self.APP_VERSION)
-
-            if tag > self.APP_VERSION:
-                self.ui.statusbar.showMessage(f'Update available!')
-                body = body.splitlines()
-                changelog = [line + "<br>" for line in body]
-                changelog = "".join(changelog)
-
-                msgBox = QMessageBox()
-                msgBox.setWindowFlags(
-                    Qt.Dialog | Qt.CustomizeWindowHint | Qt.WindowTitleHint | Qt.WindowCloseButtonHint)
-                msgBox.setIcon(QMessageBox.Information)
-                msgBox.setWindowTitle("Update Available!")
-                msgBox.setText(
-                    f"""<font color='steelblue' size='5'>{self.APP_NAME} version {self.APP_VERSION} needs to update to version {tag}</font>
-                    <br><br><u>Changelog : </u><br>{changelog}
-                    """)
-                msgBox.setInformativeText(
-                    "Do you want to download the update?")
-                msgBox.setStandardButtons(QMessageBox.Yes | QMessageBox.No)
-                msgBox.setDefaultButton(QMessageBox.Yes)
-                ret = msgBox.exec_()
-
-                if ret == QMessageBox.Yes:
-                    if my_system.system == 'Windows':
-                        QDesktopServices.openUrl(
-                            "https://github.com/johnnyhall/trussify/releases/latest")
-                    else:
-                        QDesktopServices.openUrl(
-                            "https://github.com/johnnyhall/trussify")
-
-            else:
-                if self.oninit:
-                    logger.info('There are currently no updates available.')
-                    self.ui.statusbar.showMessage('Obrigado por utilizar Trussify')
-                else:
-                    logger.info('There are currently no updates available.')
-                    self.ui.statusbar.showMessage(
-                        'There are currently no updates available.')
-                    msgBox = QMessageBox()
-                    msgBox.setWindowFlags(
-                        Qt.Dialog | Qt.CustomizeWindowHint | Qt.WindowTitleHint | Qt.WindowCloseButtonHint)
-                    msgBox.setWindowTitle("trussify")
-                    msgBox.setIcon(QMessageBox.Information)
-                    msgBox.setText(
-                        f"<font color='steelblue' size='5'>There are currently no updates available.</font>")
-                    msgBox.exec_()
-
-        except Exception as e:
-            logging.critical(str(e))
-            if self.oninit:
-                self.ui.statusbar.showMessage('Obrigado por utilizar Trussify')
-            else:
-                self.ui.statusbar.showMessage(
-                    'Check your internet connections and try again.')
-                msgBox = QMessageBox()
-                msgBox.setWindowFlags(
-                    Qt.Dialog | Qt.CustomizeWindowHint | Qt.WindowTitleHint | Qt.WindowCloseButtonHint)
-                msgBox.setWindowTitle("trussify")
-                msgBox.setIcon(QMessageBox.Warning)
-                msgBox.setText(
-                    f"<font color='steelblue' size='5'>Something went wrong. Try again!</font>")
-                msgBox.setInformativeText('Check your internet connections.')
-                msgBox.exec_()
+        if self.oninit:
+            self.ui.statusbar.showMessage('Obrigado por utilizar Trussify')
+        else:
+            self.ui.statusbar.showMessage(
+                'Check your internet connections and try again.')
+            msgBox = QMessageBox()
+            msgBox.setWindowFlags(
+                Qt.Dialog | Qt.CustomizeWindowHint | Qt.WindowTitleHint | Qt.WindowCloseButtonHint)
+            msgBox.setWindowTitle("trussify")
+            msgBox.setIcon(QMessageBox.Warning)
+            msgBox.setText(
+                f"<font color='steelblue' size='5'>Something went wrong. Try again!</font>")
+            msgBox.setInformativeText('Check your internet connections.')
+            msgBox.exec_()
 
     def about(self):
         self.msgBox = QMessageBox()
@@ -671,7 +604,7 @@ class MainWindow(QMainWindow):
         if index > 0:
             if self.current_metric_index:
                 self.window_list[index-1].change_unit_label(
-                    unit=self.current_metric_index, type='metric')
+                    unit=self.current_metric_index, type='metrico')
             else:
                 self.window_list[index-1].change_unit_label(
                     unit=self.current_imperial_index, type='imperial')
@@ -680,7 +613,7 @@ class MainWindow(QMainWindow):
         index = self.ui.tabWidget.currentIndex()
         if index > 0:
             if self.current_metric_index:
-                self.window_list[index-1].unit_convert(type='metric')
+                self.window_list[index-1].unit_convert(type='metrico')
             else:
                 self.window_list[index-1].unit_convert(type='imperial')
 
@@ -706,7 +639,7 @@ class MainWindow(QMainWindow):
         if self.ui.plainTextMessage.toPlainText():
             messeage = self.ui.plainTextMessage.toPlainText()
         else:
-            messeage = 'Dear Monirul Shawon, Thank you for...'
+            messeage = 'Dear Joao Tapparo, Thank you for...'
 
         if self.ui.plainTextName.toPlainText():
             user = self.ui.plainTextName.toPlainText()

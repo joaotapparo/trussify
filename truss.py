@@ -77,7 +77,7 @@ class NumberedCanvas(canvas.Canvas):
             self.drawString(
                 inch, 7.4*inch, """{+}--------------------------------------------------{+}---------------------------------------------------{+}""")
             self.setFillColor('black')
-            self.setAuthor("Monirul Shawon")
+            self.setAuthor("Joao Tapparo")
             self.setTitle("Report")
             self.setSubject("Details report for trussify")
             self.setCreator("trussify")
@@ -538,8 +538,8 @@ class MainPage(QWizardPage):
             self.unit_convert(type='imperial')
         elif self.current_metric_index:
             self.change_unit_label(
-                unit=self.current_metric_index, type='metric')
-            self.unit_convert(type='metric')
+                unit=self.current_metric_index, type='metrico')
+            self.unit_convert(type='metrico')
         self.change = 0
         self.save += 1
 
@@ -921,7 +921,7 @@ class MainPage(QWizardPage):
         self.type = type
         self.current_metric_index = []
         self.current_imperial_index = []
-        if self.type == 'metric':
+        if self.type == 'metrico':
             self.current_metric_index = self.unit
             self.unit_report = [
                 'm', 'kilo newton (kN)', 'kilo newton (kN)', 'GPa', 'mm<super size=6>2</super>', 'mm']
@@ -1014,7 +1014,7 @@ class MainPage(QWizardPage):
         self.change += 1
 
         self.type = type
-        if self.type == 'metric':
+        if self.type == 'metrico':
             self.logger.debug('Metric unit : %s', self.current_metric_index)
 
             # Length
@@ -1468,7 +1468,7 @@ class MainPage(QWizardPage):
                 self.ui.tableWidget_result.setHorizontalHeaderLabels(
                     ['Member', 'Node', 'Stress', 'Direction'])
 
-                if self.type == 'metric':
+                if self.type == 'metrico':
                     self.ui.label_unit_stress.setText(
                         '* Unit of stress : Megapascal (MPa)')
                 else:
