@@ -527,8 +527,6 @@ class MainWindow(QMainWindow):
             'As caixas de seleção no canto superior direito podem ser usadas para modificar os detalhes do gráfico.'))
         self.window.ui.pushbutton_influenceLine.clicked.connect(lambda: self.ui.statusbar.showMessage(
             'A linha de influência é plotada como uma linha vermelha. Use a caixa de membro para navegar pela linha de influência dos membros.'))
-        self.window.ui.pushbutton_report.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Assim que o PDF for gerado, ele será aberto automaticamente.'))
 
 
     def new_file(self):
@@ -576,8 +574,6 @@ class MainWindow(QMainWindow):
             'As caixas de seleção no canto superior direito podem ser usadas para modificar os detalhes do gráfico.'))
         self.window.ui.pushbutton_influenceLine.clicked.connect(lambda: self.ui.statusbar.showMessage(
             'O caminho da carga é plotado como uma linha vermelha. Use a caixa de membros para navegar pela linha de influência dos membros.'))
-        self.window.ui.pushbutton_report.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Assim que o PDF for gerado, ele será aberto automaticamente.'))
 
     def unit_per_page(self):
         index = self.ui.tabWidget.currentIndex()

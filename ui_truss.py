@@ -290,30 +290,7 @@ class Ui_WizardPage(object):
 
         self.gridLayout_2.addWidget(self.pushbutton_members, 1, 0, 1, 1)
 
-        self.pushbutton_report = QPushButton(self.groupBox)
-        self.pushbutton_report.setObjectName(u"pushbutton_report")
-        sizePolicy.setHeightForWidth(self.pushbutton_report.sizePolicy().hasHeightForWidth())
-        self.pushbutton_report.setSizePolicy(sizePolicy)
-        self.pushbutton_report.setFont(font)
-        self.pushbutton_report.setCursor(QCursor(Qt.PointingHandCursor))
-        self.pushbutton_report.setStyleSheet(u"QPushButton {\n"
-"	background-color: rgb(6, 207, 155);\n"
-"    border-style: outset;\n"
-"    border-width: 2px;\n"
-"    border-radius: 10px;\n"
-"    border-color: beige;\n"
-"    font: bold 14px;\n"
-"    min-width: 10em;\n"
-"}\n"
-"QPushButton:hover {\n"
-"	background-color: rgb(4, 163, 121);\n"
-"    border-style: inset;\n"
-"}")
-        icon7 = QIcon()
-        icon7.addFile(u":/newPrefix/report.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushbutton_report.setIcon(icon7)
 
-        self.gridLayout_2.addWidget(self.pushbutton_report, 12, 0, 1, 1)
 
         self.verticalSpacer_3 = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
 
@@ -1347,9 +1324,6 @@ class Ui_WizardPage(object):
 "", None))
         self.pushbutton_members.setText(QCoreApplication.translate("WizardPage", u"\n"
 " Members\n"
-"", None))
-        self.pushbutton_report.setText(QCoreApplication.translate("WizardPage", u"\n"
-" Report\n"
 "", None))
         self.pushbutton_loads.setText(QCoreApplication.translate("WizardPage", u"\n"
 " Loads\n"
