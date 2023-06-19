@@ -249,7 +249,7 @@ class MainWindow(QMainWindow):
         self.msgBox = QMessageBox()
         self.msgBox.setWindowFlags(
             Qt.Dialog | Qt.CustomizeWindowHint | Qt.WindowTitleHint | Qt.WindowCloseButtonHint)
-        self.msgBox.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.msgBox.setStyleSheet("background-color: rgb(88, 105, 110);")
 
         icon = QIcon(os.path.join(self.current_directory, 'logo@4x.png'))
         self.msgBox.setIconPixmap(icon.pixmap(96, 96))
