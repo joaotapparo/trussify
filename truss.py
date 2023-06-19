@@ -269,8 +269,6 @@ class MainPage(QWizardPage):
         self.ui.pushbutton_influenceLine.clicked.connect(
             lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.page_influenceLine))
 
-        self.ui.pushbutton_report.clicked.connect(
-            lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.page_report))
 
         self.ui.lineEdit_startingNode.textChanged[str].connect(self.movingload)
         self.ui.lineEdit_endingNode.textChanged[str].connect(self.movingload)
