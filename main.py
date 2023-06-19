@@ -19,7 +19,7 @@ from ui_units import Ui_MainWindow2
 
 logger = logging.getLogger('trussify')
 
-date = '<span style="color:#b19a66;">%m/%d/%Y</span> <span style="color:#56a187;">%I:%M:%S</span> %p'
+date = '<span style="color:#ff002b;">%m/%d/%Y</span> <span style="color:#0800ff;">%I:%M:%S</span> %p'
 
 my_system = platform.uname()
 user = getpass.getuser()
@@ -108,9 +108,6 @@ class AnotherWindow(QWidget):
 
 
 class MainWindow(QMainWindow):
-    """
-    This is where everything started
-    """
 
     def __init__(self):
         super(MainWindow, self).__init__()
@@ -134,14 +131,12 @@ class MainWindow(QMainWindow):
         icon = QIcon(":/newPrefix/logo@2x.png")
         self.debug.setWindowIcon(icon)
         self.debug.setStyleSheet(u"background-color: rgb(58, 64, 76);\n"
-                                 "color: rgb(204, 204, 204);\n"
-                                 "font-size:9.5pt")
+                                "color: rgb(20, 204, 204);\n"
+                                "font-size:9.5pt")
 
-        "++++++++++++++++++++++++++++++++++++++++++++++++++++++"
         self.APP_NAME = 'trussify'
         self.APP_VERSION = '1.8.0'
         self.APP_UPDATE_TIME = 'Junho 2023'
-        "++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
         self.ui.statusbar.showMessage('')
 

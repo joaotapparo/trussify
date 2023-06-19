@@ -1,0 +1,73 @@
+/home/johnnyhall/Programming/trussify/Ui File/main_ui.py
+  212,6: "    background-color: rgb(222, 49, 92);\n"
+  221,6: "    background-color: rgb(218, 0, 55);\n"
+  234,6: "    background-color: rgb(61, 69, 79);\n"
+  243,6: "    background-color: rgb(138, 147, 158);\n"
+  270,6: "    background-color: rgb(0, 145, 136);\n"
+  280,6: "    background-color: rgb(0, 145, 136);\n"
+
+/home/johnnyhall/Programming/trussify/Ui File/main.ui
+  592,2: 	background-color: rgb(222, 49, 92);
+  601,2: 	background-color: rgb(218, 0, 55);
+  637,2: 	background-color: rgb(61, 69, 79);
+  646,2: 	background-color: rgb(138, 147, 158);
+  718,2: 	background-color: rgb(0, 145, 136);
+  728,2: 	background-color: rgb(0, 145, 136);
+
+/home/johnnyhall/Programming/trussify/main.py
+  136,36:         self.debug.setStyleSheet(u"background-color: rgb(58, 64, 76);\n"
+  252,36:         self.msgBox.setStyleSheet("background-color: rgb(88, 105, 110);")
+
+/home/johnnyhall/Programming/trussify/ui_main.py
+  167,3: "	background-color: rgb(222, 49, 92);\n"
+  176,3: "	background-color: rgb(218, 0, 55);\n"
+  190,3: "	background-color: rgb(61, 69, 79);\n"
+  199,3: "	background-color: rgb(138, 147, 158);\n"
+  235,3: "	background-color: rgb(58, 20, 89);\n"
+  245,3: "	background-color: rgb(100, 20, 32);\n"
+
+/home/johnnyhall/Programming/trussify/ui_truss.py
+  110,3: "	background-color: rgb(82, 217, 214);\n"
+  119,3: "	background-color: rgb(15, 255, 250);\n"
+  135,3: "	background-color: rgb(222, 49, 92);\n"
+  144,3: "	background-color: rgb(218, 0, 55);\n"
+  161,3: "	background-color: rgb(222, 49, 92);\n"
+  170,3: "	background-color: rgb(218, 0, 55);\n"
+  192,3: "	background-color: rgb(82, 217, 214);\n"
+  201,3: "	background-color: rgb(15, 255, 250);\n"
+  221,3: "	background-color: rgb(82, 217, 214);\n"
+  230,3: "	background-color: rgb(15, 255, 250);\n"
+  246,3: "	background-color: rgb(222, 49, 92);\n"
+  255,3: "	background-color: rgb(218, 0, 55);\n"
+  274,3: "	background-color: rgb(222, 49, 92);\n"
+  283,3: "	background-color: rgb(218, 0, 55);\n"
+  306,3: "	background-color: rgb(222, 49, 92);\n"
+  315,3: "	background-color: rgb(218, 0, 55);\n"
+  402,3: "	background-color: rgb(250, 80, 80);\n"
+  412,3: "	background-color: rgb(250, 30, 56);\n"
+  480,3: "	background-color: rgb(250, 80, 80);\n"
+  490,3: "	background-color: rgb(250, 30, 56);\n"
+  562,3: "	background-color: rgb(250, 80, 80);\n"
+  572,3: "	background-color: rgb(250, 30, 56);\n"
+  647,3: "	background-color: rgb(250, 80, 80);\n"
+  657,3: "	background-color: rgb(250, 30, 56);\n"
+  775,3: "	background-color: rgb(250, 80, 80);\n"
+  785,3: "	background-color: rgb(250, 30, 56);\n"
+  879,3: "	background-color: rgb(250, 80, 80);\n"
+  889,3: "	background-color: rgb(250, 30, 56);\n"
+  900,3: "	background-color: rgb(255, 101, 111);\n"
+  910,3: "	background-color: rgb(255, 38, 49);\n"
+  1235,3: "	background-color: rgb(255, 101, 111);\n"
+  1245,3: "	background-color: rgb(255, 38, 49);\n"
+
+  logging.DEBUG: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#d4659d;">[ %(levelname)s ]</span>  %(message)s',
+  logging.INFO: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#31aa6e;">[ %(levelname)s ]</span>  %(message)s',
+  logging.WARNING: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#fd6152;">[ %(levelname)s ]</span>  %(message)s',
+  logging.ERROR: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#ff0000;">[ %(levelname)s ]</span>  %(message)s',
+  logging.CRITICAL: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#ffff00;">[ %(levelname)s ]</span>  %(message)s'
+
+  date = '<span style="color:#b19a66;">%m/%d/%Y</span> <span style="color:#56a187;">%I:%M:%S</span> %p'
+
+  self.debug.setStyleSheet(u"background-color: rgb(58, 64, 76);\n"
+                                 "color: rgb(20, 204, 204);\n"
+                                 "font-size:9.5pt")

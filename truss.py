@@ -1739,14 +1739,14 @@ class MainPage(QWizardPage):
                     arrow = arrow.transformed(
                         matplotlib.transforms.Affine2D().rotate_deg(v[1]))
                     ax3.plot(v[0][0], v[0][1], marker=arrow,
-                             color='green',  markersize=60, markeredgewidth=1.0)
+                             color='red',  markersize=60, markeredgewidth=1.0)
 
                     ax3.annotate(f'{v[2]} {self.force_unit_name}',
                                  xy=(v[0][0], v[0][1]), xycoords='data',
                                  xytext=(
                                      32*np.cos(np.radians(v[1])), 35*np.sin(np.radians(v[1]))),
                                  textcoords='offset points',
-                                 ha=v[-1], va='center', zorder=30, color='green', size=10)
+                                 ha=v[-1], va='center', zorder=30, color='red', size=10)
                 self.graph_widget3.canvas3.draw()
 
         except:

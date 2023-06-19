@@ -187,7 +187,7 @@ class Ui_MainWindow(object):
         self.pushButton_open.setMaximumSize(QSize(150, 50))
         self.pushButton_open.setCursor(QCursor(Qt.PointingHandCursor))
         self.pushButton_open.setStyleSheet(u"QPushButton {\n"
-"	background-color: rgb(154, 188, 229);\n"
+"	background-color: rgb(61, 69, 79);\n"
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
@@ -196,7 +196,7 @@ class Ui_MainWindow(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(143, 176, 213);\n"
+"	background-color: rgb(138, 147, 158);\n"
 "    border-style: inset;\n"
 "}\n"
 "")
