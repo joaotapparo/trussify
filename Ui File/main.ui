@@ -650,7 +650,7 @@ QPushButton:hover {
                    </property>
                    <property name="text">
                     <string>
-  Open Project ...
+  Procurar projeto
 </string>
                    </property>
                    <property name="icon">

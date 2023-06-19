@@ -13,7 +13,7 @@ from PySide2.QtWidgets import *
 from supports import *
 from truss import MainPage
 from ui_main import Ui_MainWindow
-from ui_units import Ui_MainWindow2
+from ui_units import Ui_MainWindow2 
 
 # logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 
@@ -55,17 +55,17 @@ class QTextEditLogger(logging.Handler):
         self.widget = QPlainTextEdit(parent)
         self.widget.setReadOnly(True)
 
-        font = QFont("Consolas")
+        font = QFont("Terminal Trussify")
         font.setStyleHint(QFont.TypeWriter)
         self.widget.setFont(font)
 
         self.widget.appendPlainText('#'*80 + '\n')
-        self.widget.appendPlainText(f'System : {my_system.system}')
-        self.widget.appendPlainText(f'Computer Name : {my_system.node}-{user}')
+        self.widget.appendPlainText(f'OS : {my_system.system}')
+        self.widget.appendPlainText(f'Nome do computador : {my_system.node}-{user}')
         self.widget.appendPlainText(f'Release : {my_system.release}')
         self.widget.appendPlainText(f'Version : {my_system.version}')
-        self.widget.appendPlainText(f'Machine : {my_system.machine}')
-        self.widget.appendPlainText(f'Processor : {my_system.processor}')
+        self.widget.appendPlainText(f'Computador : {my_system.machine}')
+        self.widget.appendPlainText(f'Processador : {my_system.processor}')
         self.widget.appendPlainText('#'*80 + '\n')
 
     def emit(self, record):
@@ -323,23 +323,15 @@ class MainWindow(QMainWindow):
         self.msgBox.setText(
             f"<font color='steelblue' size='4'>Version : {self.APP_VERSION} ({self.APP_UPDATE_TIME})</font>")
 
-        self.msgBox.setInformativeText("""This application can solve statically determinate and indeterminate 2D truss structures using the Matrix Displacement Method.<br><br>
-        trussify has been developed for educational purposes only. Students or Educators are free to use this application.<br><br>
-        GitHub : <a href="https://github.com/johnnyhall/trussify">https://github.com/johnnyhall/trussify</a><br><br>
-        If you like my work, consider buying me a coffee ☕ <br>
-        <a href="https://paypal.me/johnnyhall1">https://paypal.me/johnnyhall1</a><br>""")
-        self.msgBox.setWindowTitle("About trussify")
+        self.msgBox.setInformativeText("""puc campinas</a><br>""")
+        self.msgBox.setWindowTitle("Sobre Trussify")
         self.msgBox.exec_()
 
     def about_author(self):
         self.msgBox = QMessageBox()
         self.msgBox.setWindowFlags(
             Qt.Dialog | Qt.CustomizeWindowHint | Qt.WindowTitleHint | Qt.WindowCloseButtonHint)
-        self.msgBox.setText(
-            f"""I'm currently a fourth year undergraduate student at Civil Engineering in Chittagong University of Engineering & Technology.""")
-        self.msgBox.setInformativeText(
-            "<font color='steelblue' size='3'><b>LinkedIn : </b></font><a href='https://www.linkedin.com/in/monirulislam107/'>Monirul Islam</a>")
-        self.msgBox.setWindowTitle("About Author")
+        self.msgBox.setWindowTitle("Sobre Autor")
         self.msgBox.exec_()
 
     def unit(self, change=True):
@@ -492,7 +484,7 @@ class MainWindow(QMainWindow):
                 self.msgBox.setText(
                     f"""<font color='steelblue' size='5'>Deseja salvar suas alterações <br>feitas em {self.ui.tabWidget.tabText(index)}?</font>""")
                 self.msgBox.setInformativeText(
-                    "Você perdera sua alterações caso não as salve.")
+                    "Você perdera suas alterações caso não as salve.")
                 self.msgBox.setWindowTitle("trussify")
                 self.msgBox.setStandardButtons(
                     QMessageBox.Yes | QMessageBox.No | QMessageBox.Cancel)
@@ -557,7 +549,7 @@ class MainWindow(QMainWindow):
         path = self.window.filename[0]
         name = os.path.basename(path)[:-4]
 
-        logger.info('Opened file : %s', name)
+        logger.info('Abrir arquivo : %s', name)
         index = self.ui.tabWidget.count()
         self.ui.tabWidget.insertTab(index, self.window, name)
         self.ui.tabWidget.setCurrentIndex(index)
@@ -585,25 +577,26 @@ class MainWindow(QMainWindow):
         self.window_list[self.ui.tabWidget.currentIndex(
         )-1].ui.tableWidget_property.cellChanged.connect(self.tab_name_change)
         self.ui.statusbar.showMessage(
-            'Nodes are the points in (x,y) co-ordinate. Input (x,y) points in nodes table.')
+            'Os nós são os pontos nas coordenadas (x,y). Insira os pontos (x,y) na tabela de nós.')
         self.window.ui.pushbutton_nodes.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Nodes are the points in (x,y) co-ordinate. Input (x,y) points in nodes table.'))
+            'Os nós são os pontos nas coordenadas (x,y). Insira os pontos (x,y) na tabela de nós.'))
         self.window.ui.pushbutton_members.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Define members by connecting nodes. Don\'t forget to look at the graph while connecting nodes!'))
+            'Defina os membros conectando os nós. Não se esqueça de observar o gráfico ao conectar os nós!'))
         self.window.ui.pushbutton_supports.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Three types of constraints are available. Select the appropriate one from the drop-down lists.'))
+            'Existem três tipos de restrições disponíveis. Selecione a adequada nas listas suspensas.'))
         self.window.ui.pushbutton_loads.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Define nodal load and angle (degree) according to the node number.'))
+            'Defina a carga nodal e o ângulo (em graus) de acordo com o número do nó.'))
         self.window.ui.pushbutton_properties.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Define modulus of elasticity (E) and cross-sectional area (A) of the material.'))
+            'Defina o módulo de elasticidade (E) e a área da seção transversal (A) do material.'))
         self.window.ui.pushbutton_displacement.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Use deflection magnifier to clearly see the displaced shape in blue.'))
+            'Use o ampliador de deflexão para visualizar claramente a forma deslocada em azul.'))
         self.window.ui.pushbutton_forces.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Checkboxes in the top right can be used to modify graph details.'))
+            'As caixas de seleção no canto superior direito podem ser usadas para modificar os detalhes do gráfico.'))
         self.window.ui.pushbutton_influenceLine.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Load path is plotted as a red line. Use Member box to navigate through members influence line.'))
+            'A linha de influência é plotada como uma linha vermelha. Use a caixa de membro para navegar pela linha de influência dos membros.'))
         self.window.ui.pushbutton_report.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Once the pdf has been generated, it will be opened automatically.'))
+            'Assim que o PDF for gerado, ele será aberto automaticamente.'))
+
 
     def new_file(self):
         self.count += 1
@@ -633,25 +626,25 @@ class MainWindow(QMainWindow):
         self.window_list[self.ui.tabWidget.currentIndex(
         )-1].ui.tableWidget_property.cellChanged.connect(self.tab_name_change)
         self.ui.statusbar.showMessage(
-            'Nodes are the points in (x,y) co-ordinate. Input (x,y) points in nodes table.')
+            'Os nós são os pontos nas coordenadas (x,y). Insira os pontos (x,y) na tabela de nós.')
         self.window.ui.pushbutton_nodes.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Nodes are the points in (x,y) co-ordinate. Input (x,y) points in nodes table.'))
+            'Os nós são os pontos nas coordenadas (x,y). Insira os pontos (x,y) na tabela de nós.'))
         self.window.ui.pushbutton_members.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Define members by connecting nodes. Don\'t forget to look at the graph while connecting nodes!'))
+            'Defina os membros conectando os nós. Não se esqueça de observar o gráfico ao conectar os nós!'))
         self.window.ui.pushbutton_supports.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Three types of constraints are available. Select the appropriate one from the drop-down lists.'))
+            'Três tipos de restrições estão disponíveis. Selecione a opção adequada nas listas suspensas.'))
         self.window.ui.pushbutton_loads.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Define nodal load and angle (degree) according to the node number.'))
+            'Defina a carga nodal e o ângulo (em graus) de acordo com o número do nó.'))
         self.window.ui.pushbutton_properties.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Define modulus of elasticity (E) and cross-sectional area (A) of the material.'))
+            'Defina o módulo de elasticidade (E) e a área da seção transversal (A) do material.'))
         self.window.ui.pushbutton_displacement.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Use deflection magnifier to clearly see the displaced shape in blue.'))
+            'Use o ampliador de deflexão para visualizar claramente a forma deslocada em azul.'))
         self.window.ui.pushbutton_forces.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Checkboxes in the top right can be used to modify graph details.'))
+            'As caixas de seleção no canto superior direito podem ser usadas para modificar os detalhes do gráfico.'))
         self.window.ui.pushbutton_influenceLine.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Load path is plotted as a red line. Use Member box to navigate through members influence line.'))
+            'O caminho da carga é plotado como uma linha vermelha. Use a caixa de membros para navegar pela linha de influência dos membros.'))
         self.window.ui.pushbutton_report.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Once the pdf has been generated, it will be opened automatically.'))
+            'Assim que o PDF for gerado, ele será aberto automaticamente.'))
 
     def unit_per_page(self):
         index = self.ui.tabWidget.currentIndex()
