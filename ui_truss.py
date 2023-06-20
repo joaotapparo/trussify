@@ -1305,28 +1305,28 @@ class Ui_WizardPage(object):
         WizardPage.setWindowTitle(QCoreApplication.translate("WizardPage", u"WizardPage", None))
         self.groupBox.setTitle("")
         self.pushbutton_displacement.setText(QCoreApplication.translate("WizardPage", u"\n"
-" Displacements\n"
+" Deslocamentos\n"
 "", None))
         self.pushbutton_supports.setText(QCoreApplication.translate("WizardPage", u"\n"
-" Supports\n"
+" Suportes\n"
 "", None))
         self.pushbutton_properties.setText(QCoreApplication.translate("WizardPage", u"\n"
-" Properties\n"
+" Propriedades\n"
 "", None))
         self.pushbutton_influenceLine.setText(QCoreApplication.translate("WizardPage", u"\n"
-" Influence Line\n"
+" Linha de Influência\n"
 "", None))
         self.pushbutton_forces.setText(QCoreApplication.translate("WizardPage", u"\n"
-" Forces\n"
+" Forças\n"
 "", None))
         self.pushbutton_nodes.setText(QCoreApplication.translate("WizardPage", u"\n"
-" Nodes\n"
+" Nós\n"
 "", None))
         self.pushbutton_members.setText(QCoreApplication.translate("WizardPage", u"\n"
-" Members\n"
+" Membros\n"
 "", None))
         self.pushbutton_loads.setText(QCoreApplication.translate("WizardPage", u"\n"
-" Loads\n"
+" Cargas\n"
 "", None))
         self.label_8.setText(QCoreApplication.translate("WizardPage", u"Nodes : ", None))
         self.label_unit_node.setText(QCoreApplication.translate("WizardPage", u"* Unit of x and y : foot (ft)", None))
