@@ -1,0 +1,124 @@
+/home/johnnyhall/Programming/trussify/Ui File/main_ui.py
+  212,17: "    background-color: rgb(222, 49, 92);\n"
+  216,13: "    border-color: black;\n"
+  221,17: "    background-color: rgb(218, 0, 55);\n"
+  234,17: "    background-color: rgb(61, 69, 79);\n"
+  238,13: "    border-color: black;\n"
+  243,17: "    background-color: rgb(138, 147, 158);\n"
+  270,17: "    background-color: rgb(0, 145, 136);\n"
+  271,6: "    color: rgb(255, 255, 255);\n"
+  275,13: "    border-color: black;\n"
+  280,17: "    background-color: rgb(0, 145, 136);\n"
+  336,50:         self.pushButton_example_3.setStyleSheet("color: rgb(90, 74, 138);")
+  347,50:         self.pushButton_example_2.setStyleSheet("color: rgb(90, 74, 138);")
+  397,48:         self.pushButton_example.setStyleSheet("color: rgb(90, 74, 138);")
+  421,50:         self.pushButton_example_5.setStyleSheet("color: rgb(90, 74, 138);")
+  432,50:         self.pushButton_example_6.setStyleSheet("color: rgb(90, 74, 138);")
+  443,50:         self.pushButton_example_4.setStyleSheet("color: rgb(90, 74, 138);")
+  465,35:         self.label.setStyleSheet("color: rgb(218, 0, 55);")
+  576,210:         self.label_4.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-family:\'Raleway\',\'HelveticaNeue\',\'Helvetica Neue\',\'Helvetica\',\'Arial\',\'sans-serif\'; font-size:11pt; color:#222222;\">Sincerely,</span></p></body></html>"))
+  585,173:         self.label_3.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">Send a </span><span style=\" font-size:12pt; font-weight:600; color:#008cff;\">Thank You</span><span style=\" font-size:12pt;\"> note to</span><br/><span style=\" font-size:10pt; font-weight:600;\">Joao Tapparo!</span></p></body></html>"))
+
+/home/johnnyhall/Programming/trussify/Ui File/main.ui
+  592,13: 	background-color: rgb(222, 49, 92);
+  596,12:     border-color: black;
+  601,13: 	background-color: rgb(218, 0, 55);
+  637,13: 	background-color: rgb(61, 69, 79);
+  641,12:     border-color: black;
+  646,13: 	background-color: rgb(138, 147, 158);
+  691,201:                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Raleway','HelveticaNeue','Helvetica Neue','Helvetica','Arial','sans-serif'; font-size:11pt; color:#222222;&quot;&gt;Sincerely,&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  718,13: 	background-color: rgb(0, 145, 136);
+  719,2: 	color: rgb(255, 255, 255);
+  723,12:     border-color: black;
+  728,13: 	background-color: rgb(0, 145, 136);
+  775,196:                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Send a &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#008cff;&quot;&gt;Thank You&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; note to&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Joao Tapparo!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  863,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  884,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  1007,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  1062,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  1083,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  1104,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  1165,40:                    <string notr="true">color: rgb(218, 0, 55);</string>
+
+/home/johnnyhall/Programming/trussify/main.py
+  22,22: date = '<span style="color:#ff002b;">%m/%d/%Y</span> <span style="color:#0800ff;">%I:%M:%S</span> %p'
+  22,67: date = '<span style="color:#ff002b;">%m/%d/%Y</span> <span style="color:#0800ff;">%I:%M:%S</span> %p'
+  31,80:         logging.DEBUG: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#d4659d;">[ %(levelname)s ]</span>  %(message)s',
+  32,79:         logging.INFO: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#ff0055;">[ %(levelname)s ]</span>  %(message)s',
+  33,82:         logging.WARNING: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#fd6152;">[ %(levelname)s ]</span>  %(message)s',
+  34,80:         logging.ERROR: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#ff0000;">[ %(levelname)s ]</span>  %(message)s',
+  35,83:         logging.CRITICAL: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#00ffbb;">[ %(levelname)s ]</span>  %(message)s'
+  125,47:         self.debug.setStyleSheet(u"background-color: rgb(58, 64, 76);\n"
+  126,34:                                 "color: rgb(20, 204, 204);\n"
+  179,13:             color: black;
+  183,13:             color: red;
+  239,47:         self.msgBox.setStyleSheet("background-color: rgb(88, 105, 110);")
+
+/home/johnnyhall/Programming/trussify/truss.py
+  1138,52:             self.ui.label_stabality.setStyleSheet("color: rgb(255,0,0);")
+  1219,22:                     "color: rgb(149, 0, 255);")
+  1223,56:                 self.ui.label_stabality.setStyleSheet("color: rgb(255,0,0);")
+
+/home/johnnyhall/Programming/trussify/ui_main.py
+  167,14: "	background-color: rgb(222, 49, 92);\n"
+  171,13: "    border-color: black;\n"
+  176,14: "	background-color: rgb(218, 0, 55);\n"
+  190,14: "	background-color: rgb(61, 69, 79);\n"
+  194,13: "    border-color: black;\n"
+  199,14: "	background-color: rgb(138, 147, 158);\n"
+  235,14: "	background-color: rgb(222, 40, 92);\n"
+  236,3: "	color: rgb(255, 255, 255);\n"
+  240,13: "    border-color: black;\n"
+  245,14: "	background-color: rgb(218, 0, 50);\n"
+  293,36:         self.label.setStyleSheet(u"color: rgb(85, 85, 255);")
+
+/home/johnnyhall/Programming/trussify/ui_truss.py
+  110,14: "	background-color: rgb(82, 217, 214);\n"
+  114,13: "    border-color: black;\n"
+  119,14: "	background-color: rgb(15, 255, 250);\n"
+  135,14: "	background-color: rgb(222, 49, 92);\n"
+  139,13: "    border-color: black;\n"
+  144,14: "	background-color: rgb(218, 0, 55);\n"
+  161,14: "	background-color: rgb(222, 49, 92);\n"
+  165,13: "    border-color: black;\n"
+  170,14: "	background-color: rgb(218, 0, 55);\n"
+  192,14: "	background-color: rgb(82, 217, 214);\n"
+  196,13: "    border-color: black;\n"
+  201,14: "	background-color: rgb(15, 255, 250);\n"
+  221,14: "	background-color: rgb(82, 217, 214);\n"
+  225,13: "    border-color: black;\n"
+  230,14: "	background-color: rgb(15, 255, 250);\n"
+  246,14: "	background-color: rgb(222, 49, 92);\n"
+  250,13: "    border-color: black;\n"
+  255,14: "	background-color: rgb(218, 0, 55);\n"
+  274,14: "	background-color: rgb(222, 49, 92);\n"
+  278,13: "    border-color: black;\n"
+  283,14: "	background-color: rgb(218, 0, 55);\n"
+  306,14: "	background-color: rgb(222, 49, 92);\n"
+  310,13: "    border-color: black;\n"
+  315,14: "	background-color: rgb(218, 0, 55);\n"
+  402,14: "	background-color: rgb(250, 80, 80);\n"
+  406,13: "    border-color: black;\n"
+  412,14: "	background-color: rgb(250, 30, 56);\n"
+  480,14: "	background-color: rgb(250, 80, 80);\n"
+  484,13: "    border-color: black;\n"
+  490,14: "	background-color: rgb(250, 30, 56);\n"
+  562,14: "	background-color: rgb(250, 80, 80);\n"
+  566,13: "    border-color: black;\n"
+  572,14: "	background-color: rgb(250, 30, 56);\n"
+  647,14: "	background-color: rgb(250, 80, 80);\n"
+  651,13: "    border-color: black;\n"
+  657,14: "	background-color: rgb(250, 30, 56);\n"
+  775,14: "	background-color: rgb(250, 80, 80);\n"
+  779,13: "    border-color: black;\n"
+  785,14: "	background-color: rgb(250, 30, 56);\n"
+  843,46:         self.label_stabality.setStyleSheet(u"color: rgb(149, 0, 255);")
+  879,14: "	background-color: rgb(250, 80, 80);\n"
+  883,13: "    border-color: black;\n"
+  889,14: "	background-color: rgb(250, 30, 56);\n"
+  900,14: "	background-color: rgb(255, 101, 111);\n"
+  904,13: "    border-color: black;\n"
+  910,14: "	background-color: rgb(255, 38, 49);\n"
+  1235,14: "	background-color: rgb(255, 101, 111);\n"
+  1239,13: "    border-color: black;\n"
+  1245,14: "	background-color: rgb(255, 38, 49);\n"

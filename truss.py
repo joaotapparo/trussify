@@ -1216,7 +1216,7 @@ class MainPage(QWizardPage):
 
                 self.ui.label_stabality.setText('Stable')
                 self.ui.label_stabality.setStyleSheet(
-                    "color: rgb(255, 85, 0);")
+                    "color: rgb(149, 0, 255);")
             except:
                 self.logger.debug("Unstable structure")
                 self.ui.label_stabality.setText('Unstable')

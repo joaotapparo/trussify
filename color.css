@@ -1,73 +1,963 @@
 /home/johnnyhall/Programming/trussify/Ui File/main_ui.py
-  212,6: "    background-color: rgb(222, 49, 92);\n"
-  221,6: "    background-color: rgb(218, 0, 55);\n"
-  234,6: "    background-color: rgb(61, 69, 79);\n"
-  243,6: "    background-color: rgb(138, 147, 158);\n"
-  270,6: "    background-color: rgb(0, 145, 136);\n"
-  280,6: "    background-color: rgb(0, 145, 136);\n"
+  212,17: "    background-color: rgb(222, 49, 92);\n"
+  216,13: "    border-color: black;\n"
+  221,17: "    background-color: rgb(218, 0, 55);\n"
+  234,17: "    background-color: rgb(61, 69, 79);\n"
+  238,13: "    border-color: black;\n"
+  243,17: "    background-color: rgb(138, 147, 158);\n"
+  270,17: "    background-color: rgb(0, 145, 136);\n"
+  271,6: "    color: rgb(255, 255, 255);\n"
+  275,13: "    border-color: black;\n"
+  280,17: "    background-color: rgb(0, 145, 136);\n"
+  336,50:         self.pushButton_example_3.setStyleSheet("color: rgb(90, 74, 138);")
+  347,50:         self.pushButton_example_2.setStyleSheet("color: rgb(90, 74, 138);")
+  397,48:         self.pushButton_example.setStyleSheet("color: rgb(90, 74, 138);")
+  421,50:         self.pushButton_example_5.setStyleSheet("color: rgb(90, 74, 138);")
+  432,50:         self.pushButton_example_6.setStyleSheet("color: rgb(90, 74, 138);")
+  443,50:         self.pushButton_example_4.setStyleSheet("color: rgb(90, 74, 138);")
+  465,35:         self.label.setStyleSheet("color: rgb(218, 0, 55);")
+  576,210:         self.label_4.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-family:\'Raleway\',\'HelveticaNeue\',\'Helvetica Neue\',\'Helvetica\',\'Arial\',\'sans-serif\'; font-size:11pt; color:#222222;\">Sincerely,</span></p></body></html>"))
+  585,173:         self.label_3.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">Send a </span><span style=\" font-size:12pt; font-weight:600; color:#008cff;\">Thank You</span><span style=\" font-size:12pt;\"> note to</span><br/><span style=\" font-size:10pt; font-weight:600;\">Joao Tapparo!</span></p></body></html>"))
 
 /home/johnnyhall/Programming/trussify/Ui File/main.ui
-  592,2: 	background-color: rgb(222, 49, 92);
-  601,2: 	background-color: rgb(218, 0, 55);
-  637,2: 	background-color: rgb(61, 69, 79);
-  646,2: 	background-color: rgb(138, 147, 158);
-  718,2: 	background-color: rgb(0, 145, 136);
-  728,2: 	background-color: rgb(0, 145, 136);
+  16,7:      <colorrole role="WindowText">
+  18,9:        <color alpha="255">
+  22,10:        </color>
+  24,8:      </colorrole>
+  25,7:      <colorrole role="Button">
+  27,9:        <color alpha="255">
+  31,10:        </color>
+  33,8:      </colorrole>
+  34,7:      <colorrole role="Light">
+  36,9:        <color alpha="255">
+  40,10:        </color>
+  42,8:      </colorrole>
+  43,7:      <colorrole role="Midlight">
+  45,9:        <color alpha="255">
+  49,10:        </color>
+  51,8:      </colorrole>
+  52,7:      <colorrole role="Dark">
+  54,9:        <color alpha="255">
+  58,10:        </color>
+  60,8:      </colorrole>
+  61,7:      <colorrole role="Mid">
+  63,9:        <color alpha="255">
+  67,10:        </color>
+  69,8:      </colorrole>
+  70,7:      <colorrole role="Text">
+  72,9:        <color alpha="255">
+  76,10:        </color>
+  78,8:      </colorrole>
+  79,7:      <colorrole role="BrightText">
+  81,9:        <color alpha="255">
+  85,10:        </color>
+  87,8:      </colorrole>
+  88,7:      <colorrole role="ButtonText">
+  90,9:        <color alpha="255">
+  94,10:        </color>
+  96,8:      </colorrole>
+  97,7:      <colorrole role="Base">
+  99,9:        <color alpha="255">
+  103,10:        </color>
+  105,8:      </colorrole>
+  106,7:      <colorrole role="Window">
+  108,9:        <color alpha="255">
+  112,10:        </color>
+  114,8:      </colorrole>
+  115,7:      <colorrole role="Shadow">
+  117,9:        <color alpha="255">
+  121,10:        </color>
+  123,8:      </colorrole>
+  124,7:      <colorrole role="AlternateBase">
+  126,9:        <color alpha="255">
+  130,10:        </color>
+  132,8:      </colorrole>
+  133,7:      <colorrole role="ToolTipBase">
+  135,9:        <color alpha="255">
+  139,10:        </color>
+  141,8:      </colorrole>
+  142,7:      <colorrole role="ToolTipText">
+  144,9:        <color alpha="255">
+  148,10:        </color>
+  150,8:      </colorrole>
+  151,7:      <colorrole role="PlaceholderText">
+  153,9:        <color alpha="128">
+  157,10:        </color>
+  159,8:      </colorrole>
+  162,7:      <colorrole role="WindowText">
+  164,9:        <color alpha="255">
+  168,10:        </color>
+  170,8:      </colorrole>
+  171,7:      <colorrole role="Button">
+  173,9:        <color alpha="255">
+  177,10:        </color>
+  179,8:      </colorrole>
+  180,7:      <colorrole role="Light">
+  182,9:        <color alpha="255">
+  186,10:        </color>
+  188,8:      </colorrole>
+  189,7:      <colorrole role="Midlight">
+  191,9:        <color alpha="255">
+  195,10:        </color>
+  197,8:      </colorrole>
+  198,7:      <colorrole role="Dark">
+  200,9:        <color alpha="255">
+  204,10:        </color>
+  206,8:      </colorrole>
+  207,7:      <colorrole role="Mid">
+  209,9:        <color alpha="255">
+  213,10:        </color>
+  215,8:      </colorrole>
+  216,7:      <colorrole role="Text">
+  218,9:        <color alpha="255">
+  222,10:        </color>
+  224,8:      </colorrole>
+  225,7:      <colorrole role="BrightText">
+  227,9:        <color alpha="255">
+  231,10:        </color>
+  233,8:      </colorrole>
+  234,7:      <colorrole role="ButtonText">
+  236,9:        <color alpha="255">
+  240,10:        </color>
+  242,8:      </colorrole>
+  243,7:      <colorrole role="Base">
+  245,9:        <color alpha="255">
+  249,10:        </color>
+  251,8:      </colorrole>
+  252,7:      <colorrole role="Window">
+  254,9:        <color alpha="255">
+  258,10:        </color>
+  260,8:      </colorrole>
+  261,7:      <colorrole role="Shadow">
+  263,9:        <color alpha="255">
+  267,10:        </color>
+  269,8:      </colorrole>
+  270,7:      <colorrole role="AlternateBase">
+  272,9:        <color alpha="255">
+  276,10:        </color>
+  278,8:      </colorrole>
+  279,7:      <colorrole role="ToolTipBase">
+  281,9:        <color alpha="255">
+  285,10:        </color>
+  287,8:      </colorrole>
+  288,7:      <colorrole role="ToolTipText">
+  290,9:        <color alpha="255">
+  294,10:        </color>
+  296,8:      </colorrole>
+  297,7:      <colorrole role="PlaceholderText">
+  299,9:        <color alpha="128">
+  303,10:        </color>
+  305,8:      </colorrole>
+  308,7:      <colorrole role="WindowText">
+  310,9:        <color alpha="255">
+  314,10:        </color>
+  316,8:      </colorrole>
+  317,7:      <colorrole role="Button">
+  319,9:        <color alpha="255">
+  323,10:        </color>
+  325,8:      </colorrole>
+  326,7:      <colorrole role="Light">
+  328,9:        <color alpha="255">
+  332,10:        </color>
+  334,8:      </colorrole>
+  335,7:      <colorrole role="Midlight">
+  337,9:        <color alpha="255">
+  341,10:        </color>
+  343,8:      </colorrole>
+  344,7:      <colorrole role="Dark">
+  346,9:        <color alpha="255">
+  350,10:        </color>
+  352,8:      </colorrole>
+  353,7:      <colorrole role="Mid">
+  355,9:        <color alpha="255">
+  359,10:        </color>
+  361,8:      </colorrole>
+  362,7:      <colorrole role="Text">
+  364,9:        <color alpha="255">
+  368,10:        </color>
+  370,8:      </colorrole>
+  371,7:      <colorrole role="BrightText">
+  373,9:        <color alpha="255">
+  377,10:        </color>
+  379,8:      </colorrole>
+  380,7:      <colorrole role="ButtonText">
+  382,9:        <color alpha="255">
+  386,10:        </color>
+  388,8:      </colorrole>
+  389,7:      <colorrole role="Base">
+  391,9:        <color alpha="255">
+  395,10:        </color>
+  397,8:      </colorrole>
+  398,7:      <colorrole role="Window">
+  400,9:        <color alpha="255">
+  404,10:        </color>
+  406,8:      </colorrole>
+  407,7:      <colorrole role="Shadow">
+  409,9:        <color alpha="255">
+  413,10:        </color>
+  415,8:      </colorrole>
+  416,7:      <colorrole role="AlternateBase">
+  418,9:        <color alpha="255">
+  422,10:        </color>
+  424,8:      </colorrole>
+  425,7:      <colorrole role="ToolTipBase">
+  427,9:        <color alpha="255">
+  431,10:        </color>
+  433,8:      </colorrole>
+  434,7:      <colorrole role="ToolTipText">
+  436,9:        <color alpha="255">
+  440,10:        </color>
+  442,8:      </colorrole>
+  443,7:      <colorrole role="PlaceholderText">
+  445,9:        <color alpha="128">
+  449,10:        </color>
+  451,8:      </colorrole>
+  592,13: 	background-color: rgb(222, 49, 92);
+  596,12:     border-color: black;
+  601,13: 	background-color: rgb(218, 0, 55);
+  637,13: 	background-color: rgb(61, 69, 79);
+  641,12:     border-color: black;
+  646,13: 	background-color: rgb(138, 147, 158);
+  691,201:                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Raleway','HelveticaNeue','Helvetica Neue','Helvetica','Arial','sans-serif'; font-size:11pt; color:#222222;&quot;&gt;Sincerely,&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  718,13: 	background-color: rgb(0, 145, 136);
+  719,2: 	color: rgb(255, 255, 255);
+  723,12:     border-color: black;
+  728,13: 	background-color: rgb(0, 145, 136);
+  775,196:                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Send a &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#008cff;&quot;&gt;Thank You&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; note to&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Joao Tapparo!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  863,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  884,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  1007,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  1062,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  1083,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  1104,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  1165,40:                    <string notr="true">color: rgb(218, 0, 55);</string>
+
+/home/johnnyhall/Programming/trussify/Ui File/new.xml
+  4,4:   <colorrole role="WindowText">
+  6,6:     <color alpha="255">
+  10,7:     </color>
+  12,5:   </colorrole>
+  13,4:   <colorrole role="Button">
+  15,6:     <color alpha="255">
+  19,7:     </color>
+  21,5:   </colorrole>
+  22,4:   <colorrole role="Light">
+  24,6:     <color alpha="255">
+  28,7:     </color>
+  30,5:   </colorrole>
+  31,4:   <colorrole role="Midlight">
+  33,6:     <color alpha="255">
+  37,7:     </color>
+  39,5:   </colorrole>
+  40,4:   <colorrole role="Dark">
+  42,6:     <color alpha="255">
+  46,7:     </color>
+  48,5:   </colorrole>
+  49,4:   <colorrole role="Mid">
+  51,6:     <color alpha="255">
+  55,7:     </color>
+  57,5:   </colorrole>
+  58,4:   <colorrole role="Text">
+  60,6:     <color alpha="255">
+  64,7:     </color>
+  66,5:   </colorrole>
+  67,4:   <colorrole role="BrightText">
+  69,6:     <color alpha="255">
+  73,7:     </color>
+  75,5:   </colorrole>
+  76,4:   <colorrole role="ButtonText">
+  78,6:     <color alpha="255">
+  82,7:     </color>
+  84,5:   </colorrole>
+  85,4:   <colorrole role="Base">
+  87,6:     <color alpha="255">
+  91,7:     </color>
+  93,5:   </colorrole>
+  94,4:   <colorrole role="Window">
+  96,6:     <color alpha="255">
+  100,7:     </color>
+  102,5:   </colorrole>
+  103,4:   <colorrole role="Shadow">
+  105,6:     <color alpha="255">
+  109,7:     </color>
+  111,5:   </colorrole>
+  112,4:   <colorrole role="AlternateBase">
+  114,6:     <color alpha="255">
+  118,7:     </color>
+  120,5:   </colorrole>
+  121,4:   <colorrole role="ToolTipBase">
+  123,6:     <color alpha="255">
+  127,7:     </color>
+  129,5:   </colorrole>
+  130,4:   <colorrole role="ToolTipText">
+  132,6:     <color alpha="255">
+  136,7:     </color>
+  138,5:   </colorrole>
+  139,4:   <colorrole role="PlaceholderText">
+  141,6:     <color alpha="128">
+  145,7:     </color>
+  147,5:   </colorrole>
+  150,4:   <colorrole role="WindowText">
+  152,6:     <color alpha="255">
+  156,7:     </color>
+  158,5:   </colorrole>
+  159,4:   <colorrole role="Button">
+  161,6:     <color alpha="255">
+  165,7:     </color>
+  167,5:   </colorrole>
+  168,4:   <colorrole role="Light">
+  170,6:     <color alpha="255">
+  174,7:     </color>
+  176,5:   </colorrole>
+  177,4:   <colorrole role="Midlight">
+  179,6:     <color alpha="255">
+  183,7:     </color>
+  185,5:   </colorrole>
+  186,4:   <colorrole role="Dark">
+  188,6:     <color alpha="255">
+  192,7:     </color>
+  194,5:   </colorrole>
+  195,4:   <colorrole role="Mid">
+  197,6:     <color alpha="255">
+  201,7:     </color>
+  203,5:   </colorrole>
+  204,4:   <colorrole role="Text">
+  206,6:     <color alpha="255">
+  210,7:     </color>
+  212,5:   </colorrole>
+  213,4:   <colorrole role="BrightText">
+  215,6:     <color alpha="255">
+  219,7:     </color>
+  221,5:   </colorrole>
+  222,4:   <colorrole role="ButtonText">
+  224,6:     <color alpha="255">
+  228,7:     </color>
+  230,5:   </colorrole>
+  231,4:   <colorrole role="Base">
+  233,6:     <color alpha="255">
+  237,7:     </color>
+  239,5:   </colorrole>
+  240,4:   <colorrole role="Window">
+  242,6:     <color alpha="255">
+  246,7:     </color>
+  248,5:   </colorrole>
+  249,4:   <colorrole role="Shadow">
+  251,6:     <color alpha="255">
+  255,7:     </color>
+  257,5:   </colorrole>
+  258,4:   <colorrole role="AlternateBase">
+  260,6:     <color alpha="255">
+  264,7:     </color>
+  266,5:   </colorrole>
+  267,4:   <colorrole role="ToolTipBase">
+  269,6:     <color alpha="255">
+  273,7:     </color>
+  275,5:   </colorrole>
+  276,4:   <colorrole role="ToolTipText">
+  278,6:     <color alpha="255">
+  282,7:     </color>
+  284,5:   </colorrole>
+  285,4:   <colorrole role="PlaceholderText">
+  287,6:     <color alpha="128">
+  291,7:     </color>
+  293,5:   </colorrole>
+  296,4:   <colorrole role="WindowText">
+  298,6:     <color alpha="255">
+  302,7:     </color>
+  304,5:   </colorrole>
+  305,4:   <colorrole role="Button">
+  307,6:     <color alpha="255">
+  311,7:     </color>
+  313,5:   </colorrole>
+  314,4:   <colorrole role="Light">
+  316,6:     <color alpha="255">
+  320,7:     </color>
+  322,5:   </colorrole>
+  323,4:   <colorrole role="Midlight">
+  325,6:     <color alpha="255">
+  329,7:     </color>
+  331,5:   </colorrole>
+  332,4:   <colorrole role="Dark">
+  334,6:     <color alpha="255">
+  338,7:     </color>
+  340,5:   </colorrole>
+  341,4:   <colorrole role="Mid">
+  343,6:     <color alpha="255">
+  347,7:     </color>
+  349,5:   </colorrole>
+  350,4:   <colorrole role="Text">
+  352,6:     <color alpha="255">
+  356,7:     </color>
+  358,5:   </colorrole>
+  359,4:   <colorrole role="BrightText">
+  361,6:     <color alpha="255">
+  365,7:     </color>
+  367,5:   </colorrole>
+  368,4:   <colorrole role="ButtonText">
+  370,6:     <color alpha="255">
+  374,7:     </color>
+  376,5:   </colorrole>
+  377,4:   <colorrole role="Base">
+  379,6:     <color alpha="255">
+  383,7:     </color>
+  385,5:   </colorrole>
+  386,4:   <colorrole role="Window">
+  388,6:     <color alpha="255">
+  392,7:     </color>
+  394,5:   </colorrole>
+  395,4:   <colorrole role="Shadow">
+  397,6:     <color alpha="255">
+  401,7:     </color>
+  403,5:   </colorrole>
+  404,4:   <colorrole role="AlternateBase">
+  406,6:     <color alpha="255">
+  410,7:     </color>
+  412,5:   </colorrole>
+  413,4:   <colorrole role="ToolTipBase">
+  415,6:     <color alpha="255">
+  419,7:     </color>
+  421,5:   </colorrole>
+  422,4:   <colorrole role="ToolTipText">
+  424,6:     <color alpha="255">
+  428,7:     </color>
+  430,5:   </colorrole>
+  431,4:   <colorrole role="PlaceholderText">
+  433,6:     <color alpha="128">
+  437,7:     </color>
+  439,5:   </colorrole>
+
+/home/johnnyhall/Programming/trussify/Ui File/units.ui
+  28,7:      <colorrole role="WindowText">
+  30,9:        <color alpha="255">
+  34,10:        </color>
+  36,8:      </colorrole>
+  37,7:      <colorrole role="Button">
+  39,9:        <color alpha="255">
+  43,10:        </color>
+  45,8:      </colorrole>
+  46,7:      <colorrole role="Light">
+  48,9:        <color alpha="255">
+  52,10:        </color>
+  54,8:      </colorrole>
+  55,7:      <colorrole role="Midlight">
+  57,9:        <color alpha="255">
+  61,10:        </color>
+  63,8:      </colorrole>
+  64,7:      <colorrole role="Dark">
+  66,9:        <color alpha="255">
+  70,10:        </color>
+  72,8:      </colorrole>
+  73,7:      <colorrole role="Mid">
+  75,9:        <color alpha="255">
+  79,10:        </color>
+  81,8:      </colorrole>
+  82,7:      <colorrole role="Text">
+  84,9:        <color alpha="255">
+  88,10:        </color>
+  90,8:      </colorrole>
+  91,7:      <colorrole role="BrightText">
+  93,9:        <color alpha="255">
+  97,10:        </color>
+  99,8:      </colorrole>
+  100,7:      <colorrole role="ButtonText">
+  102,9:        <color alpha="255">
+  106,10:        </color>
+  108,8:      </colorrole>
+  109,7:      <colorrole role="Base">
+  111,9:        <color alpha="255">
+  115,10:        </color>
+  117,8:      </colorrole>
+  118,7:      <colorrole role="Window">
+  120,9:        <color alpha="255">
+  124,10:        </color>
+  126,8:      </colorrole>
+  127,7:      <colorrole role="Shadow">
+  129,9:        <color alpha="255">
+  133,10:        </color>
+  135,8:      </colorrole>
+  136,7:      <colorrole role="AlternateBase">
+  138,9:        <color alpha="255">
+  142,10:        </color>
+  144,8:      </colorrole>
+  145,7:      <colorrole role="ToolTipBase">
+  147,9:        <color alpha="255">
+  151,10:        </color>
+  153,8:      </colorrole>
+  154,7:      <colorrole role="ToolTipText">
+  156,9:        <color alpha="255">
+  160,10:        </color>
+  162,8:      </colorrole>
+  163,7:      <colorrole role="PlaceholderText">
+  165,9:        <color alpha="128">
+  169,10:        </color>
+  171,8:      </colorrole>
+  174,7:      <colorrole role="WindowText">
+  176,9:        <color alpha="255">
+  180,10:        </color>
+  182,8:      </colorrole>
+  183,7:      <colorrole role="Button">
+  185,9:        <color alpha="255">
+  189,10:        </color>
+  191,8:      </colorrole>
+  192,7:      <colorrole role="Light">
+  194,9:        <color alpha="255">
+  198,10:        </color>
+  200,8:      </colorrole>
+  201,7:      <colorrole role="Midlight">
+  203,9:        <color alpha="255">
+  207,10:        </color>
+  209,8:      </colorrole>
+  210,7:      <colorrole role="Dark">
+  212,9:        <color alpha="255">
+  216,10:        </color>
+  218,8:      </colorrole>
+  219,7:      <colorrole role="Mid">
+  221,9:        <color alpha="255">
+  225,10:        </color>
+  227,8:      </colorrole>
+  228,7:      <colorrole role="Text">
+  230,9:        <color alpha="255">
+  234,10:        </color>
+  236,8:      </colorrole>
+  237,7:      <colorrole role="BrightText">
+  239,9:        <color alpha="255">
+  243,10:        </color>
+  245,8:      </colorrole>
+  246,7:      <colorrole role="ButtonText">
+  248,9:        <color alpha="255">
+  252,10:        </color>
+  254,8:      </colorrole>
+  255,7:      <colorrole role="Base">
+  257,9:        <color alpha="255">
+  261,10:        </color>
+  263,8:      </colorrole>
+  264,7:      <colorrole role="Window">
+  266,9:        <color alpha="255">
+  270,10:        </color>
+  272,8:      </colorrole>
+  273,7:      <colorrole role="Shadow">
+  275,9:        <color alpha="255">
+  279,10:        </color>
+  281,8:      </colorrole>
+  282,7:      <colorrole role="AlternateBase">
+  284,9:        <color alpha="255">
+  288,10:        </color>
+  290,8:      </colorrole>
+  291,7:      <colorrole role="ToolTipBase">
+  293,9:        <color alpha="255">
+  297,10:        </color>
+  299,8:      </colorrole>
+  300,7:      <colorrole role="ToolTipText">
+  302,9:        <color alpha="255">
+  306,10:        </color>
+  308,8:      </colorrole>
+  309,7:      <colorrole role="PlaceholderText">
+  311,9:        <color alpha="128">
+  315,10:        </color>
+  317,8:      </colorrole>
+  320,7:      <colorrole role="WindowText">
+  322,9:        <color alpha="255">
+  326,10:        </color>
+  328,8:      </colorrole>
+  329,7:      <colorrole role="Button">
+  331,9:        <color alpha="255">
+  335,10:        </color>
+  337,8:      </colorrole>
+  338,7:      <colorrole role="Light">
+  340,9:        <color alpha="255">
+  344,10:        </color>
+  346,8:      </colorrole>
+  347,7:      <colorrole role="Midlight">
+  349,9:        <color alpha="255">
+  353,10:        </color>
+  355,8:      </colorrole>
+  356,7:      <colorrole role="Dark">
+  358,9:        <color alpha="255">
+  362,10:        </color>
+  364,8:      </colorrole>
+  365,7:      <colorrole role="Mid">
+  367,9:        <color alpha="255">
+  371,10:        </color>
+  373,8:      </colorrole>
+  374,7:      <colorrole role="Text">
+  376,9:        <color alpha="255">
+  380,10:        </color>
+  382,8:      </colorrole>
+  383,7:      <colorrole role="BrightText">
+  385,9:        <color alpha="255">
+  389,10:        </color>
+  391,8:      </colorrole>
+  392,7:      <colorrole role="ButtonText">
+  394,9:        <color alpha="255">
+  398,10:        </color>
+  400,8:      </colorrole>
+  401,7:      <colorrole role="Base">
+  403,9:        <color alpha="255">
+  407,10:        </color>
+  409,8:      </colorrole>
+  410,7:      <colorrole role="Window">
+  412,9:        <color alpha="255">
+  416,10:        </color>
+  418,8:      </colorrole>
+  419,7:      <colorrole role="Shadow">
+  421,9:        <color alpha="255">
+  425,10:        </color>
+  427,8:      </colorrole>
+  428,7:      <colorrole role="AlternateBase">
+  430,9:        <color alpha="255">
+  434,10:        </color>
+  436,8:      </colorrole>
+  437,7:      <colorrole role="ToolTipBase">
+  439,9:        <color alpha="255">
+  443,10:        </color>
+  445,8:      </colorrole>
+  446,7:      <colorrole role="ToolTipText">
+  448,9:        <color alpha="255">
+  452,10:        </color>
+  454,8:      </colorrole>
+  455,7:      <colorrole role="PlaceholderText">
+  457,9:        <color alpha="128">
+  461,10:        </color>
+  463,8:      </colorrole>
+
+/home/johnnyhall/Programming/trussify/color.css
+  2,27:   212,24: "    background-color: rgb(222, 49, 92);\n"
+  3,27:   221,24: "    background-color: rgb(218, 0, 55);\n"
+  4,27:   234,24: "    background-color: rgb(61, 69, 79);\n"
+  5,27:   243,24: "    background-color: rgb(138, 147, 158);\n"
+  6,27:   270,24: "    background-color: rgb(0, 145, 136);\n"
+  7,16:   271,13: "    color: rgb(255, 255, 255);\n"
+  8,27:   280,24: "    background-color: rgb(0, 145, 136);\n"
+  9,60:   336,57:         self.pushButton_example_3.setStyleSheet("color: rgb(90, 74, 138);")
+  10,60:   347,57:         self.pushButton_example_2.setStyleSheet("color: rgb(90, 74, 138);")
+  11,58:   397,55:         self.pushButton_example.setStyleSheet("color: rgb(90, 74, 138);")
+  12,60:   421,57:         self.pushButton_example_5.setStyleSheet("color: rgb(90, 74, 138);")
+  13,60:   432,57:         self.pushButton_example_6.setStyleSheet("color: rgb(90, 74, 138);")
+  14,60:   443,57:         self.pushButton_example_4.setStyleSheet("color: rgb(90, 74, 138);")
+  15,45:   465,42:         self.label.setStyleSheet("color: rgb(218, 0, 55);")
+  18,23:   592,20: 	background-color: rgb(222, 49, 92);
+  19,23:   601,20: 	background-color: rgb(218, 0, 55);
+  20,23:   637,20: 	background-color: rgb(61, 69, 79);
+  21,23:   646,20: 	background-color: rgb(138, 147, 158);
+  22,23:   718,20: 	background-color: rgb(0, 145, 136);
+  23,11:   719,9: 	color: rgb(255, 255, 255);
+  26,4:   "color: rgb(255, 0, 0);")
+  28,23:   728,20: 	background-color: rgb(0, 145, 136);
+  29,52:   863,49:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  30,52:   884,49:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  31,53:   1007,49:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  32,53:   1062,49:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  33,53:   1083,49:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  34,53:   1104,49:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  35,51:   1165,47:                    <string notr="true">color: rgb(218, 0, 55);</string>
+  38,57:   125,54:         self.debug.setStyleSheet(u"background-color: rgb(58, 64, 76);\n"
+  39,44:   126,41:                                 "color: rgb(20, 204, 204);\n"
+  40,57:   239,54:         self.msgBox.setStyleSheet("background-color: rgb(88, 105, 110);")
+  43,63:   1138,59:             self.ui.label_stabality.setStyleSheet("color: rgb(255,0,0);")
+  44,33:   1219,29:                     "color: rgb(149, 0, 255);")
+  45,67:   1223,63:                 self.ui.label_stabality.setStyleSheet("color: rgb(255,0,0);")
+  50,24:   167,21: "	background-color: rgb(222, 45, 92);\n"
+  51,24:   176,21: "	background-color: rgb(218, 0, 55);\n"
+  52,24:   190,21: "	background-color: rgb(61, 69, 79);\n"
+  53,24:   199,21: "	background-color: rgb(138, 147, 158);\n"
+  54,24:   235,21: "	background-color: rgb(222, 40, 92);\n"
+  55,13:   236,10: "	color: rgb(255, 255, 255);\n"
+  56,24:   245,21: "	background-color: rgb(218, 0, 50);\n"
+  57,46:   293,43:         self.label.setStyleSheet(u"color: rgb(85, 85, 255);")
+  60,24:   110,21: "	background-color: rgb(82, 217, 214);\n"
+  61,24:   119,21: "	background-color: rgb(15, 255, 250);\n"
+  62,24:   135,21: "	background-color: rgb(222, 49, 92);\n"
+  63,24:   144,21: "	background-color: rgb(218, 0, 55);\n"
+  64,24:   161,21: "	background-color: rgb(222, 49, 92);\n"
+  65,24:   170,21: "	background-color: rgb(218, 0, 55);\n"
+  66,24:   192,21: "	background-color: rgb(82, 217, 214);\n"
+  67,24:   201,21: "	background-color: rgb(15, 255, 250);\n"
+  68,24:   221,21: "	background-color: rgb(82, 217, 214);\n"
+  69,24:   230,21: "	background-color: rgb(15, 255, 250);\n"
+  70,24:   246,21: "	background-color: rgb(222, 49, 92);\n"
+  71,24:   255,21: "	background-color: rgb(218, 0, 55);\n"
+  72,24:   274,21: "	background-color: rgb(222, 49, 92);\n"
+  73,24:   283,21: "	background-color: rgb(218, 0, 55);\n"
+  74,24:   306,21: "	background-color: rgb(222, 49, 92);\n"
+  75,24:   315,21: "	background-color: rgb(218, 0, 55);\n"
+  76,24:   402,21: "	background-color: rgb(250, 80, 80);\n"
+  77,24:   412,21: "	background-color: rgb(250, 30, 56);\n"
+  78,24:   480,21: "	background-color: rgb(250, 80, 80);\n"
+  79,24:   490,21: "	background-color: rgb(250, 30, 56);\n"
+  80,24:   562,21: "	background-color: rgb(250, 80, 80);\n"
+  81,24:   572,21: "	background-color: rgb(250, 30, 56);\n"
+  82,24:   647,21: "	background-color: rgb(250, 80, 80);\n"
+  83,24:   657,21: "	background-color: rgb(250, 30, 56);\n"
+  84,24:   775,21: "	background-color: rgb(250, 80, 80);\n"
+  85,24:   785,21: "	background-color: rgb(250, 30, 56);\n"
+  86,56:   843,53:         self.label_stabality.setStyleSheet(u"color: rgb(149, 0, 255);")
+  87,24:   879,21: "	background-color: rgb(250, 80, 80);\n"
+  88,24:   889,21: "	background-color: rgb(250, 30, 56);\n"
+  89,24:   900,21: "	background-color: rgb(255, 101, 111);\n"
+  90,24:   910,21: "	background-color: rgb(255, 38, 49);\n"
+  91,25:   1235,21: "	background-color: rgb(255, 101, 111);\n"
+  92,25:   1245,21: "	background-color: rgb(255, 38, 49);\n"
+  94,24:   date = '<span style="color:#ff002b;">%m/%d/%Y</span> <span style="color:#0800ff;">%I:%M:%S</span> %p'
+  94,69:   date = '<span style="color:#ff002b;">%m/%d/%Y</span> <span style="color:#0800ff;">%I:%M:%S</span> %p'
+  96,74:   logging.DEBUG: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#d4659d;">[ %(levelname)s ]</span>  %(message)s',
+  97,73:   logging.INFO: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#ff0055;">[ %(levelname)s ]</span>  %(message)s',
+  98,76:   logging.WARNING: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#fd6152;">[ %(levelname)s ]</span>  %(message)s',
+  99,74:   logging.ERROR: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#ff0000;">[ %(levelname)s ]</span>  %(message)s',
+  100,77:   logging.CRITICAL: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#00ffbb;">[ %(levelname)s ]</span>  %(message)s'
+  102,204:   self.label_4.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-family:\'Raleway\',\'HelveticaNeue\',\'Helvetica Neue\',\'Helvetica\',\'Arial\',\'sans-serif\'; font-size:11pt; color:#222222;\">Sincerely,</span></p></body></html>"))
+  104,167:   self.label_3.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">Send a </span><span style=\" font-size:12pt; font-weight:600; color:#008cff;\">Thank You</span><span style=\" font-size:12pt;\"> note to</span><br/><span style=\" font-size:10pt; font-weight:600;\">Joao Tapparo!</span></p></body></html>"))
+
+/home/johnnyhall/Programming/trussify/color2.css
+  2,27:   212,17: "    background-color: rgb(222, 49, 92);\n"
+  3,23:   216,13: "    border-color: black;\n"
+  4,27:   221,17: "    background-color: rgb(218, 0, 55);\n"
+  5,27:   234,17: "    background-color: rgb(61, 69, 79);\n"
+  6,23:   238,13: "    border-color: black;\n"
+  7,27:   243,17: "    background-color: rgb(138, 147, 158);\n"
+  8,27:   270,17: "    background-color: rgb(0, 145, 136);\n"
+  9,15:   271,6: "    color: rgb(255, 255, 255);\n"
+  10,23:   275,13: "    border-color: black;\n"
+  11,27:   280,17: "    background-color: rgb(0, 145, 136);\n"
+  12,60:   336,50:         self.pushButton_example_3.setStyleSheet("color: rgb(90, 74, 138);")
+  13,60:   347,50:         self.pushButton_example_2.setStyleSheet("color: rgb(90, 74, 138);")
+  14,58:   397,48:         self.pushButton_example.setStyleSheet("color: rgb(90, 74, 138);")
+  15,60:   421,50:         self.pushButton_example_5.setStyleSheet("color: rgb(90, 74, 138);")
+  16,60:   432,50:         self.pushButton_example_6.setStyleSheet("color: rgb(90, 74, 138);")
+  17,60:   443,50:         self.pushButton_example_4.setStyleSheet("color: rgb(90, 74, 138);")
+  18,45:   465,35:         self.label.setStyleSheet("color: rgb(218, 0, 55);")
+  19,221:   576,210:         self.label_4.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-family:\'Raleway\',\'HelveticaNeue\',\'Helvetica Neue\',\'Helvetica\',\'Arial\',\'sans-serif\'; font-size:11pt; color:#222222;\">Sincerely,</span></p></body></html>"))
+  20,184:   585,173:         self.label_3.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">Send a </span><span style=\" font-size:12pt; font-weight:600; color:#008cff;\">Thank You</span><span style=\" font-size:12pt;\"> note to</span><br/><span style=\" font-size:10pt; font-weight:600;\">Joao Tapparo!</span></p></body></html>"))
+  23,23:   592,13: 	background-color: rgb(222, 49, 92);
+  24,22:   596,12:     border-color: black;
+  25,23:   601,13: 	background-color: rgb(218, 0, 55);
+  26,23:   637,13: 	background-color: rgb(61, 69, 79);
+  27,22:   641,12:     border-color: black;
+  28,23:   646,13: 	background-color: rgb(138, 147, 158);
+  29,212:   691,201:                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Raleway','HelveticaNeue','Helvetica Neue','Helvetica','Arial','sans-serif'; font-size:11pt; color:#222222;&quot;&gt;Sincerely,&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  30,23:   718,13: 	background-color: rgb(0, 145, 136);
+  31,11:   719,2: 	color: rgb(255, 255, 255);
+  32,22:   723,12:     border-color: black;
+  33,23:   728,13: 	background-color: rgb(0, 145, 136);
+  34,207:   775,196:                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Send a &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#008cff;&quot;&gt;Thank You&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; note to&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Joao Tapparo!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  35,52:   863,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  36,52:   884,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  37,53:   1007,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  38,53:   1062,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  39,53:   1083,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  40,53:   1104,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
+  41,51:   1165,40:                    <string notr="true">color: rgb(218, 0, 55);</string>
+  44,31:   22,22: date = '<span style="color:#ff002b;">%m/%d/%Y</span> <span style="color:#0800ff;">%I:%M:%S</span> %p'
+  44,76:   22,22: date = '<span style="color:#ff002b;">%m/%d/%Y</span> <span style="color:#0800ff;">%I:%M:%S</span> %p'
+  45,31:   22,67: date = '<span style="color:#ff002b;">%m/%d/%Y</span> <span style="color:#0800ff;">%I:%M:%S</span> %p'
+  45,76:   22,67: date = '<span style="color:#ff002b;">%m/%d/%Y</span> <span style="color:#0800ff;">%I:%M:%S</span> %p'
+  46,89:   31,80:         logging.DEBUG: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#d4659d;">[ %(levelname)s ]</span>  %(message)s',
+  47,88:   32,79:         logging.INFO: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#ff0055;">[ %(levelname)s ]</span>  %(message)s',
+  48,91:   33,82:         logging.WARNING: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#fd6152;">[ %(levelname)s ]</span>  %(message)s',
+  49,89:   34,80:         logging.ERROR: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#ff0000;">[ %(levelname)s ]</span>  %(message)s',
+  50,92:   35,83:         logging.CRITICAL: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#00ffbb;">[ %(levelname)s ]</span>  %(message)s'
+  51,57:   125,47:         self.debug.setStyleSheet(u"background-color: rgb(58, 64, 76);\n"
+  52,44:   126,34:                                 "color: rgb(20, 204, 204);\n"
+  53,23:   179,13:             color: black;
+  54,23:   183,13:             color: red;
+  55,57:   239,47:         self.msgBox.setStyleSheet("background-color: rgb(88, 105, 110);")
+  58,63:   1138,52:             self.ui.label_stabality.setStyleSheet("color: rgb(255,0,0);")
+  59,33:   1219,22:                     "color: rgb(149, 0, 255);")
+  60,67:   1223,56:                 self.ui.label_stabality.setStyleSheet("color: rgb(255,0,0);")
+  63,24:   167,14: "	background-color: rgb(222, 49, 92);\n"
+  64,23:   171,13: "    border-color: black;\n"
+  65,24:   176,14: "	background-color: rgb(218, 0, 55);\n"
+  66,24:   190,14: "	background-color: rgb(61, 69, 79);\n"
+  67,23:   194,13: "    border-color: black;\n"
+  68,24:   199,14: "	background-color: rgb(138, 147, 158);\n"
+  69,24:   235,14: "	background-color: rgb(222, 40, 92);\n"
+  70,12:   236,3: "	color: rgb(255, 255, 255);\n"
+  71,23:   240,13: "    border-color: black;\n"
+  72,24:   245,14: "	background-color: rgb(218, 0, 50);\n"
+  73,46:   293,36:         self.label.setStyleSheet(u"color: rgb(85, 85, 255);")
+  76,24:   110,14: "	background-color: rgb(82, 217, 214);\n"
+  77,23:   114,13: "    border-color: black;\n"
+  78,24:   119,14: "	background-color: rgb(15, 255, 250);\n"
+  79,24:   135,14: "	background-color: rgb(222, 49, 92);\n"
+  80,23:   139,13: "    border-color: black;\n"
+  81,24:   144,14: "	background-color: rgb(218, 0, 55);\n"
+  82,24:   161,14: "	background-color: rgb(222, 49, 92);\n"
+  83,23:   165,13: "    border-color: black;\n"
+  84,24:   170,14: "	background-color: rgb(218, 0, 55);\n"
+  85,24:   192,14: "	background-color: rgb(82, 217, 214);\n"
+  86,23:   196,13: "    border-color: black;\n"
+  87,24:   201,14: "	background-color: rgb(15, 255, 250);\n"
+  88,24:   221,14: "	background-color: rgb(82, 217, 214);\n"
+  89,23:   225,13: "    border-color: black;\n"
+  90,24:   230,14: "	background-color: rgb(15, 255, 250);\n"
+  91,24:   246,14: "	background-color: rgb(222, 49, 92);\n"
+  92,23:   250,13: "    border-color: black;\n"
+  93,24:   255,14: "	background-color: rgb(218, 0, 55);\n"
+  94,24:   274,14: "	background-color: rgb(222, 49, 92);\n"
+  95,23:   278,13: "    border-color: black;\n"
+  96,24:   283,14: "	background-color: rgb(218, 0, 55);\n"
+  97,24:   306,14: "	background-color: rgb(222, 49, 92);\n"
+  98,23:   310,13: "    border-color: black;\n"
+  99,24:   315,14: "	background-color: rgb(218, 0, 55);\n"
+  100,24:   402,14: "	background-color: rgb(250, 80, 80);\n"
+  101,23:   406,13: "    border-color: black;\n"
+  102,24:   412,14: "	background-color: rgb(250, 30, 56);\n"
+  103,24:   480,14: "	background-color: rgb(250, 80, 80);\n"
+  104,23:   484,13: "    border-color: black;\n"
+  105,24:   490,14: "	background-color: rgb(250, 30, 56);\n"
+  106,24:   562,14: "	background-color: rgb(250, 80, 80);\n"
+  107,23:   566,13: "    border-color: black;\n"
+  108,24:   572,14: "	background-color: rgb(250, 30, 56);\n"
+  109,24:   647,14: "	background-color: rgb(250, 80, 80);\n"
+  110,23:   651,13: "    border-color: black;\n"
+  111,24:   657,14: "	background-color: rgb(250, 30, 56);\n"
+  112,24:   775,14: "	background-color: rgb(250, 80, 80);\n"
+  113,23:   779,13: "    border-color: black;\n"
+  114,24:   785,14: "	background-color: rgb(250, 30, 56);\n"
+  115,56:   843,46:         self.label_stabality.setStyleSheet(u"color: rgb(149, 0, 255);")
+  116,24:   879,14: "	background-color: rgb(250, 80, 80);\n"
+  117,23:   883,13: "    border-color: black;\n"
+  118,24:   889,14: "	background-color: rgb(250, 30, 56);\n"
+  119,24:   900,14: "	background-color: rgb(255, 101, 111);\n"
+  120,23:   904,13: "    border-color: black;\n"
+  121,24:   910,14: "	background-color: rgb(255, 38, 49);\n"
+  122,25:   1235,14: "	background-color: rgb(255, 101, 111);\n"
+  123,24:   1239,13: "    border-color: black;\n"
+  124,25:   1245,14: "	background-color: rgb(255, 38, 49);\n"
 
 /home/johnnyhall/Programming/trussify/main.py
-  136,36:         self.debug.setStyleSheet(u"background-color: rgb(58, 64, 76);\n"
-  252,36:         self.msgBox.setStyleSheet("background-color: rgb(88, 105, 110);")
+  22,22: date = '<span style="color:#ff002b;">%m/%d/%Y</span> <span style="color:#0800ff;">%I:%M:%S</span> %p'
+  22,67: date = '<span style="color:#ff002b;">%m/%d/%Y</span> <span style="color:#0800ff;">%I:%M:%S</span> %p'
+  31,80:         logging.DEBUG: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#d4659d;">[ %(levelname)s ]</span>  %(message)s',
+  32,79:         logging.INFO: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#ff0055;">[ %(levelname)s ]</span>  %(message)s',
+  33,82:         logging.WARNING: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#fd6152;">[ %(levelname)s ]</span>  %(message)s',
+  34,80:         logging.ERROR: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#ff0000;">[ %(levelname)s ]</span>  %(message)s',
+  35,83:         logging.CRITICAL: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#00ffbb;">[ %(levelname)s ]</span>  %(message)s'
+  125,47:         self.debug.setStyleSheet(u"background-color: rgb(58, 64, 76);\n"
+  126,34:                                 "color: rgb(20, 204, 204);\n"
+  179,13:             color: black;
+  183,13:             color: red;
+  231,25:                 f"<font color='red' size='5'>Something went wrong. Try again!</font>")
+  239,47:         self.msgBox.setStyleSheet("background-color: rgb(88, 105, 110);")
+  244,21:             f"<font color='red' size='4'>Version : {self.APP_VERSION} ({self.APP_UPDATE_TIME})</font>")
+  373,27:                 f"""<font color='red' size='5'>Do you want to close all  {index-1} opened <br>projects?</font>""")
+  405,31:                     f"""<font color='red' size='5'>Deseja salvar suas alterações <br>feitas em {self.ui.tabWidget.tabText(index)}?</font>""")
+
+/home/johnnyhall/Programming/trussify/supports.py
+  98,31: # ax.plot(t,s, marker=marker, color='k',markerfacecolor='#ff3300',markeredgecolor='#ff3300', markersize=50,alpha=0.8)
+  98,51: # ax.plot(t,s, marker=marker, color='k',markerfacecolor='#ff3300',markeredgecolor='#ff3300', markersize=50,alpha=0.8)
+  98,77: # ax.plot(t,s, marker=marker, color='k',markerfacecolor='#ff3300',markeredgecolor='#ff3300', markersize=50,alpha=0.8)
+
+/home/johnnyhall/Programming/trussify/truss.py
+  21,27: from reportlab.lib import colors
+  104,55:                 ('INNERGRID', (0, 0), (-1, -1), 0.25, colors.black),
+  105,50:                 ('LINEBELOW', (0, 0), (2, 0), 2, colors.black),
+  1138,52:             self.ui.label_stabality.setStyleSheet("color: rgb(255,0,0);")
+  1219,22:                     "color: rgb(149, 0, 255);")
+  1223,56:                 self.ui.label_stabality.setStyleSheet("color: rgb(255,0,0);")
+  1236,53:                                      "brightness of colors shows their relative strength.")
+  1288,24:                 "<font color='orange' size='10'>The truss is unstable, it <br>cannot be analyzed.</font>")
+  1294,24:                 "<font color='orange' size='10'>The truss is unstable, it <br>cannot be analyzed.</font>")
+  1516,35:                        s=200, edgecolors='k', zorder=9)
+  1536,70:                     ax.plot(v[0][0], v[0][1], marker=pinned_support, color='k',
+  1537,39:                             markerfacecolor='lightsteelblue', markersize=50)
+  1541,70:                     ax.plot(v[0][0], v[0][1], marker=roller_support, color='k',
+  1542,39:                             markerfacecolor='lightsteelblue', markersize=55)
+  1550,51:                 ax.plot(v[0], v[1], marker=arrow, color='r',
+  1558,63:                             ha=v[-1], va='center', zorder=20, color='r')
+  1598,52:                         c='whitesmoke', s=200, edgecolors='yellow', zorder=9)
+  1604,52:                         c='whitesmoke', s=200, edgecolors='k', zorder=30)
+  1611,38:                 ax2.plot(v[0], v[1], color='gray', alpha=0.5)
+  1613,38:                 ax2.plot(v[0], v[1], color='turquoise', zorder=15, linewidth=2)
+  1620,71:                     ax2.plot(v[0][0], v[0][1], marker=pinned_support, color='k',
+  1621,40:                              markerfacecolor='lightsteelblue', markersize=50)
+  1625,71:                     ax2.plot(v[0][0], v[0][1], marker=roller_support, color='k',
+  1626,40:                              markerfacecolor='lightsteelblue', markersize=55)
+  1633,52:                 ax2.plot(v[0], v[1], marker=arrow, color='r',
+  1641,64:                              ha=v[-1], va='center', zorder=20, color='r')
+  1664,40:                             s=200, edgecolors='k', zorder=9)
+  1672,44:                                 s=200, edgecolors='k', zorder=9)
+  1682,46:                         ax3.plot(v[0], v[1], color='crimson', alpha=self.factored_bar_force[abs(
+  1685,46:                         ax3.plot(v[0], v[1], color='dodgerblue', alpha=self.factored_bar_force[abs(
+  1688,46:                         ax3.plot(v[0], v[1], color='k', alpha=0.5, linewidth=2)
+  1709,71:                     ax3.plot(v[0][0], v[0][1], marker=pinned_support, color='k',
+  1710,40:                              markerfacecolor='lightsteelblue', markersize=50)
+  1714,71:                     ax3.plot(v[0][0], v[0][1], marker=roller_support, color='k',
+  1715,40:                              markerfacecolor='lightsteelblue', markersize=55)
+  1724,56:                     ax3.plot(v[0], v[1], marker=arrow, color='r',
+  1732,68:                                  ha=v[-1], va='center', zorder=20, color='r')
+  1742,30:                              color='red',  markersize=60, markeredgewidth=1.0)
+  1749,68:                                  ha=v[-1], va='center', zorder=30, color='red', size=10)
+  1771,33:                      s=200, edgecolors='k', zorder=9)
+  1796,68:                 ax_r.plot(v[0][0], v[0][1], marker=pinned_support, color='k',
+  1797,37:                           markerfacecolor='lightsteelblue', markersize=50)
+  1801,68:                 ax_r.plot(v[0][0], v[0][1], marker=roller_support, color='k',
+  1802,37:                           markerfacecolor='lightsteelblue', markersize=55)
+  1809,49:             ax_r.plot(v[0], v[1], marker=arrow, color='r',
+  1817,61:                           ha=v[-1], va='center', zorder=20, color='r')
+  2010,41:                              s=200, edgecolors='k', zorder=9)
+  2088,60:                 moving_load_x, influence_line, alpha=0.20, color='b')
 
 /home/johnnyhall/Programming/trussify/ui_main.py
-  167,3: "	background-color: rgb(222, 49, 92);\n"
-  176,3: "	background-color: rgb(218, 0, 55);\n"
-  190,3: "	background-color: rgb(61, 69, 79);\n"
-  199,3: "	background-color: rgb(138, 147, 158);\n"
-  235,3: "	background-color: rgb(58, 20, 89);\n"
-  245,3: "	background-color: rgb(100, 20, 32);\n"
+  167,14: "	background-color: rgb(222, 49, 92);\n"
+  171,13: "    border-color: black;\n"
+  176,14: "	background-color: rgb(218, 0, 55);\n"
+  190,14: "	background-color: rgb(61, 69, 79);\n"
+  194,13: "    border-color: black;\n"
+  199,14: "	background-color: rgb(138, 147, 158);\n"
+  235,14: "	background-color: rgb(222, 40, 92);\n"
+  236,3: "	color: rgb(255, 255, 255);\n"
+  240,13: "    border-color: black;\n"
+  245,14: "	background-color: rgb(218, 0, 50);\n"
+  293,36:         self.label.setStyleSheet(u"color: rgb(85, 85, 255);")
 
 /home/johnnyhall/Programming/trussify/ui_truss.py
-  110,3: "	background-color: rgb(82, 217, 214);\n"
-  119,3: "	background-color: rgb(15, 255, 250);\n"
-  135,3: "	background-color: rgb(222, 49, 92);\n"
-  144,3: "	background-color: rgb(218, 0, 55);\n"
-  161,3: "	background-color: rgb(222, 49, 92);\n"
-  170,3: "	background-color: rgb(218, 0, 55);\n"
-  192,3: "	background-color: rgb(82, 217, 214);\n"
-  201,3: "	background-color: rgb(15, 255, 250);\n"
-  221,3: "	background-color: rgb(82, 217, 214);\n"
-  230,3: "	background-color: rgb(15, 255, 250);\n"
-  246,3: "	background-color: rgb(222, 49, 92);\n"
-  255,3: "	background-color: rgb(218, 0, 55);\n"
-  274,3: "	background-color: rgb(222, 49, 92);\n"
-  283,3: "	background-color: rgb(218, 0, 55);\n"
-  306,3: "	background-color: rgb(222, 49, 92);\n"
-  315,3: "	background-color: rgb(218, 0, 55);\n"
-  402,3: "	background-color: rgb(250, 80, 80);\n"
-  412,3: "	background-color: rgb(250, 30, 56);\n"
-  480,3: "	background-color: rgb(250, 80, 80);\n"
-  490,3: "	background-color: rgb(250, 30, 56);\n"
-  562,3: "	background-color: rgb(250, 80, 80);\n"
-  572,3: "	background-color: rgb(250, 30, 56);\n"
-  647,3: "	background-color: rgb(250, 80, 80);\n"
-  657,3: "	background-color: rgb(250, 30, 56);\n"
-  775,3: "	background-color: rgb(250, 80, 80);\n"
-  785,3: "	background-color: rgb(250, 30, 56);\n"
-  879,3: "	background-color: rgb(250, 80, 80);\n"
-  889,3: "	background-color: rgb(250, 30, 56);\n"
-  900,3: "	background-color: rgb(255, 101, 111);\n"
-  910,3: "	background-color: rgb(255, 38, 49);\n"
-  1235,3: "	background-color: rgb(255, 101, 111);\n"
-  1245,3: "	background-color: rgb(255, 38, 49);\n"
-
-  logging.DEBUG: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#d4659d;">[ %(levelname)s ]</span>  %(message)s',
-  logging.INFO: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#31aa6e;">[ %(levelname)s ]</span>  %(message)s',
-  logging.WARNING: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#fd6152;">[ %(levelname)s ]</span>  %(message)s',
-  logging.ERROR: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#ff0000;">[ %(levelname)s ]</span>  %(message)s',
-  logging.CRITICAL: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#ffff00;">[ %(levelname)s ]</span>  %(message)s'
-
-  date = '<span style="color:#b19a66;">%m/%d/%Y</span> <span style="color:#56a187;">%I:%M:%S</span> %p'
-
-  self.debug.setStyleSheet(u"background-color: rgb(58, 64, 76);\n"
-                                 "color: rgb(20, 204, 204);\n"
-                                 "font-size:9.5pt")
+  110,14: "	background-color: rgb(82, 217, 214);\n"
+  114,13: "    border-color: black;\n"
+  119,14: "	background-color: rgb(15, 255, 250);\n"
+  135,14: "	background-color: rgb(222, 49, 92);\n"
+  139,13: "    border-color: black;\n"
+  144,14: "	background-color: rgb(218, 0, 55);\n"
+  161,14: "	background-color: rgb(222, 49, 92);\n"
+  165,13: "    border-color: black;\n"
+  170,14: "	background-color: rgb(218, 0, 55);\n"
+  192,14: "	background-color: rgb(82, 217, 214);\n"
+  196,13: "    border-color: black;\n"
+  201,14: "	background-color: rgb(15, 255, 250);\n"
+  221,14: "	background-color: rgb(82, 217, 214);\n"
+  225,13: "    border-color: black;\n"
+  230,14: "	background-color: rgb(15, 255, 250);\n"
+  246,14: "	background-color: rgb(222, 49, 92);\n"
+  250,13: "    border-color: black;\n"
+  255,14: "	background-color: rgb(218, 0, 55);\n"
+  274,14: "	background-color: rgb(222, 49, 92);\n"
+  278,13: "    border-color: black;\n"
+  283,14: "	background-color: rgb(218, 0, 55);\n"
+  306,14: "	background-color: rgb(222, 49, 92);\n"
+  310,13: "    border-color: black;\n"
+  315,14: "	background-color: rgb(218, 0, 55);\n"
+  402,14: "	background-color: rgb(250, 80, 80);\n"
+  406,13: "    border-color: black;\n"
+  412,14: "	background-color: rgb(250, 30, 56);\n"
+  480,14: "	background-color: rgb(250, 80, 80);\n"
+  484,13: "    border-color: black;\n"
+  490,14: "	background-color: rgb(250, 30, 56);\n"
+  562,14: "	background-color: rgb(250, 80, 80);\n"
+  566,13: "    border-color: black;\n"
+  572,14: "	background-color: rgb(250, 30, 56);\n"
+  647,14: "	background-color: rgb(250, 80, 80);\n"
+  651,13: "    border-color: black;\n"
+  657,14: "	background-color: rgb(250, 30, 56);\n"
+  775,14: "	background-color: rgb(250, 80, 80);\n"
+  779,13: "    border-color: black;\n"
+  785,14: "	background-color: rgb(250, 30, 56);\n"
+  843,46:         self.label_stabality.setStyleSheet(u"color: rgb(149, 0, 255);")
+  879,14: "	background-color: rgb(250, 80, 80);\n"
+  883,13: "    border-color: black;\n"
+  889,14: "	background-color: rgb(250, 30, 56);\n"
+  900,14: "	background-color: rgb(255, 101, 111);\n"
+  904,13: "    border-color: black;\n"
+  910,14: "	background-color: rgb(255, 38, 49);\n"
+  1235,14: "	background-color: rgb(255, 101, 111);\n"
+  1239,13: "    border-color: black;\n"
+  1245,14: "	background-color: rgb(255, 38, 49);\n"
+  1459,16: "brightness of colors shows their relative strength.", None))

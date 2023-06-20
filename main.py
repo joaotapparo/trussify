@@ -26,16 +26,13 @@ user = getpass.getuser()
 
 
 class CustomFormatter(logging.Formatter):
-    """
-    Logging Formatter to add colors and count warning / errors
-    """
 
     FORMATS = {
         logging.DEBUG: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#d4659d;">[ %(levelname)s ]</span>  %(message)s',
-        logging.INFO: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#31aa6e;">[ %(levelname)s ]</span>  %(message)s',
+        logging.INFO: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#ff0055;">[ %(levelname)s ]</span>  %(message)s',
         logging.WARNING: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#fd6152;">[ %(levelname)s ]</span>  %(message)s',
         logging.ERROR: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#ff0000;">[ %(levelname)s ]</span>  %(message)s',
-        logging.CRITICAL: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#ffff00;">[ %(levelname)s ]</span>  %(message)s'
+        logging.CRITICAL: '[%(asctime)s] [ %(filename)s:%(lineno)d ] <span style="color:#00ffbb;">[ %(levelname)s ]</span>  %(message)s'
     }
 
     def format(self, record):
@@ -45,10 +42,6 @@ class CustomFormatter(logging.Formatter):
 
 
 class QTextEditLogger(logging.Handler):
-    """
-    Custom python logging handler to show log in
-    a QPlainTextEdit
-    """
 
     def __init__(self, parent):
         super().__init__()
@@ -74,7 +67,6 @@ class QTextEditLogger(logging.Handler):
 
 
 class AnotherWindow(QWidget):
-    """Show Python logging in debug window"""
 
     def __init__(self):
         super().__init__()
@@ -188,7 +180,7 @@ class MainWindow(QMainWindow):
         }
         QTabBar::tab::selected {
             font: 63 9pt "Segoe UI Semibold";
-            color: steelblue;
+            color: red;
         }
         """)
 
@@ -236,7 +228,7 @@ class MainWindow(QMainWindow):
             msgBox.setWindowTitle("trussify")
             msgBox.setIcon(QMessageBox.Warning)
             msgBox.setText(
-                f"<font color='steelblue' size='5'>Something went wrong. Try again!</font>")
+                f"<font color='red' size='5'>Something went wrong. Try again!</font>")
             msgBox.setInformativeText('Check your internet connections.')
             msgBox.exec_()
 
@@ -249,7 +241,7 @@ class MainWindow(QMainWindow):
         icon = QIcon(os.path.join(self.current_directory, 'logo@4x.png'))
         self.msgBox.setIconPixmap(icon.pixmap(96, 96))
         self.msgBox.setText(
-            f"<font color='steelblue' size='4'>Version : {self.APP_VERSION} ({self.APP_UPDATE_TIME})</font>")
+            f"<font color='red' size='4'>Version : {self.APP_VERSION} ({self.APP_UPDATE_TIME})</font>")
 
         self.msgBox.setInformativeText("""puc campinas</a><br>""")
         self.msgBox.setWindowTitle("Sobre Trussify")
@@ -378,7 +370,7 @@ class MainWindow(QMainWindow):
                 Qt.Dialog | Qt.CustomizeWindowHint | Qt.WindowTitleHint | Qt.WindowCloseButtonHint)
             self.msgBox.setIcon(QMessageBox.Warning)
             self.msgBox.setText(
-                f"""<font color='steelblue' size='5'>Do you want to close all  {index-1} opened <br>projects?</font>""")
+                f"""<font color='red' size='5'>Do you want to close all  {index-1} opened <br>projects?</font>""")
             self.msgBox.setInformativeText(
                 "Your changes will be lost if you don't save them.")
             self.msgBox.setWindowTitle("trussify")
@@ -410,7 +402,7 @@ class MainWindow(QMainWindow):
                     Qt.Dialog | Qt.CustomizeWindowHint | Qt.WindowTitleHint | Qt.WindowCloseButtonHint)
                 self.msgBox.setIcon(QMessageBox.Warning)
                 self.msgBox.setText(
-                    f"""<font color='steelblue' size='5'>Deseja salvar suas alterações <br>feitas em {self.ui.tabWidget.tabText(index)}?</font>""")
+                    f"""<font color='red' size='5'>Deseja salvar suas alterações <br>feitas em {self.ui.tabWidget.tabText(index)}?</font>""")
                 self.msgBox.setInformativeText(
                     "Você perdera suas alterações caso não as salve.")
                 self.msgBox.setWindowTitle("trussify")

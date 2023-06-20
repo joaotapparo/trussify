@@ -111,7 +111,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 10em;\n"
 "}\n"
@@ -136,7 +136,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 10em;\n"
 "}\n"
@@ -162,7 +162,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 10em;\n"
 "}\n"
@@ -193,7 +193,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 10em;\n"
 "}\n"
@@ -222,7 +222,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 10em;\n"
 "}\n"
@@ -247,7 +247,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 10em;\n"
 "}\n"
@@ -275,7 +275,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 10em;\n"
 "}\n"
@@ -307,7 +307,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 10em;\n"
 "}\n"
@@ -379,7 +379,7 @@ class Ui_WizardPage(object):
         self.tableWidget_nodes.setHorizontalHeaderItem(0, __qtablewidgetitem)
         __qtablewidgetitem1 = QTableWidgetItem()
         __qtablewidgetitem1.setTextAlignment(Qt.AlignCenter);
-        __qtablewidgetitem1.setBackground(QColor(255, 85, 0));
+        __qtablewidgetitem1.setBackground(QColor(149, 0, 255));
         self.tableWidget_nodes.setHorizontalHeaderItem(1, __qtablewidgetitem1)
         if (self.tableWidget_nodes.rowCount() < 2):
             self.tableWidget_nodes.setRowCount(2)
@@ -403,7 +403,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 1em;\n"
 "    padding: 1px;\n"
@@ -481,7 +481,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 1em;\n"
 "    padding: 1px;\n"
@@ -501,7 +501,7 @@ class Ui_WizardPage(object):
         __qtablewidgetitem4.setBackground(QColor(85, 255, 127));
         self.tableWidget_members.setHorizontalHeaderItem(0, __qtablewidgetitem4)
         __qtablewidgetitem5 = QTableWidgetItem()
-        __qtablewidgetitem5.setBackground(QColor(255, 85, 0));
+        __qtablewidgetitem5.setBackground(QColor(149, 0, 255));
         self.tableWidget_members.setHorizontalHeaderItem(1, __qtablewidgetitem5)
         if (self.tableWidget_members.rowCount() < 1):
             self.tableWidget_members.setRowCount(1)
@@ -563,7 +563,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 1em;\n"
 "    padding: 1px;\n"
@@ -583,7 +583,7 @@ class Ui_WizardPage(object):
         __qtablewidgetitem9.setBackground(QColor(85, 255, 127));
         self.tableWidget_supports.setHorizontalHeaderItem(0, __qtablewidgetitem9)
         __qtablewidgetitem10 = QTableWidgetItem()
-        __qtablewidgetitem10.setBackground(QColor(255, 85, 0));
+        __qtablewidgetitem10.setBackground(QColor(149, 0, 255));
         self.tableWidget_supports.setHorizontalHeaderItem(1, __qtablewidgetitem10)
         if (self.tableWidget_supports.rowCount() < 2):
             self.tableWidget_supports.setRowCount(2)
@@ -648,7 +648,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 1em;\n"
 "    padding: 1px;\n"
@@ -668,7 +668,7 @@ class Ui_WizardPage(object):
         __qtablewidgetitem15.setBackground(QColor(85, 255, 127));
         self.tableWidget_loads.setHorizontalHeaderItem(0, __qtablewidgetitem15)
         __qtablewidgetitem16 = QTableWidgetItem()
-        __qtablewidgetitem16.setBackground(QColor(255, 85, 0));
+        __qtablewidgetitem16.setBackground(QColor(149, 0, 255));
         self.tableWidget_loads.setHorizontalHeaderItem(1, __qtablewidgetitem16)
         __qtablewidgetitem17 = QTableWidgetItem()
         __qtablewidgetitem17.setBackground(QColor(85, 170, 255));
@@ -740,7 +740,7 @@ class Ui_WizardPage(object):
         __qtablewidgetitem20.setBackground(QColor(85, 255, 127));
         self.tableWidget_property.setHorizontalHeaderItem(0, __qtablewidgetitem20)
         __qtablewidgetitem21 = QTableWidgetItem()
-        __qtablewidgetitem21.setBackground(QColor(255, 85, 0));
+        __qtablewidgetitem21.setBackground(QColor(149, 0, 255));
         self.tableWidget_property.setHorizontalHeaderItem(1, __qtablewidgetitem21)
         if (self.tableWidget_property.rowCount() < 1):
             self.tableWidget_property.setRowCount(1)
@@ -776,7 +776,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 1em;\n"
 "    padding: 1px;\n"
@@ -840,7 +840,7 @@ class Ui_WizardPage(object):
         self.label_stabality.setMinimumSize(QSize(100, 20))
         self.label_stabality.setMaximumSize(QSize(61625, 20))
         self.label_stabality.setFont(font3)
-        self.label_stabality.setStyleSheet(u"color: rgb(255, 85, 0);")
+        self.label_stabality.setStyleSheet(u"color: rgb(149, 0, 255);")
         self.label_stabality.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
 
         self.gridLayout_8.addWidget(self.label_stabality, 0, 4, 1, 1)
@@ -880,7 +880,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 1em;\n"
 "    padding: 7px;\n"
@@ -901,7 +901,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 1em;\n"
 "    padding: 7px;\n"
@@ -952,7 +952,7 @@ class Ui_WizardPage(object):
         __qtablewidgetitem25.setBackground(QColor(85, 255, 127));
         self.tableWidget_displacement.setHorizontalHeaderItem(0, __qtablewidgetitem25)
         __qtablewidgetitem26 = QTableWidgetItem()
-        __qtablewidgetitem26.setBackground(QColor(255, 85, 0));
+        __qtablewidgetitem26.setBackground(QColor(149, 0, 255));
         self.tableWidget_displacement.setHorizontalHeaderItem(1, __qtablewidgetitem26)
         __qtablewidgetitem27 = QTableWidgetItem()
         __qtablewidgetitem27.setBackground(QColor(85, 170, 255));
@@ -1236,7 +1236,7 @@ class Ui_WizardPage(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 1em;\n"
 "    padding: 7px;\n"

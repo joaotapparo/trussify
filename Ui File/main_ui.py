@@ -213,7 +213,7 @@ class Ui_MainWindow(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 10em;\n"
 "}\n"
@@ -235,7 +235,7 @@ class Ui_MainWindow(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 10em;\n"
 "}\n"
@@ -272,7 +272,7 @@ class Ui_MainWindow(object):
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
-"    border-color: beige;\n"
+"    border-color: black;\n"
 "    font: bold 14px;\n"
 "    min-width: 10em;\n"
 "}\n"
@@ -333,7 +333,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.pushButton_example_3.setFont(font)
         self.pushButton_example_3.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.pushButton_example_3.setStyleSheet("color: rgb(191, 165, 167);")
+        self.pushButton_example_3.setStyleSheet("color: rgb(90, 74, 138);")
         self.pushButton_example_3.setObjectName("pushButton_example_3")
         self.gridLayout.addWidget(self.pushButton_example_3, 1, 2, 1, 1)
         self.pushButton_example_2 = QtWidgets.QPushButton(self.page_intro)
@@ -344,7 +344,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.pushButton_example_2.setFont(font)
         self.pushButton_example_2.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.pushButton_example_2.setStyleSheet("color: rgb(191, 165, 167);")
+        self.pushButton_example_2.setStyleSheet("color: rgb(90, 74, 138);")
         self.pushButton_example_2.setObjectName("pushButton_example_2")
         self.gridLayout.addWidget(self.pushButton_example_2, 1, 1, 1, 1)
         self.photo_example_4 = QtWidgets.QPushButton(self.page_intro)
@@ -394,7 +394,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.pushButton_example.setFont(font)
         self.pushButton_example.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.pushButton_example.setStyleSheet("color: rgb(191, 165, 167);")
+        self.pushButton_example.setStyleSheet("color: rgb(90, 74, 138);")
         self.pushButton_example.setObjectName("pushButton_example")
         self.gridLayout.addWidget(self.pushButton_example, 1, 0, 1, 1)
         self.photo_example_6 = QtWidgets.QPushButton(self.page_intro)
@@ -418,7 +418,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.pushButton_example_5.setFont(font)
         self.pushButton_example_5.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.pushButton_example_5.setStyleSheet("color: rgb(191, 165, 167);")
+        self.pushButton_example_5.setStyleSheet("color: rgb(90, 74, 138);")
         self.pushButton_example_5.setObjectName("pushButton_example_5")
         self.gridLayout.addWidget(self.pushButton_example_5, 3, 1, 1, 1)
         self.pushButton_example_6 = QtWidgets.QPushButton(self.page_intro)
@@ -429,7 +429,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.pushButton_example_6.setFont(font)
         self.pushButton_example_6.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.pushButton_example_6.setStyleSheet("color: rgb(191, 165, 167);")
+        self.pushButton_example_6.setStyleSheet("color: rgb(90, 74, 138);")
         self.pushButton_example_6.setObjectName("pushButton_example_6")
         self.gridLayout.addWidget(self.pushButton_example_6, 3, 2, 1, 1)
         self.pushButton_example_4 = QtWidgets.QPushButton(self.page_intro)
@@ -440,7 +440,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.pushButton_example_4.setFont(font)
         self.pushButton_example_4.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.pushButton_example_4.setStyleSheet("color: rgb(191, 165, 167);")
+        self.pushButton_example_4.setStyleSheet("color: rgb(90, 74, 138);")
         self.pushButton_example_4.setObjectName("pushButton_example_4")
         self.gridLayout.addWidget(self.pushButton_example_4, 3, 0, 1, 1)
         self.gridLayout_4.addLayout(self.gridLayout, 0, 1, 9, 1)
@@ -582,7 +582,7 @@ class Ui_MainWindow(object):
 "something goes wrong, you can send debug logs\n"
 "to me right here by just copy-paste. You will find\n"
 "debug window in the settings tab."))
-        self.label_3.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">Send a </span><span style=\" font-size:12pt; font-weight:600; color:#3ac025;\">Thank You</span><span style=\" font-size:12pt;\"> note to</span><br/><span style=\" font-size:10pt; font-weight:600;\">Joao Tapparo!</span></p></body></html>"))
+        self.label_3.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">Send a </span><span style=\" font-size:12pt; font-weight:600; color:#008cff;\">Thank You</span><span style=\" font-size:12pt;\"> note to</span><br/><span style=\" font-size:10pt; font-weight:600;\">Joao Tapparo!</span></p></body></html>"))
         self.photo_example.setToolTip(_translate("MainWindow", "Example 1"))
         self.photo_example_3.setToolTip(_translate("MainWindow", "Example 3"))
         self.pushButton_example_3.setText(_translate("MainWindow", "Example 3"))
