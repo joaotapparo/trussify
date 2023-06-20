@@ -1328,7 +1328,7 @@ class Ui_WizardPage(object):
         self.pushbutton_loads.setText(QCoreApplication.translate("WizardPage", u"\n"
 " Cargas\n"
 "", None))
-        self.label_8.setText(QCoreApplication.translate("WizardPage", u"Nodes : ", None))
+        self.label_8.setText(QCoreApplication.translate("WizardPage", u"Nós : ", None))
         self.label_unit_node.setText(QCoreApplication.translate("WizardPage", u"* Unit of x and y : foot (ft)", None))
         ___qtablewidgetitem = self.tableWidget_nodes.horizontalHeaderItem(0)
         ___qtablewidgetitem.setText(QCoreApplication.translate("WizardPage", u"X", None));
@@ -1338,17 +1338,17 @@ class Ui_WizardPage(object):
         ___qtablewidgetitem2.setText(QCoreApplication.translate("WizardPage", u"1", None));
         ___qtablewidgetitem3 = self.tableWidget_nodes.verticalHeaderItem(1)
         ___qtablewidgetitem3.setText(QCoreApplication.translate("WizardPage", u"2", None));
-        self.update_nodes.setText(QCoreApplication.translate("WizardPage", u"Update", None))
-        self.label_7.setText(QCoreApplication.translate("WizardPage", u"Truss Nodes", None))
-        self.label_3.setText(QCoreApplication.translate("WizardPage", u"Truss Members", None))
-        self.label_4.setText(QCoreApplication.translate("WizardPage", u"Members : ", None))
-        self.update_members.setText(QCoreApplication.translate("WizardPage", u"Update", None))
+        self.update_nodes.setText(QCoreApplication.translate("WizardPage", u"Atualizar", None))
+        self.label_7.setText(QCoreApplication.translate("WizardPage", u" ", None))
+        self.label_3.setText(QCoreApplication.translate("WizardPage", u" ", None))
+        self.label_4.setText(QCoreApplication.translate("WizardPage", u"Membros : ", None))
+        self.update_members.setText(QCoreApplication.translate("WizardPage", u"Atualizar", None))
         ___qtablewidgetitem4 = self.tableWidget_members.horizontalHeaderItem(0)
-        ___qtablewidgetitem4.setText(QCoreApplication.translate("WizardPage", u"From \n"
-"Node", None));
+        ___qtablewidgetitem4.setText(QCoreApplication.translate("WizardPage", u"Do \n"
+"Nó", None));
         ___qtablewidgetitem5 = self.tableWidget_members.horizontalHeaderItem(1)
-        ___qtablewidgetitem5.setText(QCoreApplication.translate("WizardPage", u"To \n"
-"Node", None));
+        ___qtablewidgetitem5.setText(QCoreApplication.translate("WizardPage", u"Ao \n"
+"Nó", None));
         ___qtablewidgetitem6 = self.tableWidget_members.verticalHeaderItem(0)
         ___qtablewidgetitem6.setText(QCoreApplication.translate("WizardPage", u"1", None));
 
@@ -1356,13 +1356,13 @@ class Ui_WizardPage(object):
         self.tableWidget_members.setSortingEnabled(False)
         self.tableWidget_members.setSortingEnabled(__sortingEnabled)
 
-        self.label_5.setText(QCoreApplication.translate("WizardPage", u"Truss Supports", None))
-        self.label_6.setText(QCoreApplication.translate("WizardPage", u"Supports : ", None))
-        self.update_supports.setText(QCoreApplication.translate("WizardPage", u"Update", None))
+        self.label_5.setText(QCoreApplication.translate("WizardPage", u" ", None))
+        self.label_6.setText(QCoreApplication.translate("WizardPage", u"Suportes : ", None))
+        self.update_supports.setText(QCoreApplication.translate("WizardPage", u"Atualizar", None))
         ___qtablewidgetitem7 = self.tableWidget_supports.horizontalHeaderItem(0)
-        ___qtablewidgetitem7.setText(QCoreApplication.translate("WizardPage", u"Node", None));
+        ___qtablewidgetitem7.setText(QCoreApplication.translate("WizardPage", u"Nós", None));
         ___qtablewidgetitem8 = self.tableWidget_supports.horizontalHeaderItem(1)
-        ___qtablewidgetitem8.setText(QCoreApplication.translate("WizardPage", u"Type", None));
+        ___qtablewidgetitem8.setText(QCoreApplication.translate("WizardPage", u"Tipo de nó", None));
         ___qtablewidgetitem9 = self.tableWidget_supports.verticalHeaderItem(0)
         ___qtablewidgetitem9.setText(QCoreApplication.translate("WizardPage", u"1", None));
         ___qtablewidgetitem10 = self.tableWidget_supports.verticalHeaderItem(1)
@@ -1376,15 +1376,15 @@ class Ui_WizardPage(object):
         ___qtablewidgetitem12.setText(QCoreApplication.translate("WizardPage", u"2", None));
         self.tableWidget_supports.setSortingEnabled(__sortingEnabled1)
 
-        self.label_9.setText(QCoreApplication.translate("WizardPage", u"Truss Loads", None))
-        self.label_10.setText(QCoreApplication.translate("WizardPage", u"Loads : ", None))
-        self.update_loads.setText(QCoreApplication.translate("WizardPage", u"Update", None))
+        self.label_9.setText(QCoreApplication.translate("WizardPage", u" ", None))
+        self.label_10.setText(QCoreApplication.translate("WizardPage", u"Carregamentos : ", None))
+        self.update_loads.setText(QCoreApplication.translate("WizardPage", u"Atualizar", None))
         ___qtablewidgetitem13 = self.tableWidget_loads.horizontalHeaderItem(0)
-        ___qtablewidgetitem13.setText(QCoreApplication.translate("WizardPage", u"Node", None));
+        ___qtablewidgetitem13.setText(QCoreApplication.translate("WizardPage", u"Nós", None));
         ___qtablewidgetitem14 = self.tableWidget_loads.horizontalHeaderItem(1)
         ___qtablewidgetitem14.setText(QCoreApplication.translate("WizardPage", u"Magnitude", None));
         ___qtablewidgetitem15 = self.tableWidget_loads.horizontalHeaderItem(2)
-        ___qtablewidgetitem15.setText(QCoreApplication.translate("WizardPage", u"Angle", None));
+        ___qtablewidgetitem15.setText(QCoreApplication.translate("WizardPage", u"Angulo", None));
         ___qtablewidgetitem16 = self.tableWidget_loads.verticalHeaderItem(0)
         ___qtablewidgetitem16.setText(QCoreApplication.translate("WizardPage", u"1", None));
 
@@ -1414,7 +1414,7 @@ class Ui_WizardPage(object):
         self.tableWidget_property.setSortingEnabled(__sortingEnabled3)
 
         self.label_unit_property.setText(QCoreApplication.translate("WizardPage", u"* Unit of E : kip per inch squared (ksi)", None))
-        self.update_property.setText(QCoreApplication.translate("WizardPage", u"Update", None))
+        self.update_property.setText(QCoreApplication.translate("WizardPage", u"Atualizar", None))
         self.label_2.setText(QCoreApplication.translate("WizardPage", u"If the number of properties is greater than 1 \n"
 "use members page to specify the properties \n"
 "for each truss member. In case you don't \n"
