@@ -1447,26 +1447,26 @@ class Ui_WizardPage(object):
         self.tableWidget_displacement.setSortingEnabled(False)
         self.tableWidget_displacement.setSortingEnabled(__sortingEnabled4)
 
-        self.label_unit_displacement.setText(QCoreApplication.translate("WizardPage", u"* Unit of displacement : inch (in)", None))
-        self.label_18.setText(QCoreApplication.translate("WizardPage", u"Member Forces and Support Reactions", None))
-        self.checkBox_nodes.setText(QCoreApplication.translate("WizardPage", u"Nodes", None))
-        self.checkBox_members.setText(QCoreApplication.translate("WizardPage", u"Members", None))
-        self.checkBox_forces.setText(QCoreApplication.translate("WizardPage", u"Forces", None))
-        self.checkBox_loads.setText(QCoreApplication.translate("WizardPage", u"Loads", None))
-        self.checkBox_reactions.setText(QCoreApplication.translate("WizardPage", u"Reactions", None))
-        self.label_17.setText(QCoreApplication.translate("WizardPage", u"Member tension(T) and compression(C) are shown \n"
-"in the graph as well as support reactions. The \n"
-"brightness of colors shows their relative strength.", None))
-        self.radioButton_force.setText(QCoreApplication.translate("WizardPage", u"Force", None))
-        self.radioButton_stress.setText(QCoreApplication.translate("WizardPage", u"Stress", None))
+        self.label_unit_displacement.setText(QCoreApplication.translate("WizardPage", u"* Unidade de deslocamento: polegada (in)", None))
+        self.label_18.setText(QCoreApplication.translate("WizardPage", u"Forças nos membros e Reações de apoio", None))
+        self.checkBox_nodes.setText(QCoreApplication.translate("WizardPage", u"Nós", None))
+        self.checkBox_members.setText(QCoreApplication.translate("WizardPage", u"Membros", None))
+        self.checkBox_forces.setText(QCoreApplication.translate("WizardPage", u"Forças", None))
+        self.checkBox_loads.setText(QCoreApplication.translate("WizardPage", u"Cargas", None))
+        self.checkBox_reactions.setText(QCoreApplication.translate("WizardPage", u"Reações", None))
+        self.label_17.setText(QCoreApplication.translate("WizardPage", u"Tensão (T) e compressão (C) nos membros são mostradas\n"
+        "no gráfico, assim como as reações de apoio. A\n"
+        "intensidade das cores mostra sua força relativa.", None))
+        self.radioButton_force.setText(QCoreApplication.translate("WizardPage", u"Força", None))
+        self.radioButton_stress.setText(QCoreApplication.translate("WizardPage", u"Tensão", None))
         ___qtablewidgetitem26 = self.tableWidget_result.horizontalHeaderItem(0)
-        ___qtablewidgetitem26.setText(QCoreApplication.translate("WizardPage", u"Member", None));
+        ___qtablewidgetitem26.setText(QCoreApplication.translate("WizardPage", u"Membro", None));
         ___qtablewidgetitem27 = self.tableWidget_result.horizontalHeaderItem(1)
-        ___qtablewidgetitem27.setText(QCoreApplication.translate("WizardPage", u"Node", None));
+        ___qtablewidgetitem27.setText(QCoreApplication.translate("WizardPage", u"Nó", None));
         ___qtablewidgetitem28 = self.tableWidget_result.horizontalHeaderItem(2)
-        ___qtablewidgetitem28.setText(QCoreApplication.translate("WizardPage", u"Force", None));
+        ___qtablewidgetitem28.setText(QCoreApplication.translate("WizardPage", u"Força", None));
         ___qtablewidgetitem29 = self.tableWidget_result.horizontalHeaderItem(3)
-        ___qtablewidgetitem29.setText(QCoreApplication.translate("WizardPage", u"Direction", None));
+        ___qtablewidgetitem29.setText(QCoreApplication.translate("WizardPage", u"Direção", None));
         ___qtablewidgetitem30 = self.tableWidget_result.verticalHeaderItem(0)
         ___qtablewidgetitem30.setText(QCoreApplication.translate("WizardPage", u"1", None));
 
@@ -1474,11 +1474,12 @@ class Ui_WizardPage(object):
         self.tableWidget_result.setSortingEnabled(False)
         self.tableWidget_result.setSortingEnabled(__sortingEnabled5)
 
-        self.label_unit_stress.setText(QCoreApplication.translate("WizardPage", u"* Unit of force: kip (k)", None))
-        self.label_25.setText(QCoreApplication.translate("WizardPage", u"Influence Line for a Unit Load", None))
-        self.label_26.setText(QCoreApplication.translate("WizardPage", u"Member : ", None))
-        self.label_24.setText(QCoreApplication.translate("WizardPage", u"Moving load only in a straight line is \n"
-"currently supported.", None))
+        self.label_unit_stress.setText(QCoreApplication.translate("WizardPage", u"* Unidade de força: kip (k)", None))
+        self.label_25.setText(QCoreApplication.translate("WizardPage", u"Linha de influência para uma Carga Unitária", None))
+        self.label_26.setText(QCoreApplication.translate("WizardPage", u"Membro: ", None))
+        self.label_24.setText(QCoreApplication.translate("WizardPage", u"Apenas carga móvel em linha reta é\n"
+        "suportada atualmente.", None))
+
         self.label_27.setText(QCoreApplication.translate("WizardPage", u"Starting \n"
 "Node", None))
         self.label_28.setText(QCoreApplication.translate("WizardPage", u"Ending \n"

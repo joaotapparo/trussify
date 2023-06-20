@@ -497,23 +497,24 @@ class MainWindow(QMainWindow):
         self.window_list[self.ui.tabWidget.currentIndex(
         )-1].ui.tableWidget_property.cellChanged.connect(self.tab_name_change)
         self.ui.statusbar.showMessage(
-            'Os nós são os pontos nas coordenadas (x,y). Insira os pontos (x,y) na tabela de nós.')
+            '')
         self.window.ui.pushbutton_nodes.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Os nós são os pontos nas coordenadas (x,y). Insira os pontos (x,y) na tabela de nós.'))
+            ''))
         self.window.ui.pushbutton_members.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Defina os membros conectando os nós. Não se esqueça de observar o gráfico ao conectar os nós!'))
+            ''))
         self.window.ui.pushbutton_supports.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Existem três tipos de restrições disponíveis. Selecione a adequada nas listas suspensas.'))
+            ''))
         self.window.ui.pushbutton_loads.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Defina a carga nodal e o ângulo (em graus) de acordo com o número do nó.'))
+            ''))
         self.window.ui.pushbutton_properties.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Defina o módulo de elasticidade (E) e a área da seção transversal (A) do material.'))
+            ''))
         self.window.ui.pushbutton_displacement.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Use o ampliador de deflexão para visualizar claramente a forma deslocada em azul.'))
+            ''))
         self.window.ui.pushbutton_forces.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'As caixas de seleção no canto superior direito podem ser usadas para modificar os detalhes do gráfico.'))
+            ''))
         self.window.ui.pushbutton_influenceLine.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'A linha de influência é plotada como uma linha vermelha. Use a caixa de membro para navegar pela linha de influência dos membros.'))
+            ''))
+
 
 
     def new_file(self):
@@ -544,23 +545,24 @@ class MainWindow(QMainWindow):
         self.window_list[self.ui.tabWidget.currentIndex(
         )-1].ui.tableWidget_property.cellChanged.connect(self.tab_name_change)
         self.ui.statusbar.showMessage(
-            'Os nós são os pontos nas coordenadas (x,y). Insira os pontos (x,y) na tabela de nós.')
+            '')
         self.window.ui.pushbutton_nodes.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Os nós são os pontos nas coordenadas (x,y). Insira os pontos (x,y) na tabela de nós.'))
+            ''))
         self.window.ui.pushbutton_members.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Defina os membros conectando os nós. Não se esqueça de observar o gráfico ao conectar os nós!'))
+            ''))
         self.window.ui.pushbutton_supports.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Três tipos de restrições estão disponíveis. Selecione a opção adequada nas listas suspensas.'))
+            ''))
         self.window.ui.pushbutton_loads.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Defina a carga nodal e o ângulo (em graus) de acordo com o número do nó.'))
+            ''))
         self.window.ui.pushbutton_properties.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Defina o módulo de elasticidade (E) e a área da seção transversal (A) do material.'))
+            ''))
         self.window.ui.pushbutton_displacement.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'Use o ampliador de deflexão para visualizar claramente a forma deslocada em azul.'))
+            ''))
         self.window.ui.pushbutton_forces.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'As caixas de seleção no canto superior direito podem ser usadas para modificar os detalhes do gráfico.'))
+            ''))
         self.window.ui.pushbutton_influenceLine.clicked.connect(lambda: self.ui.statusbar.showMessage(
-            'O caminho da carga é plotado como uma linha vermelha. Use a caixa de membros para navegar pela linha de influência dos membros.'))
+            ''))
+
 
     def unit_per_page(self):
         index = self.ui.tabWidget.currentIndex()

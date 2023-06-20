@@ -919,87 +919,86 @@ class MainPage(QWizardPage):
             self.unit_report = [
                 'm', 'kilo newton (kN)', 'kilo newton (kN)', 'GPa', 'mm<super size=6>2</super>', 'mm']
 
-            self.ui.label_unit_property.setText(
-                '* Unit of E : Giga Pascal (GPa)')
-            self.ui.label.setText(
-                '* Unit of Area (A) : milimeter squared (mm^2)')
-            self.ui.label_unit_displacement.setText(
-                '* Unit of displacement : milimeter (mm)')
+        self.ui.label_unit_property.setText(
+            '')
+        self.ui.label.setText(
+            '')
+        self.ui.label_unit_displacement.setText(
+            '')
 
-            if self.current_metric_index[0][0] == 0:
-                self.ui.label_unit_node.setText(
-                    '* Unit of x and y : meter (m)')
-            if self.current_metric_index[0][0] == 1:
-                self.unit_report[0] = 'mm'
-                self.ui.label_unit_node.setText(
-                    '* Unit of x and y : milimeter (mm)')
-            if self.current_metric_index[0][1] == 0:
-                self.ui.label_unit_load.setText(
-                    '* Unit of load : kilo Newton (kN)')
-                self.ui.label_unitLoad.setText(
-                    '* Unit Load : 1 kilo Newton (kN)')
-            if self.current_metric_index[0][1] == 1:
-                self.unit_report[1] = 'Newton (N)'
-                self.ui.label_unit_load.setText('* Unit of load : Newton (N)')
-                self.ui.label_unitLoad.setText('* Unit Load : 1 Newton (N)')
-            if self.current_metric_index[0][1] == 2:
-                self.unit_report[1] = 'kilogram (kg)'
-                self.ui.label_unit_load.setText(
-                    '* Unit of load : kilogram (kg)')
-                self.ui.label_unitLoad.setText('* Unit Load : 1 kilogram (kg)')
-            if self.current_metric_index[0][2] == 0:
-                self.ui.label_unit_stress.setText(
-                    '* Unit of force : kilo Newton (kN)')
-                self.ui.tableWidget_influenceLine.setHorizontalHeaderLabels(
-                    ['Load\nPosition', 'Force\n(kN)'])
-            if self.current_metric_index[0][2] == 1:
-                self.unit_report[2] = 'Newton (N)'
-                self.ui.label_unit_stress.setText(
-                    '* Unit of force :  Newton (N)')
-                self.ui.tableWidget_influenceLine.setHorizontalHeaderLabels(
-                    ['Load\nPosition', 'Force\n(N)'])
-            if self.current_metric_index[0][2] == 2:
-                self.unit_report[2] = 'kilogram (kg)'
-                self.ui.label_unit_stress.setText(
-                    '* Unit of force : kilogram (kg)')
-                self.ui.tableWidget_influenceLine.setHorizontalHeaderLabels(
-                    ['Load\nPosition', 'Force\n(kg)'])
+        if self.current_metric_index[0][0] == 0:
+            self.ui.label_unit_node.setText(
+                '')
+        if self.current_metric_index[0][0] == 1:
+            self.unit_report[0] = ''
+            self.ui.label_unit_node.setText(
+                '')
+        if self.current_metric_index[0][1] == 0:
+            self.ui.label_unit_load.setText(
+                '')
+            self.ui.label_unitLoad.setText(
+                '')
+        if self.current_metric_index[0][1] == 1:
+            self.unit_report[1] = ''
+            self.ui.label_unit_load.setText('')
+            self.ui.label_unitLoad.setText('')
+        if self.current_metric_index[0][1] == 2:
+            self.unit_report[1] = ''
+            self.ui.label_unit_load.setText(
+                '')
+            self.ui.label_unitLoad.setText('')
+        if self.current_metric_index[0][2] == 0:
+            self.ui.label_unit_stress.setText(
+                '')
+            self.ui.tableWidget_influenceLine.setHorizontalHeaderLabels(
+                ['', ''])
+        if self.current_metric_index[0][2] == 1:
+            self.unit_report[2] = ''
+            self.ui.label_unit_stress.setText(
+                '')
+            self.ui.tableWidget_influenceLine.setHorizontalHeaderLabels(
+                ['', ''])
+        if self.current_metric_index[0][2] == 2:
+            self.unit_report[2] = ''
+            self.ui.label_unit_stress.setText(
+                '')
+            self.ui.tableWidget_influenceLine.setHorizontalHeaderLabels(
+                ['', ''])
+
 
         else:
             self.current_imperial_index = self.unit
             self.unit_report = [
-                'ft', 'kip (k)', 'kip (k)', 'ksi', 'in<super size=6>2</super>', 'in']
+                '', '', '', '', '', '']
 
-            self.ui.label_unit_property.setText(
-                '* Unit of E : kip per inch squared (ksi)')
-            self.ui.label.setText('* Unit of Area (A) : inch squared (in^2)')
-            self.ui.label_unit_displacement.setText(
-                '* Unit of displacement : inch (in)')
+            self.ui.label_unit_property.setText('')
+            self.ui.label.setText('')
+            self.ui.label_unit_displacement.setText('')
 
             if self.current_imperial_index[0][0] == 0:
                 self.ui.label_unit_node.setText(
-                    '* Unit of x and y : foot (ft)')
+                    '')
             if self.current_imperial_index[0][0] == 1:
-                self.unit_report[0] = 'in'
+                self.unit_report[0] = ''
                 self.ui.label_unit_node.setText(
-                    '* Unit of x and y : inch (in)')
+                    '')
             if self.current_imperial_index[0][1] == 0:
-                self.ui.label_unit_load.setText('* Unit of load : kip (k)')
-                self.ui.label_unitLoad.setText('* Unit Load : 1  kip (k)')
+                self.ui.label_unit_load.setText('')
+                self.ui.label_unitLoad.setText('')
             if self.current_imperial_index[0][1] == 1:
-                self.unit_report[1] = 'pound (lb)'
-                self.ui.label_unit_load.setText('* Unit of load : pound (lb)')
-                self.ui.label_unitLoad.setText('* Unit Load : 1 pound (lb)')
+                self.unit_report[1] = ''
+                self.ui.label_unit_load.setText('')
+                self.ui.label_unitLoad.setText('')
             if self.current_imperial_index[0][2] == 0:
-                self.ui.label_unit_stress.setText('* Unit of force : kip (k)')
+                self.ui.label_unit_stress.setText('')
                 self.ui.tableWidget_influenceLine.setHorizontalHeaderLabels(
-                    ['Load\nPosition', 'Force\n(kip)'])
+                    ['', ''])
             if self.current_imperial_index[0][2] == 1:
-                self.unit_report[2] = 'pound (lb)'
-                self.ui.label_unit_stress.setText(
-                    '* Unit of force : pound (lb)')
+                self.unit_report[2] = ''
+                self.ui.label_unit_stress.setText('')
                 self.ui.tableWidget_influenceLine.setHorizontalHeaderLabels(
-                    ['Load\nPosition', 'Force\n(lb)'])
+                    ['', ''])
+
 
         self.old_label_unit_stress = self.ui.label_unit_stress.text()
 
@@ -1231,9 +1230,7 @@ class MainPage(QWizardPage):
             self.ui.pushButton_start.setVisible(True)
             self.ui.pushButton_stop.setVisible(True)
             self.ui.horizontalSlider.setVisible(True)
-            self.ui.label_17.setText("Member tension(T) and compression(C) are shown \n"
-                                     "in the graph as well as support reactions. The \n"
-                                     "brightness of colors shows their relative strength.")
+            self.ui.label_17.setText(" ")
             self.ui.label_17.setFont(QFont('Segoe UI Semibold', 9))
             self.ui.checkBox_nodes.setVisible(True)
             self.ui.checkBox_members.setVisible(True)
