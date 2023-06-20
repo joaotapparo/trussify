@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '/home/johnnyhall/Programming/trussify/Ui File/main.ui'
+# Form implementation generated from reading ui file '/home/johnnyhall/Programming/trussify/images/main.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -218,7 +218,7 @@ class Ui_MainWindow(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"    background-color: rgb(218, 0, 55);\n"
+"    background-color: rgb(196, 82, 115);\n"
 "    border-style: inset;\n"
 "}\n"
 "")
@@ -231,7 +231,7 @@ class Ui_MainWindow(object):
         self.pushButton_open.setMaximumSize(QtCore.QSize(150, 50))
         self.pushButton_open.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.pushButton_open.setStyleSheet("QPushButton {\n"
-"    background-color: rgb(61, 69, 79);\n"
+"    background-color: rgb(143, 146, 148);\n"
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
@@ -240,7 +240,7 @@ class Ui_MainWindow(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"    background-color: rgb(138, 147, 158);\n"
+"    background-color: rgb(184, 185, 186);\n"
 "    border-style: inset;\n"
 "}\n"
 "")
@@ -462,7 +462,7 @@ class Ui_MainWindow(object):
         font.setPointSize(18)
         self.label.setFont(font)
         self.label.setToolTip("")
-        self.label.setStyleSheet("color: rgb(218, 0, 55);")
+        self.label.setStyleSheet("color: rgb(196, 82, 115);")
         self.label.setAlignment(QtCore.Qt.AlignBottom|QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft)
         self.label.setObjectName("label")
         self.gridLayout_4.addWidget(self.label, 8, 0, 1, 1)

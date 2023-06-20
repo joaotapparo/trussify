@@ -1,10 +1,10 @@
 /home/johnnyhall/Programming/trussify/Ui File/main_ui.py
   212,17: "    background-color: rgb(222, 49, 92);\n"
   216,13: "    border-color: black;\n"
-  221,17: "    background-color: rgb(218, 0, 55);\n"
-  234,17: "    background-color: rgb(61, 69, 79);\n"
+  221,17: "    background-color: rgb(196, 82, 115);\n"
+  234,17: "    background-color: rgb(143, 146, 148);\n"
   238,13: "    border-color: black;\n"
-  243,17: "    background-color: rgb(138, 147, 158);\n"
+  243,17: "    background-color: rgb(184, 185, 186);\n"
   270,17: "    background-color: rgb(0, 145, 136);\n"
   271,6: "    color: rgb(255, 255, 255);\n"
   275,13: "    border-color: black;\n"
@@ -15,7 +15,7 @@
   421,50:         self.pushButton_example_5.setStyleSheet("color: rgb(90, 74, 138);")
   432,50:         self.pushButton_example_6.setStyleSheet("color: rgb(90, 74, 138);")
   443,50:         self.pushButton_example_4.setStyleSheet("color: rgb(90, 74, 138);")
-  465,35:         self.label.setStyleSheet("color: rgb(218, 0, 55);")
+  465,35:         self.label.setStyleSheet("color: rgb(196, 82, 115);")
   576,210:         self.label_4.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-family:\'Raleway\',\'HelveticaNeue\',\'Helvetica Neue\',\'Helvetica\',\'Arial\',\'sans-serif\'; font-size:11pt; color:#222222;\">Sincerely,</span></p></body></html>"))
   585,173:         self.label_3.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">Send a </span><span style=\" font-size:12pt; font-weight:600; color:#008cff;\">Thank You</span><span style=\" font-size:12pt;\"> note to</span><br/><span style=\" font-size:10pt; font-weight:600;\">Joao Tapparo!</span></p></body></html>"))
 
@@ -214,10 +214,10 @@
   451,8:      </colorrole>
   592,13: 	background-color: rgb(222, 49, 92);
   596,12:     border-color: black;
-  601,13: 	background-color: rgb(218, 0, 55);
-  637,13: 	background-color: rgb(61, 69, 79);
+  601,13: 	background-color: rgb(196, 82, 115);
+  637,13: 	background-color: rgb(143, 146, 148);
   641,12:     border-color: black;
-  646,13: 	background-color: rgb(138, 147, 158);
+  646,13: 	background-color: rgb(184, 185, 186);
   691,201:                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Raleway','HelveticaNeue','Helvetica Neue','Helvetica','Arial','sans-serif'; font-size:11pt; color:#222222;&quot;&gt;Sincerely,&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
   718,13: 	background-color: rgb(0, 145, 136);
   719,2: 	color: rgb(255, 255, 255);
@@ -230,7 +230,7 @@
   1062,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
   1083,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
   1104,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
-  1165,40:                    <string notr="true">color: rgb(218, 0, 55);</string>
+  1165,40:                    <string notr="true">color: rgb(196, 82, 115);</string>
 
 /home/johnnyhall/Programming/trussify/Ui File/new.xml
   4,4:   <colorrole role="WindowText">
@@ -622,9 +622,9 @@
 
 /home/johnnyhall/Programming/trussify/color.css
   2,27:   212,24: "    background-color: rgb(222, 49, 92);\n"
-  3,27:   221,24: "    background-color: rgb(218, 0, 55);\n"
-  4,27:   234,24: "    background-color: rgb(61, 69, 79);\n"
-  5,27:   243,24: "    background-color: rgb(138, 147, 158);\n"
+  3,27:   221,24: "    background-color: rgb(196, 82, 115);\n"
+  4,27:   234,24: "    background-color: rgb(143, 146, 148);\n"
+  5,27:   243,24: "    background-color: rgb(184, 185, 186);\n"
   6,27:   270,24: "    background-color: rgb(0, 145, 136);\n"
   7,16:   271,13: "    color: rgb(255, 255, 255);\n"
   8,27:   280,24: "    background-color: rgb(0, 145, 136);\n"
@@ -634,11 +634,11 @@
   12,60:   421,57:         self.pushButton_example_5.setStyleSheet("color: rgb(90, 74, 138);")
   13,60:   432,57:         self.pushButton_example_6.setStyleSheet("color: rgb(90, 74, 138);")
   14,60:   443,57:         self.pushButton_example_4.setStyleSheet("color: rgb(90, 74, 138);")
-  15,45:   465,42:         self.label.setStyleSheet("color: rgb(218, 0, 55);")
+  15,45:   465,42:         self.label.setStyleSheet("color: rgb(196, 82, 115);")
   18,23:   592,20: 	background-color: rgb(222, 49, 92);
-  19,23:   601,20: 	background-color: rgb(218, 0, 55);
-  20,23:   637,20: 	background-color: rgb(61, 69, 79);
-  21,23:   646,20: 	background-color: rgb(138, 147, 158);
+  19,23:   601,20: 	background-color: rgb(196, 82, 115);
+  20,23:   637,20: 	background-color: rgb(143, 146, 148);
+  21,23:   646,20: 	background-color: rgb(184, 185, 186);
   22,23:   718,20: 	background-color: rgb(0, 145, 136);
   23,11:   719,9: 	color: rgb(255, 255, 255);
   26,4:   "color: rgb(255, 0, 0);")
@@ -649,7 +649,7 @@
   32,53:   1062,49:                      <string notr="true">color: rgb(90, 74, 138);</string>
   33,53:   1083,49:                      <string notr="true">color: rgb(90, 74, 138);</string>
   34,53:   1104,49:                      <string notr="true">color: rgb(90, 74, 138);</string>
-  35,51:   1165,47:                    <string notr="true">color: rgb(218, 0, 55);</string>
+  35,51:   1165,47:                    <string notr="true">color: rgb(196, 82, 115);</string>
   38,57:   125,54:         self.debug.setStyleSheet(u"background-color: rgb(58, 64, 76);\n"
   39,44:   126,41:                                 "color: rgb(20, 204, 204);\n"
   40,57:   239,54:         self.msgBox.setStyleSheet("background-color: rgb(88, 105, 110);")
@@ -657,9 +657,9 @@
   44,33:   1219,29:                     "color: rgb(149, 0, 255);")
   45,67:   1223,63:                 self.ui.label_stabality.setStyleSheet("color: rgb(255,0,0);")
   50,24:   167,21: "	background-color: rgb(222, 45, 92);\n"
-  51,24:   176,21: "	background-color: rgb(218, 0, 55);\n"
-  52,24:   190,21: "	background-color: rgb(61, 69, 79);\n"
-  53,24:   199,21: "	background-color: rgb(138, 147, 158);\n"
+  51,24:   176,21: "	background-color: rgb(196, 82, 115);\n"
+  52,24:   190,21: "	background-color: rgb(143, 146, 148);\n"
+  53,24:   199,21: "	background-color: rgb(184, 185, 186);\n"
   54,24:   235,21: "	background-color: rgb(222, 40, 92);\n"
   55,13:   236,10: "	color: rgb(255, 255, 255);\n"
   56,24:   245,21: "	background-color: rgb(218, 0, 50);\n"
@@ -667,19 +667,19 @@
   60,24:   110,21: "	background-color: rgb(82, 217, 214);\n"
   61,24:   119,21: "	background-color: rgb(15, 255, 250);\n"
   62,24:   135,21: "	background-color: rgb(222, 49, 92);\n"
-  63,24:   144,21: "	background-color: rgb(218, 0, 55);\n"
+  63,24:   144,21: "	background-color: rgb(196, 82, 115);\n"
   64,24:   161,21: "	background-color: rgb(222, 49, 92);\n"
-  65,24:   170,21: "	background-color: rgb(218, 0, 55);\n"
+  65,24:   170,21: "	background-color: rgb(196, 82, 115);\n"
   66,24:   192,21: "	background-color: rgb(82, 217, 214);\n"
   67,24:   201,21: "	background-color: rgb(15, 255, 250);\n"
   68,24:   221,21: "	background-color: rgb(82, 217, 214);\n"
   69,24:   230,21: "	background-color: rgb(15, 255, 250);\n"
   70,24:   246,21: "	background-color: rgb(222, 49, 92);\n"
-  71,24:   255,21: "	background-color: rgb(218, 0, 55);\n"
+  71,24:   255,21: "	background-color: rgb(196, 82, 115);\n"
   72,24:   274,21: "	background-color: rgb(222, 49, 92);\n"
-  73,24:   283,21: "	background-color: rgb(218, 0, 55);\n"
+  73,24:   283,21: "	background-color: rgb(196, 82, 115);\n"
   74,24:   306,21: "	background-color: rgb(222, 49, 92);\n"
-  75,24:   315,21: "	background-color: rgb(218, 0, 55);\n"
+  75,24:   315,21: "	background-color: rgb(196, 82, 115);\n"
   76,24:   402,21: "	background-color: rgb(250, 80, 80);\n"
   77,24:   412,21: "	background-color: rgb(250, 30, 56);\n"
   78,24:   480,21: "	background-color: rgb(250, 80, 80);\n"
@@ -710,10 +710,10 @@
 /home/johnnyhall/Programming/trussify/color2.css
   2,27:   212,17: "    background-color: rgb(222, 49, 92);\n"
   3,23:   216,13: "    border-color: black;\n"
-  4,27:   221,17: "    background-color: rgb(218, 0, 55);\n"
-  5,27:   234,17: "    background-color: rgb(61, 69, 79);\n"
+  4,27:   221,17: "    background-color: rgb(196, 82, 115);\n"
+  5,27:   234,17: "    background-color: rgb(143, 146, 148);\n"
   6,23:   238,13: "    border-color: black;\n"
-  7,27:   243,17: "    background-color: rgb(138, 147, 158);\n"
+  7,27:   243,17: "    background-color: rgb(184, 185, 186);\n"
   8,27:   270,17: "    background-color: rgb(0, 145, 136);\n"
   9,15:   271,6: "    color: rgb(255, 255, 255);\n"
   10,23:   275,13: "    border-color: black;\n"
@@ -724,15 +724,15 @@
   15,60:   421,50:         self.pushButton_example_5.setStyleSheet("color: rgb(90, 74, 138);")
   16,60:   432,50:         self.pushButton_example_6.setStyleSheet("color: rgb(90, 74, 138);")
   17,60:   443,50:         self.pushButton_example_4.setStyleSheet("color: rgb(90, 74, 138);")
-  18,45:   465,35:         self.label.setStyleSheet("color: rgb(218, 0, 55);")
+  18,45:   465,35:         self.label.setStyleSheet("color: rgb(196, 82, 115);")
   19,221:   576,210:         self.label_4.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-family:\'Raleway\',\'HelveticaNeue\',\'Helvetica Neue\',\'Helvetica\',\'Arial\',\'sans-serif\'; font-size:11pt; color:#222222;\">Sincerely,</span></p></body></html>"))
   20,184:   585,173:         self.label_3.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">Send a </span><span style=\" font-size:12pt; font-weight:600; color:#008cff;\">Thank You</span><span style=\" font-size:12pt;\"> note to</span><br/><span style=\" font-size:10pt; font-weight:600;\">Joao Tapparo!</span></p></body></html>"))
   23,23:   592,13: 	background-color: rgb(222, 49, 92);
   24,22:   596,12:     border-color: black;
-  25,23:   601,13: 	background-color: rgb(218, 0, 55);
-  26,23:   637,13: 	background-color: rgb(61, 69, 79);
+  25,23:   601,13: 	background-color: rgb(196, 82, 115);
+  26,23:   637,13: 	background-color: rgb(143, 146, 148);
   27,22:   641,12:     border-color: black;
-  28,23:   646,13: 	background-color: rgb(138, 147, 158);
+  28,23:   646,13: 	background-color: rgb(184, 185, 186);
   29,212:   691,201:                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Raleway','HelveticaNeue','Helvetica Neue','Helvetica','Arial','sans-serif'; font-size:11pt; color:#222222;&quot;&gt;Sincerely,&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
   30,23:   718,13: 	background-color: rgb(0, 145, 136);
   31,11:   719,2: 	color: rgb(255, 255, 255);
@@ -745,7 +745,7 @@
   38,53:   1062,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
   39,53:   1083,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
   40,53:   1104,42:                      <string notr="true">color: rgb(90, 74, 138);</string>
-  41,51:   1165,40:                    <string notr="true">color: rgb(218, 0, 55);</string>
+  41,51:   1165,40:                    <string notr="true">color: rgb(196, 82, 115);</string>
   44,31:   22,22: date = '<span style="color:#ff002b;">%m/%d/%Y</span> <span style="color:#0800ff;">%I:%M:%S</span> %p'
   44,76:   22,22: date = '<span style="color:#ff002b;">%m/%d/%Y</span> <span style="color:#0800ff;">%I:%M:%S</span> %p'
   45,31:   22,67: date = '<span style="color:#ff002b;">%m/%d/%Y</span> <span style="color:#0800ff;">%I:%M:%S</span> %p'
@@ -765,10 +765,10 @@
   60,67:   1223,56:                 self.ui.label_stabality.setStyleSheet("color: rgb(255,0,0);")
   63,24:   167,14: "	background-color: rgb(222, 49, 92);\n"
   64,23:   171,13: "    border-color: black;\n"
-  65,24:   176,14: "	background-color: rgb(218, 0, 55);\n"
-  66,24:   190,14: "	background-color: rgb(61, 69, 79);\n"
+  65,24:   176,14: "	background-color: rgb(196, 82, 115);\n"
+  66,24:   190,14: "	background-color: rgb(143, 146, 148);\n"
   67,23:   194,13: "    border-color: black;\n"
-  68,24:   199,14: "	background-color: rgb(138, 147, 158);\n"
+  68,24:   199,14: "	background-color: rgb(184, 185, 186);\n"
   69,24:   235,14: "	background-color: rgb(222, 40, 92);\n"
   70,12:   236,3: "	color: rgb(255, 255, 255);\n"
   71,23:   240,13: "    border-color: black;\n"
@@ -779,10 +779,10 @@
   78,24:   119,14: "	background-color: rgb(15, 255, 250);\n"
   79,24:   135,14: "	background-color: rgb(222, 49, 92);\n"
   80,23:   139,13: "    border-color: black;\n"
-  81,24:   144,14: "	background-color: rgb(218, 0, 55);\n"
+  81,24:   144,14: "	background-color: rgb(196, 82, 115);\n"
   82,24:   161,14: "	background-color: rgb(222, 49, 92);\n"
   83,23:   165,13: "    border-color: black;\n"
-  84,24:   170,14: "	background-color: rgb(218, 0, 55);\n"
+  84,24:   170,14: "	background-color: rgb(196, 82, 115);\n"
   85,24:   192,14: "	background-color: rgb(82, 217, 214);\n"
   86,23:   196,13: "    border-color: black;\n"
   87,24:   201,14: "	background-color: rgb(15, 255, 250);\n"
@@ -791,13 +791,13 @@
   90,24:   230,14: "	background-color: rgb(15, 255, 250);\n"
   91,24:   246,14: "	background-color: rgb(222, 49, 92);\n"
   92,23:   250,13: "    border-color: black;\n"
-  93,24:   255,14: "	background-color: rgb(218, 0, 55);\n"
+  93,24:   255,14: "	background-color: rgb(196, 82, 115);\n"
   94,24:   274,14: "	background-color: rgb(222, 49, 92);\n"
   95,23:   278,13: "    border-color: black;\n"
-  96,24:   283,14: "	background-color: rgb(218, 0, 55);\n"
+  96,24:   283,14: "	background-color: rgb(196, 82, 115);\n"
   97,24:   306,14: "	background-color: rgb(222, 49, 92);\n"
   98,23:   310,13: "    border-color: black;\n"
-  99,24:   315,14: "	background-color: rgb(218, 0, 55);\n"
+  99,24:   315,14: "	background-color: rgb(196, 82, 115);\n"
   100,24:   402,14: "	background-color: rgb(250, 80, 80);\n"
   101,23:   406,13: "    border-color: black;\n"
   102,24:   412,14: "	background-color: rgb(250, 30, 56);\n"
@@ -855,8 +855,8 @@
   1219,22:                     "color: rgb(149, 0, 255);")
   1223,56:                 self.ui.label_stabality.setStyleSheet("color: rgb(255,0,0);")
   1236,53:                                      "brightness of colors shows their relative strength.")
-  1288,24:                 "<font color='orange' size='10'>The truss is unstable, it <br>cannot be analyzed.</font>")
-  1294,24:                 "<font color='orange' size='10'>The truss is unstable, it <br>cannot be analyzed.</font>")
+  1288,24:                 "<font color='orange' size='10'>The truss is Instavel, it <br>cannot be analyzed.</font>")
+  1294,24:                 "<font color='orange' size='10'>The truss is Instavel, it <br>cannot be analyzed.</font>")
   1516,35:                        s=200, edgecolors='k', zorder=9)
   1536,70:                     ax.plot(v[0][0], v[0][1], marker=pinned_support, color='k',
   1537,39:                             markerfacecolor='lightsteelblue', markersize=50)
@@ -900,10 +900,10 @@
 /home/johnnyhall/Programming/trussify/ui_main.py
   167,14: "	background-color: rgb(222, 49, 92);\n"
   171,13: "    border-color: black;\n"
-  176,14: "	background-color: rgb(218, 0, 55);\n"
-  190,14: "	background-color: rgb(61, 69, 79);\n"
+  176,14: "	background-color: rgb(196, 82, 115);\n"
+  190,14: "	background-color: rgb(143, 146, 148);\n"
   194,13: "    border-color: black;\n"
-  199,14: "	background-color: rgb(138, 147, 158);\n"
+  199,14: "	background-color: rgb(184, 185, 186);\n"
   235,14: "	background-color: rgb(222, 40, 92);\n"
   236,3: "	color: rgb(255, 255, 255);\n"
   240,13: "    border-color: black;\n"
@@ -916,10 +916,10 @@
   119,14: "	background-color: rgb(15, 255, 250);\n"
   135,14: "	background-color: rgb(222, 49, 92);\n"
   139,13: "    border-color: black;\n"
-  144,14: "	background-color: rgb(218, 0, 55);\n"
+  144,14: "	background-color: rgb(196, 82, 115);\n"
   161,14: "	background-color: rgb(222, 49, 92);\n"
   165,13: "    border-color: black;\n"
-  170,14: "	background-color: rgb(218, 0, 55);\n"
+  170,14: "	background-color: rgb(196, 82, 115);\n"
   192,14: "	background-color: rgb(82, 217, 214);\n"
   196,13: "    border-color: black;\n"
   201,14: "	background-color: rgb(15, 255, 250);\n"
@@ -928,13 +928,13 @@
   230,14: "	background-color: rgb(15, 255, 250);\n"
   246,14: "	background-color: rgb(222, 49, 92);\n"
   250,13: "    border-color: black;\n"
-  255,14: "	background-color: rgb(218, 0, 55);\n"
+  255,14: "	background-color: rgb(196, 82, 115);\n"
   274,14: "	background-color: rgb(222, 49, 92);\n"
   278,13: "    border-color: black;\n"
-  283,14: "	background-color: rgb(218, 0, 55);\n"
+  283,14: "	background-color: rgb(196, 82, 115);\n"
   306,14: "	background-color: rgb(222, 49, 92);\n"
   310,13: "    border-color: black;\n"
-  315,14: "	background-color: rgb(218, 0, 55);\n"
+  315,14: "	background-color: rgb(196, 82, 115);\n"
   402,14: "	background-color: rgb(250, 80, 80);\n"
   406,13: "    border-color: black;\n"
   412,14: "	background-color: rgb(250, 30, 56);\n"

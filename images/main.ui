@@ -598,7 +598,7 @@
     min-width: 10em;
 }
 QPushButton:hover {
-	background-color: rgb(218, 0, 55);
+	background-color: rgb(196, 82, 115);
     border-style: inset;
 }
 </string>
@@ -634,7 +634,7 @@ QPushButton:hover {
                    </property>
                    <property name="styleSheet">
                     <string notr="true">QPushButton {
-	background-color: rgb(61, 69, 79);
+	background-color: rgb(143, 146, 148);
     border-style: outset;
     border-width: 2px;
     border-radius: 10px;
@@ -643,7 +643,7 @@ QPushButton:hover {
     min-width: 10em;
 }
 QPushButton:hover {
-	background-color: rgb(138, 147, 158);
+	background-color: rgb(184, 185, 186);
     border-style: inset;
 }
 </string>
@@ -1162,7 +1162,7 @@ debug window in the settings tab.</string>
                    <string/>
                   </property>
                   <property name="styleSheet">
-                   <string notr="true">color: rgb(218, 0, 55);</string>
+                   <string notr="true">color: rgb(196, 82, 115);</string>
                   </property>
                   <property name="text">
                    <string> trussify</string>

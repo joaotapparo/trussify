@@ -173,7 +173,7 @@ class Ui_MainWindow(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(218, 0, 55);\n"
+"	background-color: rgb(196, 82, 115);\n"
 "    border-style: inset;\n"
 "}\n"
 "")
@@ -187,7 +187,7 @@ class Ui_MainWindow(object):
         self.pushButton_open.setMaximumSize(QSize(150, 50))
         self.pushButton_open.setCursor(QCursor(Qt.PointingHandCursor))
         self.pushButton_open.setStyleSheet(u"QPushButton {\n"
-"	background-color: rgb(61, 69, 79);\n"
+"	background-color: rgb(143, 146, 148);\n"
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 10px;\n"
@@ -196,7 +196,7 @@ class Ui_MainWindow(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(138, 147, 158);\n"
+"	background-color: rgb(184, 185, 186);\n"
 "    border-style: inset;\n"
 "}\n"
 "")
@@ -432,7 +432,7 @@ class Ui_MainWindow(object):
         self.pushButton_new.setWhatsThis("")
 #endif // QT_CONFIG(whatsthis)
         self.pushButton_new.setText(QCoreApplication.translate("MainWindow", u"\n"
-"  New\n"
+"  Novo Projeto\n"
 "", None))
 #if QT_CONFIG(tooltip)
         self.pushButton_open.setToolTip(QCoreApplication.translate("MainWindow", u"Abra um projeto existente", None))

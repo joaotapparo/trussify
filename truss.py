@@ -1131,9 +1131,9 @@ class MainPage(QWizardPage):
 
     def calculation(self):
         if len(self.elements)+len(self.restrained_dofs) < self.ndofs:
-            self.logger.debug("Unstable structure : [bar : %s + reaction : %s less than 2*no of joints : %s]", len(
+            self.logger.debug("Instavel structure : [bar : %s + reaction : %s less than 2*no of joints : %s]", len(
                 self.elements), len(self.restrained_dofs), self.ndofs)
-            self.ui.label_stabality.setText('Unstable')
+            self.ui.label_stabality.setText('Instavel')
             self.ui.label_stabality.setStyleSheet("color: rgb(255,0,0);")
         else:
             try:
@@ -1213,17 +1213,17 @@ class MainPage(QWizardPage):
                 self.D_global = np.linalg.inv(self.K_final).dot(self.F_final)
                 self.logger.debug('Global deflection : %s', self.D_global)
 
-                self.ui.label_stabality.setText('Stable')
+                self.ui.label_stabality.setText('estavel')
                 self.ui.label_stabality.setStyleSheet(
                     "color: rgb(149, 0, 255);")
             except:
-                self.logger.debug("Unstable structure")
-                self.ui.label_stabality.setText('Unstable')
+                self.logger.debug("Instavel structure")
+                self.ui.label_stabality.setText('Instavel')
                 self.ui.label_stabality.setStyleSheet("color: rgb(255,0,0);")
                 pass
 
     def displacement(self):
-        if self.ui.label_stabality.text() == 'Stable':
+        if self.ui.label_stabality.text() == 'estavel':
             self.ui.label_15.setText("The horizontal (x) and vertical (y) displacements \n"
                                      "are shown below.")
             self.ui.label_15.setFont(QFont('Segoe UI Semibold', 9))
@@ -1282,13 +1282,13 @@ class MainPage(QWizardPage):
 
         else:
             self.ui.label_15.setText(
-                "<font color='orange' size='10'>The truss is unstable, it <br>cannot be analyzed.</font>")
+                "<font color='orange' size='10'>The truss is Instavel, it <br>cannot be analyzed.</font>")
             self.ui.tableWidget_displacement.setRowCount(0)
             self.ui.pushButton_start.setVisible(False)
             self.ui.pushButton_stop.setVisible(False)
             self.ui.horizontalSlider.setVisible(False)
             self.ui.label_17.setText(
-                "<font color='orange' size='10'>The truss is unstable, it <br>cannot be analyzed.</font>")
+                "<font color='orange' size='10'>The truss is Instavel, it <br>cannot be analyzed.</font>")
             self.ui.tableWidget_result.setRowCount(0)
             self.ui.checkBox_nodes.setVisible(False)
             self.ui.checkBox_members.setVisible(False)

@@ -141,7 +141,7 @@ class Ui_WizardPage(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(218, 0, 55);\n"
+"	background-color: rgb(196, 82, 115);\n"
 "    border-style: inset;\n"
 "}\n"
 "")
@@ -167,7 +167,7 @@ class Ui_WizardPage(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(218, 0, 55);\n"
+"	background-color: rgb(196, 82, 115);\n"
 "    border-style: inset;\n"
 "}\n"
 "\n"
@@ -252,7 +252,7 @@ class Ui_WizardPage(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(218, 0, 55);\n"
+"	background-color: rgb(196, 82, 115);\n"
 "    border-style: inset;\n"
 "}\n"
 "")
@@ -280,7 +280,7 @@ class Ui_WizardPage(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(218, 0, 55);\n"
+"	background-color: rgb(196, 82, 115);\n"
 "    border-style: inset;\n"
 "}\n"
 "")
@@ -312,7 +312,7 @@ class Ui_WizardPage(object):
 "    min-width: 10em;\n"
 "}\n"
 "QPushButton:hover {\n"
-"	background-color: rgb(218, 0, 55);\n"
+"	background-color: rgb(196, 82, 115);\n"
 "    border-style: inset;\n"
 "}\n"
 "")
@@ -1419,18 +1419,18 @@ class Ui_WizardPage(object):
 "use members page to specify the properties \n"
 "for each truss member. In case you don't \n"
 "know the property leave it to the default one.", None))
-        self.label_11.setText(QCoreApplication.translate("WizardPage", u"Truss Properties", None))
-        self.label_23.setText(QCoreApplication.translate("WizardPage", u"Member colour : ", None))
-        self.radioButtonDefault.setText(QCoreApplication.translate("WizardPage", u"Default", None))
-        self.radioButtonBlack.setText(QCoreApplication.translate("WizardPage", u"Black", None))
-        self.label_stabality.setText(QCoreApplication.translate("WizardPage", u"Unstable", None))
-        self.label_14.setText(QCoreApplication.translate("WizardPage", u"Nodal Displacement", None))
-        self.label_16.setText(QCoreApplication.translate("WizardPage", u"Animation : ", None))
-        self.pushButton_start.setText(QCoreApplication.translate("WizardPage", u"Start", None))
-        self.pushButton_stop.setText(QCoreApplication.translate("WizardPage", u"Stop", None))
-        self.label_13.setText(QCoreApplication.translate("WizardPage", u"Magnifier : ", None))
-        self.label_15.setText(QCoreApplication.translate("WizardPage", u"The horizontal (x) and vertical (y) displacements \n"
-"are shown below.", None))
+        self.label_11.setText(QCoreApplication.translate("WizardPage", u"Propriedades do Treliça", None))
+        self.label_23.setText(QCoreApplication.translate("WizardPage", u"Cor da reta: ", None))
+        self.radioButtonDefault.setText(QCoreApplication.translate("WizardPage", u"Colorido", None))
+        self.radioButtonBlack.setText(QCoreApplication.translate("WizardPage", u"Preto", None))
+        self.label_stabality.setText(QCoreApplication.translate("WizardPage", u"Instável", None))
+        self.label_14.setText(QCoreApplication.translate("WizardPage", u"Deslocamento Nodal", None))
+        self.label_16.setText(QCoreApplication.translate("WizardPage", u"Animação: ", None))
+        self.pushButton_start.setText(QCoreApplication.translate("WizardPage", u"Iniciar", None))
+        self.pushButton_stop.setText(QCoreApplication.translate("WizardPage", u"Parar", None))
+        self.label_13.setText(QCoreApplication.translate("WizardPage", u"Lupa: ", None))
+        self.label_15.setText(QCoreApplication.translate("WizardPage", u"Os deslocamentos horizontais (x) e verticais (y)", None))
+
         ___qtablewidgetitem22 = self.tableWidget_displacement.horizontalHeaderItem(0)
         ___qtablewidgetitem22.setText(QCoreApplication.translate("WizardPage", u"Node\n"
 "Number", None));
