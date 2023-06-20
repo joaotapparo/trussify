@@ -18,7 +18,7 @@ class Ui_WizardPage(object):
         palette.setBrush(QPalette.Active, QPalette.Button, brush1)
         palette.setBrush(QPalette.Active, QPalette.Light, brush1)
         palette.setBrush(QPalette.Active, QPalette.Midlight, brush1)
-        brush2 = QBrush(QColor(127, 127, 127, 255))
+        brush2 = QBrush(QColor(127, 127, 0, 255))
         brush2.setStyle(Qt.SolidPattern)
         palette.setBrush(QPalette.Active, QPalette.Dark, brush2)
         brush3 = QBrush(QColor(170, 170, 170, 255))
@@ -375,7 +375,7 @@ class Ui_WizardPage(object):
             self.tableWidget_nodes.setColumnCount(2)
         __qtablewidgetitem = QTableWidgetItem()
         __qtablewidgetitem.setTextAlignment(Qt.AlignCenter);
-        __qtablewidgetitem.setBackground(QColor(85, 255, 127));
+        __qtablewidgetitem.setBackground(QColor(131, 239, 242));
         self.tableWidget_nodes.setHorizontalHeaderItem(0, __qtablewidgetitem)
         __qtablewidgetitem1 = QTableWidgetItem()
         __qtablewidgetitem1.setTextAlignment(Qt.AlignCenter);
@@ -498,7 +498,7 @@ class Ui_WizardPage(object):
         if (self.tableWidget_members.columnCount() < 2):
             self.tableWidget_members.setColumnCount(2)
         __qtablewidgetitem4 = QTableWidgetItem()
-        __qtablewidgetitem4.setBackground(QColor(85, 255, 127));
+        __qtablewidgetitem4.setBackground(QColor(131, 239, 242));
         self.tableWidget_members.setHorizontalHeaderItem(0, __qtablewidgetitem4)
         __qtablewidgetitem5 = QTableWidgetItem()
         __qtablewidgetitem5.setBackground(QColor(149, 0, 255));
@@ -580,7 +580,7 @@ class Ui_WizardPage(object):
         if (self.tableWidget_supports.columnCount() < 2):
             self.tableWidget_supports.setColumnCount(2)
         __qtablewidgetitem9 = QTableWidgetItem()
-        __qtablewidgetitem9.setBackground(QColor(85, 255, 127));
+        __qtablewidgetitem9.setBackground(QColor(131, 239, 242));
         self.tableWidget_supports.setHorizontalHeaderItem(0, __qtablewidgetitem9)
         __qtablewidgetitem10 = QTableWidgetItem()
         __qtablewidgetitem10.setBackground(QColor(149, 0, 255));
@@ -665,7 +665,7 @@ class Ui_WizardPage(object):
         if (self.tableWidget_loads.columnCount() < 3):
             self.tableWidget_loads.setColumnCount(3)
         __qtablewidgetitem15 = QTableWidgetItem()
-        __qtablewidgetitem15.setBackground(QColor(85, 255, 127));
+        __qtablewidgetitem15.setBackground(QColor(131, 239, 242));
         self.tableWidget_loads.setHorizontalHeaderItem(0, __qtablewidgetitem15)
         __qtablewidgetitem16 = QTableWidgetItem()
         __qtablewidgetitem16.setBackground(QColor(149, 0, 255));
@@ -737,7 +737,7 @@ class Ui_WizardPage(object):
         if (self.tableWidget_property.columnCount() < 2):
             self.tableWidget_property.setColumnCount(2)
         __qtablewidgetitem20 = QTableWidgetItem()
-        __qtablewidgetitem20.setBackground(QColor(85, 255, 127));
+        __qtablewidgetitem20.setBackground(QColor(131, 239, 242));
         self.tableWidget_property.setHorizontalHeaderItem(0, __qtablewidgetitem20)
         __qtablewidgetitem21 = QTableWidgetItem()
         __qtablewidgetitem21.setBackground(QColor(149, 0, 255));
@@ -949,7 +949,7 @@ class Ui_WizardPage(object):
         if (self.tableWidget_displacement.columnCount() < 3):
             self.tableWidget_displacement.setColumnCount(3)
         __qtablewidgetitem25 = QTableWidgetItem()
-        __qtablewidgetitem25.setBackground(QColor(85, 255, 127));
+        __qtablewidgetitem25.setBackground(QColor(131, 239, 242));
         self.tableWidget_displacement.setHorizontalHeaderItem(0, __qtablewidgetitem25)
         __qtablewidgetitem26 = QTableWidgetItem()
         __qtablewidgetitem26.setBackground(QColor(149, 0, 255));
@@ -1094,16 +1094,16 @@ class Ui_WizardPage(object):
         if (self.tableWidget_result.columnCount() < 4):
             self.tableWidget_result.setColumnCount(4)
         __qtablewidgetitem30 = QTableWidgetItem()
-        __qtablewidgetitem30.setBackground(QColor(238, 64, 53));
+        __qtablewidgetitem30.setBackground(QColor(222, 49, 92));
         self.tableWidget_result.setHorizontalHeaderItem(0, __qtablewidgetitem30)
         __qtablewidgetitem31 = QTableWidgetItem()
-        __qtablewidgetitem31.setBackground(QColor(243, 119, 54));
+        __qtablewidgetitem31.setBackground(QColor(92, 186, 179));
         self.tableWidget_result.setHorizontalHeaderItem(1, __qtablewidgetitem31)
         __qtablewidgetitem32 = QTableWidgetItem()
-        __qtablewidgetitem32.setBackground(QColor(253, 244, 152));
+        __qtablewidgetitem32.setBackground(QColor(193, 252, 246));
         self.tableWidget_result.setHorizontalHeaderItem(2, __qtablewidgetitem32)
         __qtablewidgetitem33 = QTableWidgetItem()
-        __qtablewidgetitem33.setBackground(QColor(123, 192, 67));
+        __qtablewidgetitem33.setBackground(QColor(72, 129, 124));
         self.tableWidget_result.setHorizontalHeaderItem(3, __qtablewidgetitem33)
         if (self.tableWidget_result.rowCount() < 1):
             self.tableWidget_result.setRowCount(1)
@@ -1252,10 +1252,10 @@ class Ui_WizardPage(object):
         if (self.tableWidget_influenceLine.columnCount() < 2):
             self.tableWidget_influenceLine.setColumnCount(2)
         __qtablewidgetitem36 = QTableWidgetItem()
-        __qtablewidgetitem36.setBackground(QColor(253, 244, 152));
+        __qtablewidgetitem36.setBackground(QColor(193, 252, 246));
         self.tableWidget_influenceLine.setHorizontalHeaderItem(0, __qtablewidgetitem36)
         __qtablewidgetitem37 = QTableWidgetItem()
-        __qtablewidgetitem37.setBackground(QColor(123, 192, 67));
+        __qtablewidgetitem37.setBackground(QColor(72, 129, 124));
         self.tableWidget_influenceLine.setHorizontalHeaderItem(1, __qtablewidgetitem37)
         if (self.tableWidget_influenceLine.rowCount() < 1):
             self.tableWidget_influenceLine.setRowCount(1)

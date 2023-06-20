@@ -20,7 +20,7 @@ class Ui_MainWindow(object):
         palette.setBrush(QPalette.Active, QPalette.Button, brush1)
         palette.setBrush(QPalette.Active, QPalette.Light, brush1)
         palette.setBrush(QPalette.Active, QPalette.Midlight, brush1)
-        brush2 = QBrush(QColor(127, 127, 127, 255))
+        brush2 = QBrush(QColor(127, 127, 0, 255))
         brush2.setStyle(Qt.SolidPattern)
         palette.setBrush(QPalette.Active, QPalette.Dark, brush2)
         brush3 = QBrush(QColor(170, 170, 170, 255))
