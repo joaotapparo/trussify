@@ -246,11 +246,7 @@ class Ui_MainWindow(object):
 "    border-style: inset;\n"
 "}\n"
 "")
-        icon7 = QIcon()
-        icon7.addFile(u":/newPrefix/message.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_sendNote.setIcon(icon7)
 
-        self.gridLayout_4.addWidget(self.pushButton_sendNote, 6, 0, 1, 1)
 
         self.label_2 = QLabel(self.page_intro)
         self.label_2.setObjectName(u"label_2")
@@ -424,13 +420,7 @@ class Ui_MainWindow(object):
         self.actionView_License.setText(QCoreApplication.translate("MainWindow", u"Ver licença", None))
 #if QT_CONFIG(tooltip)
         self.pushButton_new.setToolTip(QCoreApplication.translate("MainWindow", u"Crie um novo projeto", None))
-#endif // QT_CONFIG(tooltip)
-#if QT_CONFIG(statustip)
-        self.pushButton_new.setStatusTip("")
-#endif // QT_CONFIG(statustip)
-#if QT_CONFIG(whatsthis)
-        self.pushButton_new.setWhatsThis("")
-#endif // QT_CONFIG(whatsthis)
+
         self.pushButton_new.setText(QCoreApplication.translate("MainWindow", u"\n"
 "  Novo Projeto\n"
 "", None))

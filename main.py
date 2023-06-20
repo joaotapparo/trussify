@@ -463,7 +463,7 @@ class MainWindow(QMainWindow):
     def open_file(self, demopath=None, isdemo=None):
         demopath = demopath
         demo = isdemo
-        #demopath= (os.path.join(self.current_directory, 'Demo', 'Example 6.trs'), "")
+        #demopath= (os.path.join(self.current_directory, 'Demo', 'Example 6.magas'), "")
         self.window = MainPage(
             open=True, filename=demopath, demo=demo, logger=logger)
         path = self.window.filename[0]
@@ -649,37 +649,37 @@ class MainWindow(QMainWindow):
 
     def example_1(self):
         example_path = (os.path.join(self.current_directory,
-                        'Demo', 'Example 1.trs'), "")
+                        'Demo', 'Example 1.magas'), "")
         logger.info('Example Path : %s', example_path)
         self.open_file(demopath=example_path, isdemo=True)
 
     def example_2(self):
         example_path = (os.path.join(self.current_directory,
-                        'Demo', 'Example 2.trs'), "")
+                        'Demo', 'Example 2.magas'), "")
         logger.info('Example Path : %s', example_path)
         self.open_file(demopath=example_path, isdemo=True)
 
     def example_3(self):
         example_path = (os.path.join(self.current_directory,
-                        'Demo', 'Example 3.trs'), "")
+                        'Demo', 'Example 3.magas'), "")
         logger.info('Example Path : %s', example_path)
         self.open_file(demopath=example_path, isdemo=True)
 
     def example_4(self):
         example_path = (os.path.join(self.current_directory,
-                        'Demo', 'Example 4.trs'), "")
+                        'Demo', 'Example 4.magas'), "")
         logger.info('Example Path : %s', example_path)
         self.open_file(demopath=example_path, isdemo=True)
 
     def example_5(self):
         example_path = (os.path.join(self.current_directory,
-                        'Demo', 'Example 5.trs'), "")
+                        'Demo', 'Example 5.magas'), "")
         logger.info('Example Path : %s', example_path)
         self.open_file(demopath=example_path, isdemo=True)
 
     def example_6(self):
         example_path = (os.path.join(self.current_directory,
-                        'Demo', 'Example 6.trs'), "")
+                        'Demo', 'Example 6.magas'), "")
         logger.info('Example Path : %s', example_path)
         self.open_file(demopath=example_path, isdemo=True)
 

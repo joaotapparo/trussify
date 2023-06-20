@@ -1305,16 +1305,13 @@ class Ui_WizardPage(object):
         WizardPage.setWindowTitle(QCoreApplication.translate("WizardPage", u"WizardPage", None))
         self.groupBox.setTitle("")
         self.pushbutton_displacement.setText(QCoreApplication.translate("WizardPage", u"\n"
-" Deslocamentos\n"
+" ERROR\n"
 "", None))
         self.pushbutton_supports.setText(QCoreApplication.translate("WizardPage", u"\n"
 " Suportes\n"
 "", None))
-        self.pushbutton_properties.setText(QCoreApplication.translate("WizardPage", u"\n"
-" Propriedades\n"
-"", None))
         self.pushbutton_influenceLine.setText(QCoreApplication.translate("WizardPage", u"\n"
-" Linha de Influência\n"
+" ERROR\n"
 "", None))
         self.pushbutton_forces.setText(QCoreApplication.translate("WizardPage", u"\n"
 " Forças\n"
@@ -1481,9 +1478,9 @@ class Ui_WizardPage(object):
         "suportada atualmente.", None))
 
         self.label_27.setText(QCoreApplication.translate("WizardPage", u"Starting \n"
-"Node", None))
+"Nó", None))
         self.label_28.setText(QCoreApplication.translate("WizardPage", u"Ending \n"
-"Node", None))
+"Nó", None))
         self.pushButton_calculate.setText(QCoreApplication.translate("WizardPage", u"Calculate", None))
         ___qtablewidgetitem31 = self.tableWidget_influenceLine.horizontalHeaderItem(0)
         ___qtablewidgetitem31.setText(QCoreApplication.translate("WizardPage", u"Position", None));

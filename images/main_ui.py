@@ -286,17 +286,6 @@ class Ui_MainWindow(object):
         self.pushButton_sendNote.setIcon(icon3)
         self.pushButton_sendNote.setObjectName("pushButton_sendNote")
         self.gridLayout_4.addWidget(self.pushButton_sendNote, 6, 0, 1, 1)
-        self.label_2 = QtWidgets.QLabel(self.page_intro)
-        self.label_2.setMaximumSize(QtCore.QSize(300, 100))
-        font = QtGui.QFont()
-        font.setFamily("Segoe UI Semibold")
-        self.label_2.setFont(font)
-        self.label_2.setObjectName("label_2")
-        self.gridLayout_4.addWidget(self.label_2, 1, 0, 1, 1)
-        self.label_3 = QtWidgets.QLabel(self.page_intro)
-        self.label_3.setMaximumSize(QtCore.QSize(300, 16777215))
-        self.label_3.setObjectName("label_3")
-        self.gridLayout_4.addWidget(self.label_3, 2, 0, 1, 1)
         self.gridLayout = QtWidgets.QGridLayout()
         self.gridLayout.setObjectName("gridLayout")
         self.photo_example = QtWidgets.QPushButton(self.page_intro)
@@ -577,12 +566,6 @@ class Ui_MainWindow(object):
         self.pushButton_sendNote.setText(_translate("MainWindow", "\n"
 "  SEND NOTE\n"
 ""))
-        self.label_2.setText(_translate("MainWindow", "You can send a Thank You note to me. Also, you\n"
-"can suggest features for further development.If \n"
-"something goes wrong, you can send debug logs\n"
-"to me right here by just copy-paste. You will find\n"
-"debug window in the settings tab."))
-        self.label_3.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt;\">Send a </span><span style=\" font-size:12pt; font-weight:600; color:#008cff;\">Thank You</span><span style=\" font-size:12pt;\"> note to</span><br/><span style=\" font-size:10pt; font-weight:600;\">Joao Tapparo!</span></p></body></html>"))
         self.photo_example.setToolTip(_translate("MainWindow", "Example 1"))
         self.photo_example_3.setToolTip(_translate("MainWindow", "Example 3"))
         self.pushButton_example_3.setText(_translate("MainWindow", "Example 3"))

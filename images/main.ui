@@ -741,41 +741,7 @@ QPushButton:hover {
                   </property>
                  </widget>
                 </item>
-                <item row="1" column="0">
-                 <widget class="QLabel" name="label_2">
-                  <property name="maximumSize">
-                   <size>
-                    <width>300</width>
-                    <height>100</height>
-                   </size>
-                  </property>
-                  <property name="font">
-                   <font>
-                    <family>Segoe UI Semibold</family>
-                   </font>
-                  </property>
-                  <property name="text">
-                   <string>You can send a Thank You note to me. Also, you
-can suggest features for further development.If 
-something goes wrong, you can send debug logs
-to me right here by just copy-paste. You will find
-debug window in the settings tab.</string>
-                  </property>
-                 </widget>
-                </item>
-                <item row="2" column="0">
-                 <widget class="QLabel" name="label_3">
-                  <property name="maximumSize">
-                   <size>
-                    <width>300</width>
-                    <height>16777215</height>
-                   </size>
-                  </property>
-                  <property name="text">
-                   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Send a &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#008cff;&quot;&gt;Thank You&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; note to&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Joao Tapparo!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                  </property>
-                 </widget>
-                </item>
+                
                 <item row="0" column="1" rowspan="9">
                  <layout class="QGridLayout" name="gridLayout">
                   <item row="0" column="0">

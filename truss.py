@@ -401,12 +401,12 @@ class MainPage(QWizardPage):
     '''
     opening from a file
     '''
-
+    
     def open_from_file(self):
         currentdirectory = os.path.expanduser('~/Documents')
         if not self.filename:
             self.filename = QFileDialog.getOpenFileName(
-                self, 'Open file', currentdirectory, "trussify files (*.trs)")
+                self, 'Open file', currentdirectory, "trussify files (*.magas)")
         with open(self.filename[0], 'rb') as outfile:
             try:
                 self.current_metric_index = pickle.load(outfile)
@@ -546,13 +546,13 @@ class MainPage(QWizardPage):
 
         if self.save == 0:
             self.filename = QFileDialog.getSaveFileName(
-                self, 'Save file', currentdirectory, "trussify files (*.trs)")
+                self, 'Save file', currentdirectory, "trussify files (*.magas)")
         elif self.saveas:
             self.filename = QFileDialog.getSaveFileName(
-                self, 'Save file', currentdirectory, "trussify files (*.trs)")
+                self, 'Save file', currentdirectory, "trussify files (*.magas)")
         elif self.savedemo:
             self.filename = QFileDialog.getSaveFileName(
-                self, 'Save file', currentdirectory, "trussify files (*.trs)")
+                self, 'Save file', currentdirectory, "trussify files (*.magas)")
 
         with open(self.filename[0], 'wb') as outfile:
             self.change = 0
@@ -1282,13 +1282,13 @@ class MainPage(QWizardPage):
 
         else:
             self.ui.label_15.setText(
-                "<font color='orange' size='10'>The truss is Instavel, it <br>cannot be analyzed.</font>")
+                "<font color='red' size='10'>Trelica instavel!</font>")
             self.ui.tableWidget_displacement.setRowCount(0)
             self.ui.pushButton_start.setVisible(False)
             self.ui.pushButton_stop.setVisible(False)
             self.ui.horizontalSlider.setVisible(False)
             self.ui.label_17.setText(
-                "<font color='orange' size='10'>The truss is Instavel, it <br>cannot be analyzed.</font>")
+                "<font color='red' size='10'>Trelica instavel!</font>")
             self.ui.tableWidget_result.setRowCount(0)
             self.ui.checkBox_nodes.setVisible(False)
             self.ui.checkBox_members.setVisible(False)
